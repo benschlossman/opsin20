@@ -1,0 +1,885 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=783;
+	taxlabels
+	1_Acroporadigitifera_Acropora_275_bp
+	3_2_Paracentrotuslividus_Paracentrotus_275_bp
+	401527168_Argulus_275_bp
+	A0A023F272_Triatoma_275_bp
+	A0A059NTC5_Tripedalia_275_bp
+	A0A059NTC6_Tripedalia_275_bp
+	A0A059NTC7_Tripedalia_275_bp
+	A0A059NTC8_Tripedalia_275_bp
+	A0A059NTD1_Tripedalia_275_bp
+	A0A059NTD2_Tripedalia_275_bp
+	A0A059NTD3_Tripedalia_275_bp
+	A0A059NTD4_Tripedalia_275_bp
+	A0A059NTD5_Tripedalia_275_bp
+	A0A059NTD6_Tripedalia_275_bp
+	A0A059NTD7_Tripedalia_275_bp
+	A0A059NTG1_Tripedalia_275_bp
+	A0A059NTG2_Tripedalia_275_bp
+	A0A059NTG3_Tripedalia_275_bp
+	A0A059NTG7_Tripedalia_275_bp
+	A0A059NTG8_Tripedalia_275_bp
+	A0A059NTG9_Tripedalia_275_bp
+	A0A060VV44_Oncorhynchus_275_bp
+	A0A060VYB3_Oncorhynchus_275_bp
+	A0A060WAH6_Oncorhynchus_275_bp
+	A0A060X5A9_Oncorhynchus_275_bp
+	A0A060X8T0_Oncorhynchus_275_bp
+	A0A060XNQ0_Oncorhynchus_275_bp
+	A0A060Y6V5_Oncorhynchus_275_bp
+	A0A060YPF6_Oncorhynchus_275_bp
+	A0A068FK77_Helobdella_275_bp
+	A0A068FRB9_Helobdella_275_bp
+	A0A084VU64_Anopheles_275_bp
+	A0A087TK86_Stegodyphus_275_bp
+	A0A087X5H8_Poecilia_275_bp
+	A0A087XBP4_Poecilia_275_bp
+	A0A087XC66_Poecilia_275_bp
+	A0A087XRU1_Poecilia_275_bp
+	A0A087Y593_Poecilia_275_bp
+	A0A091D6F6_Fukomys_275_bp
+	A0A091DUP0_Fukomys_275_bp
+	A0A091QXP4_Mesitornis_275_bp
+	A0A093QH01_Manacus_275_bp
+	A0A094NLK3_Podiceps_275_bp
+	A0A095A2W7_Schistosoma_275_bp
+	A0A096N043_Papio_275_bp
+	A0A097ETF5_Platynereis_275_bp
+	A0A097GXW1_Hypsibius_275_bp
+	A0A097GXW2_Hypsibius_275_bp
+	A0A097GXW4_Hypsibius_275_bp
+	A0A097GXX5_Hypsibius_275_bp
+	A0A097GXY4_Hypsibius_275_bp
+	A0A097J9F3_Limulus_275_bp
+	A0A0A7DN75_Brachionus_275_bp
+	A0A0A7DNA7_Brachionus_275_bp
+	A0A0A7DNF4_Brachionus_275_bp
+	A0A0A7DNH5_Brachionus_275_bp
+	A0A0A7DNH9_Brachionus_275_bp
+	A0A0C6FPS8_Asiagomphus_275_bp
+	A0A0C6G2W9_Anax_275_bp
+	A0A0F8ACJ6_Larimichthys_275_bp
+	A0A0F8BCQ8_Larimichthys_275_bp
+	A0A0G2UV97_Doryteuthis_275_bp
+	A0A0G2UXM4_Sepia_275_bp
+	A0A0H2UI65_Rhodnius_275_bp
+	A0A0H5ANK7_Nautilus_275_bp
+	A0A0H5ANL2_Idiosepius_275_bp
+	A0A0H5ANT7_Idiosepius_275_bp
+	A0A0H5ATB0_Idiosepius_275_bp
+	A0A0H5B8K8_Nautilus_275_bp
+	A0A0H5B8L2_Idiosepius_275_bp
+	A0A0K0YBE3_Platynereis_275_bp
+	A0A0K0YBE9_Platynereis_275_bp
+	A0A0K0YBF1_Platynereis_275_bp
+	A0A0K0YBF4_Platynereis_275_bp
+	A0A0L8G9D3_Octopus_275_bp
+	A0A0L8GM34_Octopus_275_bp
+	A0A0L8HAF0_Octopus_275_bp
+	A0A0L8HHY7_Octopus_275_bp
+	A0A0L8HQC0_Octopus_275_bp
+	A0A0N9N7J4_Danio_275_bp
+	A0A0N9N9H8_Danio_275_bp
+	A0A0N9NKH0_Danio_275_bp
+	A0A0N9NKH9_Danio_275_bp
+	A0A0N9NUD7_Danio_275_bp
+	A0A0N9NVV5_Danio_275_bp
+	A0A0N9NY15_Danio_275_bp
+	A0A0N9P1B6_Danio_275_bp
+	A0A0N9P1D5_Danio_275_bp
+	A0A0R4IEG0_Danio_275_bp
+	A0A0R4ISV7_Danio_275_bp
+	A0NH90_Anopheles_275_bp
+	A0PJR8_Danio_275_bp
+	A1XRC5_Neogonodactylus_275_bp
+	A1XRC6_Neogonodactylus_275_bp
+	A4FUN8_Danio_275_bp
+	A7RSR1_Nematostella_275_bp
+	A7SQJ5_Nematostella_275_bp
+	A8E5J4_Danio_275_bp
+	A8YXX6_Danio_275_bp
+	A9CR18_Cladonema_275_bp
+	A9CR26_Cladonema_275_bp
+	A9CR28_Cladonema_275_bp
+	A9CR38_Cladonema_275_bp
+	A9CR39_Cladonema_275_bp
+	A9CR40_Cladonema_275_bp
+	A9CR43_Cladonema_275_bp
+	A9CR48_Cladonema_275_bp
+	A9CR54_Cladonema_275_bp
+	A9CR57_Podocoryna_275_bp
+	A9CR60_Podocoryna_275_bp
+	A9NJI7_Danio_275_bp
+	A9UMW6_Nematostella_275_bp
+	A9UMW7_Nematostella_275_bp
+	A9UMX0_Nematostella_275_bp
+	A9UMX1_Nematostella_275_bp
+	A9UMX2_Nematostella_275_bp
+	A9UMX3_Nematostella_275_bp
+	A9UMX5_Nematostella_275_bp
+	A9UMX6_Nematostella_275_bp
+	A9UMX7_Nematostella_275_bp
+	A9UMY1_Nematostella_275_bp
+	A9UMY6_Nematostella_275_bp
+	A9UMY7_Nematostella_275_bp
+	A9UMY8_Nematostella_275_bp
+	A9UMZ0_Nematostella_275_bp
+	A9UMZ1_Nematostella_275_bp
+	A9UMZ2_Nematostella_275_bp
+	A9UMZ3_Nematostella_275_bp
+	A9UMZ5_Nematostella_275_bp
+	'ALO02514.1_Argopecten_275_bp'
+	'ALO02515.1_Argopecten_275_bp'
+	'ALO02516.1_Argopecten_275_bp'
+	'ALO02517.1_Argopecten_275_bp'
+	B1B1U5_Hasarius_275_bp
+	B1B1U6_Hasarius_275_bp
+	B1B1U7_Hasarius_275_bp
+	B1B1U8_Plexippus_275_bp
+	B1B1V0_Plexippus_275_bp
+	B3DK10_Danio_275_bp
+	B3FHS3_Thaumeledone_275_bp
+	B3FHS5_Velodona_275_bp
+	B3RY65_Trichoplax_275_bp
+	B3RY66_Trichoplax_275_bp
+	B3RZG1_Trichoplax_275_bp
+	B3XZF6_Gallus_275_bp
+	B4YS99_Afrololigo_275_bp
+	B5LXX7_Thermonectus_275_bp
+	B5LXX8_Thermonectus_275_bp
+	B5LXX9_Thermonectus_275_bp
+	B5MGP9_Dianemobius_275_bp
+	B5RJL1_Drosophila_275_bp
+	B6EUW0_Triops_275_bp
+	B6EUW1_Triops_275_bp
+	B6EUW2_Triops_275_bp
+	B6EUW3_Triops_275_bp
+	B6EUW4_Triops_275_bp
+	B6EUW8_Branchinella_275_bp
+	B6EUW9_Branchinella_275_bp
+	B6EUX0_Branchinella_275_bp
+	B7PJM1_Ixodes_275_bp
+	B8K1S1_Tribolium_275_bp
+	BGIBMGA008437PA_Bombyx_275_bp
+	BGIBMGA012539PA_Bombyx_275_bp
+	BS_Placozoa_misc_HHO_83722__275_bp
+	C0SPM5_Luciola_275_bp
+	C0SPM6_Luciola_275_bp
+	C1K2X1_Limulus_275_bp
+	C1LEE2_Schistosoma_275_bp
+	C3V150_Ictalurus_275_bp
+	C3V151_Ictalurus_275_bp
+	C3XR28_Branchiostoma_275_bp
+	C3XY46_Branchiostoma_275_bp
+	C3XY47_Branchiostoma_275_bp
+	C3Y412_Branchiostoma_275_bp
+	C3Y4A0_Branchiostoma_275_bp
+	C3Y4A1_Branchiostoma_275_bp
+	C3YCQ8_Branchiostoma_275_bp
+	C3YI20_Branchiostoma_275_bp
+	C3Z632_Branchiostoma_275_bp
+	C3ZBH0_Branchiostoma_275_bp
+	C3ZQG8_Branchiostoma_275_bp
+	C3ZUB1_Branchiostoma_275_bp
+	C3ZZA7_Branchiostoma_275_bp
+	C7DZC2_Uca_275_bp
+	C7DZC3_Uca_275_bp
+	C7SHL3_Dianemobius_275_bp
+	C9D7P4_Benthoctopus_275_bp
+	D3ZG87_Rattus_275_bp
+	D3ZY73_Rattus_275_bp
+	D6WDA5_Tribolium_275_bp
+	D6WJJ6_Tribolium_275_bp
+	D7RP24_Haliotis_275_bp
+	E0V9E9_Pediculus_275_bp
+	E0VMJ3_Pediculus_275_bp
+	E0W2R9_Pediculus_275_bp
+	E1CFG1_Hasarius_275_bp
+	E2R3W5_Canis_275_bp
+	E2R8U6_Canis_275_bp
+	E6ZHK6_Dicentrarchus_275_bp
+	E7F1P3_Danio_275_bp
+	E7F8D2_Danio_275_bp
+	E7FEB1_Danio_275_bp
+	E9FU92_Daphnia_275_bp
+	E9G0M4_Daphnia_275_bp
+	E9G0T6_Daphnia_275_bp
+	E9G0T7_Daphnia_275_bp
+	E9G7A9_Daphnia_275_bp
+	E9G8L1_Daphnia_275_bp
+	E9G8T5_Daphnia_275_bp
+	E9G8T6_Daphnia_275_bp
+	E9G9R8_Daphnia_275_bp
+	E9G9R9_Daphnia_275_bp
+	E9G9S0_Daphnia_275_bp
+	E9G9T1_Daphnia_275_bp
+	E9GG41_Daphnia_275_bp
+	E9GJ16_Daphnia_275_bp
+	E9GJ18_Daphnia_275_bp
+	E9GSQ7_Daphnia_275_bp
+	E9GSR2_Daphnia_275_bp
+	E9GYM4_Daphnia_275_bp
+	E9HBW5_Daphnia_275_bp
+	E9HBX2_Daphnia_275_bp
+	E9HNH5_Daphnia_275_bp
+	E9HXG2_Daphnia_275_bp
+	E9HXG5_Daphnia_275_bp
+	EU310498_Tripedalia_275_bp
+	F1B3L1_Benthoctopus_275_bp
+	F1D8E5_Terebratalia_275_bp
+	F1LIN8_Hydra_275_bp
+	F1LIN9_Hydra_275_bp
+	F1LIP0_Hydra_275_bp
+	F1LIP1_Hydra_275_bp
+	F1LIP2_Hydra_275_bp
+	F1LIP3_Hydra_275_bp
+	F1LIP4_Hydra_275_bp
+	F1LIP5_Hydra_275_bp
+	F1QCL1_Danio_275_bp
+	F1QPE1_Danio_275_bp
+	F1QYR6_Danio_275_bp
+	F1QZ18_Danio_275_bp
+	F1R302_Danio_275_bp
+	F1S135_Sus_275_bp
+	F5HMX8_Anopheles_275_bp
+	F6R2C0_Monodelphis_275_bp
+	F6RXG7_Callithrix_275_bp
+	F6SMD5_Monodelphis_275_bp
+	F6T3T2_Xenopus_275_bp
+	F6UZB2_Xenopus_275_bp
+	F6VQB0_Callithrix_275_bp
+	F6XNY7_Ornithorhynchus_275_bp
+	F7AC99_Equus_275_bp
+	F7AFM0_Equus_275_bp
+	F7BYN3_Xenopus_275_bp
+	F7DJ88_Callithrix_275_bp
+	F7E735_Ornithorhynchus_275_bp
+	F7EFF0_Xenopus_275_bp
+	F7FTA8_Ornithorhynchus_275_bp
+	F7HTU3_Macaca_275_bp
+	FP991591_Pleurobrachia_275_bp
+	FX185950_Lymnaea_275_bp
+	FX190223_Lymnaea_275_bp
+	G1KAU7_Anolis_275_bp
+	G1KBW7_Anolis_275_bp
+	G1KNV3_Anolis_275_bp
+	G1KWC5_Anolis_275_bp
+	G1PJY3_Myotis_275_bp
+	G1PVT8_Myotis_275_bp
+	G1SQD6_Oryctolagus_275_bp
+	G1TDZ2_Oryctolagus_275_bp
+	G3ND31_Gasterosteus_275_bp
+	G3NJT0_Gasterosteus_275_bp
+	G3PFC6_Gasterosteus_275_bp
+	G3PFD1_Gasterosteus_275_bp
+	G3QAZ6_Gasterosteus_275_bp
+	G3T3L1_Loxodonta_275_bp
+	G5APG0_Heterocephalus_275_bp
+	G5AQM3_Heterocephalus_275_bp
+	G8Z410_Danio_275_bp
+	GAGS01056001_Bithynia_275_bp
+	GBFB01041842_Calanus_275_bp
+	H0V2M9_Cavia_275_bp
+	H0W479_Cavia_275_bp
+	H0X693_Otolemur_275_bp
+	H0YY70_Taeniopygia_275_bp
+	H0Z174_Taeniopygia_275_bp
+	H2B4U9_Opisthoteuthis_275_bp
+	H2L5E5_Oryzias_275_bp
+	H2LRK0_Oryzias_275_bp
+	H2LUS3_Oryzias_275_bp
+	H2M0A1_Oryzias_275_bp
+	H2RU68_Takifugu_275_bp
+	H2RWN0_Takifugu_275_bp
+	H2RWN1_Takifugu_275_bp
+	H2SBV8_Takifugu_275_bp
+	H2SBY1_Takifugu_275_bp
+	H2SBY2_Takifugu_275_bp
+	H2SFX1_Takifugu_275_bp
+	H2THH6_Takifugu_275_bp
+	H2THH8_Takifugu_275_bp
+	H2TVH4_Takifugu_275_bp
+	H2TX81_Takifugu_275_bp
+	H2TZA5_Takifugu_275_bp
+	H2TZX8_Takifugu_275_bp
+	H2U9V4_Takifugu_275_bp
+	H2UBK4_Takifugu_275_bp
+	H2UC86_Takifugu_275_bp
+	H2V570_Takifugu_275_bp
+	H2ZYF5_Latimeria_275_bp
+	H3AHR5_Latimeria_275_bp
+	H3AZS5_Latimeria_275_bp
+	H3B1A3_Latimeria_275_bp
+	H3CAE8_Tetraodon_275_bp
+	H3CR14_Tetraodon_275_bp
+	H3CWD0_Tetraodon_275_bp
+	H3DFD6_Tetraodon_275_bp
+	H3DHG5_Tetraodon_275_bp
+	H9GL39_Anolis_275_bp
+	H9GM86_Anolis_275_bp
+	H9GQ69_Anolis_275_bp
+	HHO_82719__275_bp
+	HHO_83823__275_bp
+	HHO_87364__275_bp
+	HHO_87476__275_bp
+	HHO_93594__275_bp
+	I1W5U7_Salmo_275_bp
+	I3IXF4_Oreochromis_275_bp
+	I3J3C4_Oreochromis_275_bp
+	I3JPV7_Oreochromis_275_bp
+	I3JW12_Oreochromis_275_bp
+	I3JZL2_Oreochromis_275_bp
+	I3K3H2_Oreochromis_275_bp
+	I3K916_Oreochromis_275_bp
+	I3KGH7_Oreochromis_275_bp
+	I3KQV6_Oreochromis_275_bp
+	I3KSN8_Oreochromis_275_bp
+	I3M253_Ictidomys_275_bp
+	I3MFC3_Ictidomys_275_bp
+	I6LX00_Gryllus_275_bp
+	I6LX02_Gryllus_275_bp
+	I6RAP7_Eoperipatus_275_bp
+	I6SGT1_Epiperipatus_275_bp
+	J7JQW4_Branchiostoma_275_bp
+	J9JNG5_Acyrthosiphon_275_bp
+	J9JQI5_Acyrthosiphon_275_bp
+	J9JVP6_Acyrthosiphon_275_bp
+	J9JXD7_Acyrthosiphon_275_bp
+	J9K8Z3_Acyrthosiphon_275_bp
+	J9L0Z6_Acyrthosiphon_275_bp
+	J9Y053_Clunio_275_bp
+	JR496165_Villosa_275_bp
+	JU171516_Unedogemmulabisaya_275_bp
+	K1P6Y0_Crassostrea_275_bp
+	K1PPZ4_Crassostrea_275_bp
+	K1PW76_Crassostrea_275_bp
+	K1QCZ3_Crassostrea_275_bp
+	K1QG76_Crassostrea_275_bp
+	K1QW48_Crassostrea_275_bp
+	K1R620_Crassostrea_275_bp
+	K1S037_Crassostrea_275_bp
+	K7F7F1_Pelodiscus_275_bp
+	K7FFW2_Pelodiscus_275_bp
+	K7G2U1_Pelodiscus_275_bp
+	K7G414_Pelodiscus_275_bp
+	K9LK83_Mnemiopsis_275_bp
+	K9LLF4_Mnemiopsis_275_bp
+	KX550901_Argopecten_275_bp
+	KX550902_Argopecten_275_bp
+	KX550903_Argopecten_275_bp
+	KX550904_Argopecten_275_bp
+	KX550905_Argopecten_275_bp
+	KX550906_Argopecten_275_bp
+	KX550907_Argopecten_275_bp
+	KX714605_Acanthopleura_275_bp
+	KX714606_Acanthopleura_275_bp
+	KX714607_Chiton_275_bp
+	KX714608_Stenoplax_275_bp
+	L0ASC9_Acropora_275_bp
+	L0ATA4_Acropora_275_bp
+	L0AUA8_Acropora_275_bp
+	L0RH62_Cupiennius_275_bp
+	L0RH83_Cupiennius_275_bp
+	L0RJ16_Cupiennius_275_bp
+	L5KFC5_Pteropus_275_bp
+	LWS_Rhodnius_275_bp
+	M3YAY1_Mustela_275_bp
+	M3YB07_Mustela_275_bp
+	M3ZHB9_Xiphophorus_275_bp
+	M4AG56_Xiphophorus_275_bp
+	M7B015_Chelonia_275_bp
+	M7BE85_Chelonia_275_bp
+	M9UTN2_Terebratalia_275_bp
+	M9UW28_Terebratalia_275_bp
+	M9UW95_Terebratalia_275_bp
+	MLT_B2Y4M8_1198_275_bp
+	MLT_O88495_1202_275_bp
+	MTR1C_XENL7188_275_bp
+	O01668_Drosophila_275_bp
+	O13018_Salmo_275_bp
+	'O15973.1_Mizuhopecten_275_bp'
+	'O15974.1_Mizuhopecten_275_bp'
+	O42266_Ictalurus_275_bp
+	O61303_Apis_275_bp
+	O61474_Camponotus_275_bp
+	Ops2_Heliocidariserythrogramma_Heliocidariserythrogramma_275_bp
+	'Ops3.1_Asteriasrubens_Asteriasrubens_275_bp'
+	P03999_Homo_275_bp
+	P04001_Homo_275_bp
+	P04950_Drosophila_275_bp
+	P06002_Drosophila_275_bp
+	P08099_Drosophila_275_bp
+	P22328_Gallus_275_bp
+	P22329_Gallus_275_bp
+	'P23820.1_Todarodes_275_bp'
+	P28682_Gallus_275_bp
+	P28683_Gallus_275_bp
+	P28684_Gallus_275_bp
+	'P31356.2_Todarodes_275_bp'
+	P35356_Procambarus_275_bp
+	P35359_Danio_275_bp
+	P35360_Limulus_275_bp
+	P51475_Gallus_275_bp
+	P51476_Columba_275_bp
+	P90680_Apis_275_bp
+	P91657_Drosophila_275_bp
+	Q0D314_Cranchia_275_bp
+	Q0D317_Galiteuthis_275_bp
+	Q0PJ45_Litopenaeus_275_bp
+	Q0QFY9_Xenopus_275_bp
+	Q17053_Apis_275_bp
+	Q17292_Camponotus_275_bp
+	Q1L0I6_Xenopus_275_bp
+	Q1L4C8_Uta_275_bp
+	Q1LVD8_Danio_275_bp
+	Q25157_Hemigrapsus_275_bp
+	Q25158_Hemigrapsus_275_bp
+	Q26495_Schistocerca_275_bp
+	Q28EK0_Xenopus_275_bp
+	Q2YD66_Apis_275_bp
+	Q2YD70_Apis_275_bp
+	Q3BDN4_Metasepia_275_bp
+	Q3BDN7_Heteroteuthis_275_bp
+	Q3BDN8_Rossia_275_bp
+	Q3BDP5_Joubiniteuthis_275_bp
+	Q3BDP7_Bathyteuthis_275_bp
+	Q401Q0_Pieris_275_bp
+	Q401Q1_Pieris_275_bp
+	Q4RK24_Tetraodon_275_bp
+	Q4RRX8_Tetraodon_275_bp
+	Q567Y2_Danio_275_bp
+	Q5RIV6_Danio_275_bp
+	Q5SBP8_Platynereis_275_bp
+	Q5TR54_Anopheles_275_bp
+	Q5XXT1_Oncometopia_275_bp
+	Q66I55_Danio_275_bp
+	Q69FK2_Gallus_275_bp
+	Q6DH22_Danio_275_bp
+	Q6DY57_Pseudopleuronectes_275_bp
+	Q6QE85_Spirula_275_bp
+	Q6QE87_Idiosepius_275_bp
+	Q6QE90_Vitreledonella_275_bp
+	Q6QE93_Adelieledone_275_bp
+	Q6QEA5_Vampyroteuthis_275_bp
+	Q6SSJ0_Doryteuthis_275_bp
+	Q710F1_Dugesia_275_bp
+	Q75R38_Oncorhynchus_275_bp
+	Q75R39_Xenopus_275_bp
+	Q764P5_Lethenteron_275_bp
+	Q76L21_Pieris_275_bp
+	Q7PM16_Anopheles_275_bp
+	Q7PR87_Anopheles_275_bp
+	Q7QC57_Anopheles_275_bp
+	Q7QJJ6_Anopheles_275_bp
+	Q7T3Q7_Rutilus_275_bp
+	Q7Z1L5_Vanessa_275_bp
+	Q7Z1L6_Vanessa_275_bp
+	Q801U8_Danio_275_bp
+	Q804Q2_Gadus_275_bp
+	Q804X9_Gadus_275_bp
+	Q80XL3_Mus_275_bp
+	Q868F9_Branchiostoma_275_bp
+	Q868G1_Branchiostoma_275_bp
+	Q868G2_Branchiostoma_275_bp
+	Q8T359_Platynereis_275_bp
+	Q8T891_Ciona_275_bp
+	Q8TA66_Ciona_275_bp
+	Q8WS27_Vanessa_275_bp
+	Q94741_Schistocerca_275_bp
+	Q95KU1_Felis_275_bp
+	Q95P33_Ciona_275_bp
+	Q95YI3_Bombyx_275_bp
+	Q9GU64_Megoura_275_bp
+	Q9H1Y3_Homo_275_bp
+	Q9IAH7_Takifugu_275_bp
+	Q9NJC9_Schistosoma_275_bp
+	Q9PTX9_Danio_275_bp
+	Q9PUA9_Bufo_275_bp
+	Q9QXZ9_Mus_275_bp
+	Q9TVV5_Papilio_275_bp
+	Q9UAM6_Papilio_275_bp
+	Q9UAM7_Papilio_275_bp
+	Q9UAM8_Papilio_275_bp
+	Q9UAM9_Papilio_275_bp
+	Q9UAN0_Papilio_275_bp
+	Q9VTU7_Drosophila_275_bp
+	Q9W6A9_Danio_275_bp
+	Q9W6I4_Latimeria_275_bp
+	Q9W6I5_Latimeria_275_bp
+	Q9W6K3_Anolis_275_bp
+	Q9WUK7_Mus_275_bp
+	R4RY94_Platynereis_275_bp
+	R4S0M6_Platynereis_275_bp
+	R7T3A9_Capitella_275_bp
+	R7T3D3_Capitella_275_bp
+	R7U3N6_Capitella_275_bp
+	R7U8D7_Capitella_275_bp
+	R7UAM7_Capitella_275_bp
+	R7UDC5_Capitella_275_bp
+	R7UYK7_Capitella_275_bp
+	R7VDA5_Capitella_275_bp
+	R9R6C7_Danio_275_bp
+	R9R6H4_Oryzias_275_bp
+	R9R6L1_Oryzias_275_bp
+	R9W6D6_Semipallium_275_bp
+	R9W772_Mizuhopecten_275_bp
+	T1EHS3_Helobdella_275_bp
+	T1G5E9_Helobdella_275_bp
+	T1G602_Helobdella_275_bp
+	T1GU18_Megaselia_275_bp
+	T1HEZ9_Rhodnius_275_bp
+	T1IG64_Rhodnius_275_bp
+	T1K297_Tetranychusurticae_275_bp
+	T1K298_Tetranychusurticae_275_bp
+	T1K299_Tetranychusurticae_275_bp
+	T1K300_Tetranychusurticae_275_bp
+	T2I4T4_Cupiennius_275_bp
+	T2I530_Euperipatoides_275_bp
+	T2I532_Cupiennius_275_bp
+	T2I572_Euperipatoides_275_bp
+	T2I5B2_Cupiennius_275_bp
+	T2I6P9_Euperipatoides_275_bp
+	Tadh_P26009_275_bp
+	Tadh_P26040_275_bp
+	Tadh_P4188_275_bp
+	'Tra_429091jgi|T123_275_bp'
+	'Tra_429092jgi|T119_275_bp'
+	'Tra_430364jgi|T122_275_bp'
+	U3IL05_Anas_275_bp
+	U3IU26_Anas_275_bp
+	U3JVY8_Ficedula_275_bp
+	U3KFB6_Ficedula_275_bp
+	V3Z0E3_Lottia_275_bp
+	V3ZDT4_Lottia_275_bp
+	V3ZSU7_Lottia_275_bp
+	V3ZWI5_Lottia_275_bp
+	V4A259_Lottia_275_bp
+	V4A6Q4_Lottia_275_bp
+	V4AAH1_Lottia_275_bp
+	V4AS98_Lottia_275_bp
+	V4AUU9_Lottia_275_bp
+	V4B0S4_Lottia_275_bp
+	V4C2D5_Lottia_275_bp
+	V4CNF1_Lottia_275_bp
+	V5NUB1_Astyanax_275_bp
+	V8P4Z0_Ophiophagus_275_bp
+	V9KWA1_Callorhinchus_275_bp
+	W4XJ75_Strongylocentrotus_275_bp
+	W4XTI7_Strongylocentrotus_275_bp
+	W4Z400_Strongylocentrotus_275_bp
+	W4ZHH1_Strongylocentrotus_275_bp
+	W5KA16_Astyanax_275_bp
+	W5KL95_Astyanax_275_bp
+	W5KS89_Astyanax_275_bp
+	W5KY57_Astyanax_275_bp
+	W5LC48_Astyanax_275_bp
+	W5LE41_Astyanax_275_bp
+	W5LI72_Astyanax_275_bp
+	W5LL00_Astyanax_275_bp
+	W5LP05_Astyanax_275_bp
+	W5MAS1_Lepisosteus_275_bp
+	W5MEJ9_Lepisosteus_275_bp
+	W5MJ35_Lepisosteus_275_bp
+	W5MJC7_Lepisosteus_275_bp
+	W5MQT2_Lepisosteus_275_bp
+	W5N199_Lepisosteus_275_bp
+	W5N5K4_Lepisosteus_275_bp
+	W5NDA1_Lepisosteus_275_bp
+	W5NFQ1_Lepisosteus_275_bp
+	W5NID2_Lepisosteus_275_bp
+	W5NIL5_Lepisosteus_275_bp
+	W5NPY9_Ovis_275_bp
+	W5UEE6_Ictalurus_275_bp
+	W5UHC8_Ictalurus_275_bp
+	W5XRX9_Platynereis_275_bp
+	X1WF41_Danio_275_bp
+	XP_001199309_Strongylocentrotus_275_bp
+	XP_001506416_Ornithorhynchus_275_bp
+	XP_002119963_Ciona_275_bp
+	XP_002732329_Saccoglossus_275_bp
+	XP_002934288_Xenopus_275_bp
+	XP_003744578_Metaseiulus_275_bp
+	XP_003744590_Metaseiulus_275_bp
+	XP_003765740_Sarcophilus_275_bp
+	XP_003968176_Takifugu_275_bp
+	XP_003976773_Takifugu_275_bp
+	XP_003978640_Takifugu_275_bp
+	'XP_004380313.2_Trichechus_275_bp'
+	XP_004389949_Trichechus_275_bp
+	XP_004389951_Trichechus_275_bp
+	XP_004484554_Dasypus_275_bp
+	XP_004594583_Ochotona_275_bp
+	XP_004607614_Sorex_275_bp
+	XP_004612815_Sorex_275_bp
+	XP_004641306_Octodon_275_bp
+	XP_004658063_Jaculus_275_bp
+	XP_004680742_Condylura_275_bp
+	'XP_004681111.2_Condylura_275_bp'
+	XP_004686532_Condylura_275_bp
+	XP_004713097_Echinops_275_bp
+	XP_005094193_Aplysia_275_bp
+	'XP_005094221.2_Aplysia_275_bp'
+	XP_005340143_Ictidomys_275_bp
+	XP_005357329_Microtus_275_bp
+	XP_005449126_Oreochromis_275_bp
+	XP_005748590_Pundamilia_275_bp
+	XP_006012043_Latimeria_275_bp
+	XP_006027461_Alligator_275_bp
+	XP_006029559_Alligator_275_bp
+	XP_006072423_Bubalus_275_bp
+	'XP_006148771.2_Tupaia_275_bp'
+	XP_006162307_Tupaia_275_bp
+	XP_006266770_Alligator_275_bp
+	'XP_006268885.2_Alligator_275_bp'
+	XP_006820589_Saccoglossus_275_bp
+	XP_006869378_Chrysochloris_275_bp
+	XP_006872524_Chrysochloris_275_bp
+	XP_006875988_Chrysochloris_275_bp
+	XP_006901086_Elephantulus_275_bp
+	XP_006915522_Pteropus_275_bp
+	XP_007261031_Astyanax_275_bp
+	XP_007429462_Python_275_bp
+	XP_007440155_Python_275_bp
+	XP_007442166_Python_275_bp
+	XP_007533982_Erinaceus_275_bp
+	XP_007534554_Erinaceus_275_bp
+	'XP_007557791.2_Poecilia_275_bp'
+	XP_007655861_Ornithorhynchus_275_bp
+	XP_007883991_Callorhinchus_275_bp
+	XP_007887943_Callorhinchus_275_bp
+	XP_007892895_Callorhinchus_275_bp
+	XP_007895211_Callorhinchus_275_bp
+	XP_007896571_Callorhinchus_275_bp
+	XP_007901512_Callorhinchus_275_bp
+	XP_007901513_Callorhinchus_275_bp
+	XP_007952426_Orycteropus_275_bp
+	XP_007960929_Chlorocebus_275_bp
+	XP_008058289_Carlito_275_bp
+	XP_008177238_Chrysemys_275_bp
+	XP_008292307_Stegastes_275_bp
+	XP_008298262_Stegastes_275_bp
+	XP_008298630_Stegastes_275_bp
+	XP_008305231_Stegastes_275_bp
+	XP_008311466_Cynoglossus_275_bp
+	XP_008312752_Cynoglossus_275_bp
+	XP_008319628_Cynoglossus_275_bp
+	XP_008319977_Cynoglossus_275_bp
+	XP_008320864_Cynoglossus_275_bp
+	XP_008335469_Cynoglossus_275_bp
+	XP_008335801_Cynoglossus_275_bp
+	XP_008418905_Poecilia_275_bp
+	XP_008427760_Poecilia_275_bp
+	XP_008584314_Galeopterus_275_bp
+	XP_008841944_Nannospalax_275_bp
+	'XP_009051341.1_Lottia_275_bp'
+	XP_009087772_Serinus_275_bp
+	XP_009559522_Cuculus_275_bp
+	XP_009663703_Struthio_275_bp
+	XP_009891957_Charadrius_275_bp
+	XP_009903103_Picoides_275_bp
+	XP_010002924_Chaetura_275_bp
+	XP_010158025_Eurypyga_275_bp
+	XP_010298758_Balearica_275_bp
+	XP_010706486_Meleagris_275_bp
+	XP_010736946_Larimichthys_275_bp
+	XP_010750768_Larimichthys_275_bp
+	XP_010769568_Notothenia_275_bp
+	XP_010775483_Notothenia_275_bp
+	XP_010775950_Notothenia_275_bp
+	XP_010795648_Notothenia_275_bp
+	XP_010818828_Bos_275_bp
+	XP_010867634_Esox_275_bp
+	XP_010880466_Esox_275_bp
+	XP_010880971_Esox_275_bp
+	XP_010902251_Esox_275_bp
+	XP_011412507_Crassostrea_275_bp
+	XP_011421213_Crassostrea_275_bp
+	XP_011422477_Crassostrea_275_bp
+	XP_011431889_Crassostrea_275_bp
+	XP_011435061_Crassostrea_275_bp
+	XP_011438181_Crassostrea_275_bp
+	XP_011441685_Crassostrea_275_bp
+	XP_012374115_Dasypus_275_bp
+	XP_012621651_Microcebus_275_bp
+	XP_012676718_Clupea_275_bp
+	XP_012681766_Clupea_275_bp
+	XP_012688455_Clupea_275_bp
+	XP_012691175_Clupea_275_bp
+	XP_012712171_Fundulus_275_bp
+	XP_012724596_Fundulus_275_bp
+	XP_012943629_Aplysia_275_bp
+	XP_012995519_Esox_275_bp
+	XP_013061934_Biomphalaria_275_bp
+	XP_013083242_Biomphalaria_275_bp
+	XP_013084162_Biomphalaria_275_bp
+	XP_013088307_Biomphalaria_275_bp
+	XP_013096913_Biomphalaria_275_bp
+	XP_013382905_Lingula_275_bp
+	XP_013386359_Lingula_275_bp
+	XP_013397676_Lingula_275_bp
+	XP_013399750_Lingula_275_bp
+	XP_013400870_Lingula_275_bp
+	XP_013405920_Lingula_275_bp
+	XP_013407359_Lingula_275_bp
+	XP_013409489_Lingula_275_bp
+	XP_013410035_Lingula_275_bp
+	XP_013411648_Lingula_275_bp
+	XP_013412872_Lingula_275_bp
+	XP_013419317_Lingula_275_bp
+	XP_015763203_Acropora_275_bp
+	XP_015773304_Acropora_275_bp
+	XP_015776718_Acropora_275_bp
+	'ops1.1_Patiriaminiata_Patiriaminiata_275_bp'
+	'ops1.3_Patiriaminiata_Patiriaminiata_275_bp'
+	ops1_Eucidaristribuloides_Eucidaristribuloides_275_bp
+	ops1_Holothuriaforskali_Holothuriaforskali_275_bp
+	ops1_Holothuriaglaberrima_Holothuriaglaberrima_275_bp
+	ops1_Lytechinusvariegatus_Lytechinusvariegatus_275_bp
+	ops1_Paracentrotuslividus_Paracentrotuslividus_275_bp
+	ops1_Parastichopusparvimensis_Parastichopusparvimensis_275_bp
+	ops2_Eucidaristribuloides_Eucidaristribuloides_275_bp
+	'ops3.1_Heliocidariserythrogramma_Heliocidariserythrogramma_275_bp'
+	'ops3.1_Lytechinusvariegatus_Lytechinusvariegatus_275_bp'
+	'ops3.1_Paracentrotuslividus_Paracentrotuslividus_275_bp'
+	'ops3.1_Parastichopusparvimensis_Parastichopusparvimensis_275_bp'
+	'ops3.1_Patiriaminiata_Patiriaminiata_275_bp'
+	'ops3.2_Lytechinusvariegatus_Lytechinusvariegatus_275_bp'
+	ops3_Eucidaristribuloides_Eucidaristribuloides_275_bp
+	'ops4.2_Labidiasterannulatus_Labidiasterannulatus_275_bp'
+	'ops4.3_Labidiasterannulatus_Labidiasterannulatus_275_bp'
+	ops4_Antedonmediterranea_Antedonmediterranea_275_bp
+	ops4_Asteriasrubens_Asteriasrubens_275_bp
+	ops4_Eucidaristribuloides_Eucidaristribuloides_275_bp
+	ops4_Holothuriaforskali_Holothuriaforskali_275_bp
+	ops4_Holothuriaglaberrima_Holothuriaglaberrima_275_bp
+	ops4_Paracentrotuslividus_Paracentrotuslividus_275_bp
+	ops4_Patiriaminiata_Patiriaminiata_275_bp
+	ops5_Lytechinusvariegatus_Lytechinusvariegatus_275_bp
+	ops5_Paracentrotuslividus_Paracentrotuslividus_275_bp
+	ops5_Patiriaminiata_Patiriaminiata_275_bp
+	'ops6.2_Holothuriaglaberrima_Holothuriaglaberrima_275_bp'
+	ops6_Asteriasrubens_Asteriasrubens_275_bp
+	ops6_Parastichopusparvimensis_Parastichopusparvimensis_275_bp
+	ops6_Patiriaminiata_Patiriaminiata_275_bp
+	'ops7.2_Patiriaminiata_Patiriaminiata_275_bp'
+	ops7RadialNerve_Asteriasrubens_Asteriasrubens_275_bp
+	ops7_Balanoglossusaurantiacus_Balanoglossusaurantiacus_275_bp
+	ops7_Holothuriaglaberrima_Holothuriaglaberrima_275_bp
+	ops7_Paracentrotuslividus_Paracentrotuslividus_275_bp
+	ops7_Ptychoderabahamensis_Ptychoderabahamensis_275_bp
+	ops7_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp
+	ops7_Saccoglossusmereschkowskii_Saccoglossusmereschkowskii_275_bp
+	ops7_Schizocardiumspp_Schizocardiumspp_275_bp
+	'ops8.1_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp'
+	'ops8.2_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp'
+	'ops8.5_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp'
+	ops8_Balanoglossusaurantiacus_Balanoglossusaurantiacus_275_bp
+	ops8_Parastichopusparvimensis_Parastichopusparvimensis_275_bp
+	ops8_Ptychoderaflava_Ptychoderaflava_275_bp
+	ops8_Schizocardiumspp_Schizocardiumspp_275_bp
+	'opsin8.3_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp'
+	retinochrome1_PRJNA257113_Euprymna_275_bp
+	retinochrome2_PRJNA257113_Euprymna_275_bp
+	retinochrome_PRJNA257113_Uroteuthis_275_bp
+	weirdopsin_PRJNA257113_Euprymna_275_bp
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (1_Acroporadigitifera_Acropora_275_bp[&!color=#00ccff]:1.08565,((A9UMZ2_Nematostella_275_bp[&!color=#00ccff]:1.02813,A9UMY7_Nematostella_275_bp[&!color=#00ccff]:0.545039)[&Posterior=1,!color=#00ccff]:0.536565,(A9UMZ1_Nematostella_275_bp[&!color=#00ccff]:0.415963,A9UMY6_Nematostella_275_bp[&!color=#00ccff]:0.297473)[&Posterior=1,!color=#00ccff]:0.795333)[&Posterior=1,!color=#00ccff]:0.427072,((A9UMZ5_Nematostella_275_bp[&!color=#00ccff]:0.446389,A9UMZ0_Nematostella_275_bp[&!color=#00ccff]:1.07613)[&Posterior=1,!color=#00ccff]:0.309342,(XP_015776718_Acropora_275_bp[&!color=#00ccff]:1.72502,A9UMZ3_Nematostella_275_bp[&!color=#00ccff]:0.729238,((XP_015773304_Acropora_275_bp[&!color=#00ccff]:0.473572,XP_015763203_Acropora_275_bp[&!color=#00ccff]:0.489103)[&Posterior=0.99,!color=#00ccff]:0.175209,(A9UMY8_Nematostella_275_bp[&!color=#00ccff]:0.920774,A9UMY1_Nematostella_275_bp[&!color=#00ccff]:0.588987)[&Posterior=0.75,!color=#00ccff]:0.187925)[&Posterior=0.61,!color=#00ccff]:0.087162)[&Posterior=0.5,!color=#00ccff]:0.15174)[&Posterior=0.5,!color=#00ccff]:0.174625,((K9LLF4_Mnemiopsis_275_bp:0.723845,(K9LK83_Mnemiopsis_275_bp:0.117196,FP991591_Pleurobrachia_275_bp:0.140981)[&Posterior=1]:0.775443)[&Posterior=1]:0.710563,(A9UMX0_Nematostella_275_bp[&!color=#ff0099]:0.479834,A9UMW7_Nematostella_275_bp[&!color=#ff0099]:0.718179,A9UMW6_Nematostella_275_bp[&!color=#ff0099]:0.45612)[&Posterior=1,!color=#ff0099]:0.90693,(Q5SBP8_Platynereis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.895127,(C3ZQG8_Branchiostoma_275_bp[&!color=#ff9933,!name="C-opsins"]:1.13916,((((V9KWA1_Callorhinchus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.801854,(((Q764P5_Lethenteron_275_bp[&!color=#ff9933,!name="C-opsins"]:0.131859,Q75R39_Xenopus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.21193)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.128971,(O42266_Ictalurus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.218972,((Q75R38_Oncorhynchus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.133049,(XP_008298262_Stegastes_275_bp[&!color=#ff9933,!name="C-opsins"]:0.061282,I3K3H2_Oreochromis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.10514)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.108036)[&Posterior=0.82,!color=#ff9933,!name="C-opsins"]:0.038127,A0A0N9NUD7_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.208992)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.06947)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.085317)[&Posterior=0.94,!color=#ff9933,!name="C-opsins"]:0.076348,A0A0N9N9H8_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.393838)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.19636)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.139877,((C3V150_Ictalurus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.127494,(Q7T3Q7_Rutilus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.144384,(O13018_Salmo_275_bp[&!color=#ff9933,!name="C-opsins"]:0.2057,A8YXX6_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.201525)[&Posterior=0.8,!color=#ff9933,!name="C-opsins"]:0.056607)[&Posterior=0.98,!color=#ff9933,!name="C-opsins"]:0.089112)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.386455,((XP_002119963_Ciona_275_bp[&!color=#ff9933,!name="C-opsins"]:0.410885,Q95P33_Ciona_275_bp[&!color=#ff9933,!name="C-opsins"]:0.352165)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.360336,((Q9PUA9_Bufo_275_bp[&!color=#ff9933,!name="C-opsins"]:0.218658,(Q9W6K3_Anolis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.123051,(P51476_Columba_275_bp[&!color=#ff9933,!name="C-opsins"]:0.033356,P51475_Gallus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.108745)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.147013)[&Posterior=0.92,!color=#ff9933,!name="C-opsins"]:0.040027)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.190667,(((Q9W6A9_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.3323,(P28684_Gallus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.109174,P03999_Homo_275_bp[&!color=#ff9933,!name="C-opsins"]:0.212362)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.202962)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.323261,((P28682_Gallus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.236086,(Q6DY57_Pseudopleuronectes_275_bp[&!color=#ff9933,!name="C-opsins"]:0.157557,A8E5J4_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.220933)[&Posterior=0.61,!color=#ff9933,!name="C-opsins"]:0.05181)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.182196,((Q9W6I4_Latimeria_275_bp[&!color=#ff9933,!name="C-opsins"]:0.113436,(Q95KU1_Felis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.053985,P22328_Gallus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.166561,((Q9PTX9_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.047135,Q9IAH7_Takifugu_275_bp[&!color=#ff9933,!name="C-opsins"]:0.171137)[&Posterior=0.97,!color=#ff9933,!name="C-opsins"]:0.133493,(P35359_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.097828,A4FUN8_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.197273)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.052679)[&Posterior=0.96,!color=#ff9933,!name="C-opsins"]:0.048702)[&Posterior=0.88,!color=#ff9933,!name="C-opsins"]:0.033408)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.130491,((Q9W6I5_Latimeria_275_bp[&!color=#ff9933,!name="C-opsins"]:0.118532,P28683_Gallus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.224483)[&Posterior=0.5,!color=#ff9933,!name="C-opsins"]:0.040115,(Q801U8_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.131762,D7RP24_Haliotis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.251336,A0A0N9P1B6_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.064204)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.099031)[&Posterior=0.98,!color=#ff9933,!name="C-opsins"]:0.056726)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.296743)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.117556)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.192458,((P22329_Gallus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.061454,P04001_Homo_275_bp[&!color=#ff9933,!name="C-opsins"]:0.070174)[&Posterior=0.52,!color=#ff9933,!name="C-opsins"]:0.110161,A0A0N9N7J4_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.192087)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.566876)[&Posterior=0.84,!color=#ff9933,!name="C-opsins"]:0.145644)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.141978)[&Posterior=0.86,!color=#ff9933,!name="C-opsins"]:0.098052)[&Posterior=0.64,!color=#ff9933,!name="C-opsins"]:0.066589)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.12855,((Q1L4C8_Uta_275_bp[&!color=#ff9933,!name="C-opsins"]:0.205824,Q1L0I6_Xenopus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.149741)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.127157,(F1QYR6_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.234782,A0A087X5H8_Poecilia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.22087)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.262772)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.410056)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.340786,((((Q868G2_Branchiostoma_275_bp[&!color=#ff9933,!name="C-opsins"]:0.462101,(Q868G1_Branchiostoma_275_bp[&!color=#ff9933,!name="C-opsins"]:0.132842,J7JQW4_Branchiostoma_275_bp[&!color=#ff9933,!name="C-opsins"]:0.114753)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.25301)[&Posterior=0.98,!color=#ff9933,!name="C-opsins"]:0.124305,C3XY47_Branchiostoma_275_bp[&!color=#ff9933,!name="C-opsins"]:0.538515)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.125724,C3XY46_Branchiostoma_275_bp[&!color=#ff9933,!name="C-opsins"]:0.452372)[&Posterior=0.5,!color=#ff9933,!name="C-opsins"]:0.106063,(((Q9WUK7_Mus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.132567,Q9H1Y3_Homo_275_bp[&!color=#ff9933,!name="C-opsins"]:0.095427)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.167264,(('XP_006268885.2_Alligator_275_bp'[&!color=#ff9933,!name="C-opsins"]:0.161655,((XP_010002924_Chaetura_275_bp[&!color=#ff9933,!name="C-opsins"]:0.080444,((XP_010298758_Balearica_275_bp[&!color=#ff9933,!name="C-opsins"]:0.093546,XP_009891957_Charadrius_275_bp[&!color=#ff9933,!name="C-opsins"]:0.165622)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.143537,XP_009559522_Cuculus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.264473)[&Posterior=0.81,!color=#ff9933,!name="C-opsins"]:0.132665)[&Posterior=0.97,!color=#ff9933,!name="C-opsins"]:0.161331,U3KFB6_Ficedula_275_bp[&!color=#ff9933,!name="C-opsins"]:0.039559)[&Posterior=0.65,!color=#ff9933,!name="C-opsins"]:0.032327)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.04669,(XP_007440155_Python_275_bp[&!color=#ff9933,!name="C-opsins"]:0.118031,G1KBW7_Anolis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.04019)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.064482)[&Posterior=0.61,!color=#ff9933,!name="C-opsins"]:0.02152)[&Posterior=0.7,!color=#ff9933,!name="C-opsins"]:0.099622,(W5NIL5_Lepisosteus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.096333,((H3CAE8_Tetraodon_275_bp[&!color=#ff9933,!name="C-opsins"]:0.118079,H2TX81_Takifugu_275_bp[&!color=#ff9933,!name="C-opsins"]:0.054046)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.063938,((I3JW12_Oreochromis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.054273,A9NJI7_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.125817)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.049622,(H2L5E5_Oryzias_275_bp[&!color=#ff9933,!name="C-opsins"]:0.093772,(W5LP05_Astyanax_275_bp[&!color=#ff9933,!name="C-opsins"]:0.111705,A0A060Y6V5_Oncorhynchus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.086725)[&Posterior=0.96,!color=#ff9933,!name="C-opsins"]:0.029121)[&Posterior=0.91,!color=#ff9933,!name="C-opsins"]:0.02766)[&Posterior=0.91,!color=#ff9933,!name="C-opsins"]:0.028922)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.122902)[&Posterior=0.79,!color=#ff9933,!name="C-opsins"]:0.097505)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.587874,((((XP_007887943_Callorhinchus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.262722,G1KAU7_Anolis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.073993)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.137985,(W5MAS1_Lepisosteus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.163014,(XP_006266770_Alligator_275_bp[&!color=#ff9933,!name="C-opsins"]:0.125537,F7EFF0_Xenopus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.120526)[&Posterior=0.79,!color=#ff9933,!name="C-opsins"]:0.061567)[&Posterior=0.67,!color=#ff9933,!name="C-opsins"]:0.037916)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.065549,(XP_009087772_Serinus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.244041,(XP_009903103_Picoides_275_bp[&!color=#ff9933,!name="C-opsins"]:0.102645,(XP_010158025_Eurypyga_275_bp[&!color=#ff9933,!name="C-opsins"]:0.080994,A0A091QXP4_Mesitornis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.071517)[&Posterior=0.53,!color=#ff9933,!name="C-opsins"]:0.032887)[&Posterior=0.5,!color=#ff9933,!name="C-opsins"]:0.048932)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.157605,(H3CR14_Tetraodon_275_bp[&!color=#ff9933,!name="C-opsins"]:0.100798,(A0A0F8BCQ8_Larimichthys_275_bp[&!color=#ff9933,!name="C-opsins"]:0.106867,(H2RU68_Takifugu_275_bp[&!color=#ff9933,!name="C-opsins"]:0.052967,((XP_008335801_Cynoglossus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.134377,I3KQV6_Oreochromis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.057568)[&Posterior=0.84,!color=#ff9933,!name="C-opsins"]:0.021337,(XP_012681766_Clupea_275_bp[&!color=#ff9933,!name="C-opsins"]:0.062093,(W5LC48_Astyanax_275_bp[&!color=#ff9933,!name="C-opsins"]:0.117852,(B3DK10_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.111668,((XP_012676718_Clupea_275_bp[&!color=#ff9933,!name="C-opsins"]:0.119205,(W5KL95_Astyanax_275_bp[&!color=#ff9933,!name="C-opsins"]:0.054285,E7F1P3_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.110036)[&Posterior=0.89,!color=#ff9933,!name="C-opsins"]:0.027427)[&Posterior=0.95,!color=#ff9933,!name="C-opsins"]:0.045478,(XP_003968176_Takifugu_275_bp[&!color=#ff9933,!name="C-opsins"]:0.053999,(XP_010769568_Notothenia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.106675,(XP_010750768_Larimichthys_275_bp[&!color=#ff9933,!name="C-opsins"]:0.093148,XP_008292307_Stegastes_275_bp[&!color=#ff9933,!name="C-opsins"]:0.040786,XP_005449126_Oreochromis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.071051,R9R6L1_Oryzias_275_bp[&!color=#ff9933,!name="C-opsins"]:0.105298,A0A087XRU1_Poecilia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.139494)[&Posterior=0.61,!color=#ff9933,!name="C-opsins"]:0.020688)[&Posterior=0.79,!color=#ff9933,!name="C-opsins"]:0.039214)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.201031)[&Posterior=0.98,!color=#ff9933,!name="C-opsins"]:0.051666)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.078536)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.057552)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.07307)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.037008)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.048378)[&Posterior=0.91,!color=#ff9933,!name="C-opsins"]:0.034836)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.112761)[&Posterior=0.97,!color=#ff9933,!name="C-opsins"]:0.106945,((XP_008177238_Chrysemys_275_bp[&!color=#ff9933,!name="C-opsins"]:0.269494,(XP_007892895_Callorhinchus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.226756,(W5NDA1_Lepisosteus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.148538,(((I3J3C4_Oreochromis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.135252,(XP_008305231_Stegastes_275_bp[&!color=#ff9933,!name="C-opsins"]:0.043994,((XP_008418905_Poecilia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.071452,M4AG56_Xiphophorus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.006041)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.08094,(H3DHG5_Tetraodon_275_bp[&!color=#ff9933,!name="C-opsins"]:0.07663,H2SFX1_Takifugu_275_bp[&!color=#ff9933,!name="C-opsins"]:0.193714)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.092133)[&Posterior=0.52,!color=#ff9933,!name="C-opsins"]:0.015289)[&Posterior=0.93,!color=#ff9933,!name="C-opsins"]:0.044832)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.130095,(W5LL00_Astyanax_275_bp[&!color=#ff9933,!name="C-opsins"]:0.144037,F1QPE1_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.128394)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.078655)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.055841,(XP_012691175_Clupea_275_bp[&!color=#ff9933,!name="C-opsins"]:0.124619,((('XP_007557791.2_Poecilia_275_bp'[&!color=#ff9933,!name="C-opsins"]:0.199797,I3JPV7_Oreochromis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.1184,(XP_010775483_Notothenia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.09666,((Q4RRX8_Tetraodon_275_bp[&!color=#ff9933,!name="C-opsins"]:0.054495,H3DFD6_Tetraodon_275_bp[&!color=#ff9933,!name="C-opsins"]:0.054019)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.120243,H2U9V4_Takifugu_275_bp[&!color=#ff9933,!name="C-opsins"]:0.1658)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.164837)[&Posterior=0.79,!color=#ff9933,!name="C-opsins"]:0.04501)[&Posterior=0.93,!color=#ff9933,!name="C-opsins"]:0.040078,(R9R6H4_Oryzias_275_bp[&!color=#ff9933,!name="C-opsins"]:0.194492,G3QAZ6_Gasterosteus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.109776)[&Posterior=0.83,!color=#ff9933,!name="C-opsins"]:0.037661)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.250045,A0A0N9NKH0_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.14056)[&Posterior=0.8,!color=#ff9933,!name="C-opsins"]:0.046502,A0A060X8T0_Oncorhynchus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.111131)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.13233)[&Posterior=0.68,!color=#ff9933,!name="C-opsins"]:0.030166)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.082746)[&Posterior=0.51,!color=#ff9933,!name="C-opsins"]:0.039795)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.094863,(XP_007883991_Callorhinchus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.444801,((XP_003765740_Sarcophilus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.169364,(U3IL05_Anas_275_bp[&!color=#ff9933,!name="C-opsins"]:0.086038,K7G414_Pelodiscus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.072531)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.103357)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.098523,(((V5NUB1_Astyanax_275_bp[&!color=#ff9933,!name="C-opsins"]:0.101571,R9R6C7_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.055837)[&Posterior=0.58,!color=#ff9933,!name="C-opsins"]:0.032821,(E7F8D2_Danio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.038483,(H2UBK4_Takifugu_275_bp[&!color=#ff9933,!name="C-opsins"]:0.116511,A0A060XNQ0_Oncorhynchus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.30661)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.057108)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.060005)[&Posterior=0.52,!color=#ff9933,!name="C-opsins"]:0.027983,(W5MQT2_Lepisosteus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.104863,((XP_005748590_Pundamilia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.040932,I3KSN8_Oreochromis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.04716)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.112543,(XP_012995519_Esox_275_bp[&!color=#ff9933,!name="C-opsins"]:0.050915,A0A060X5A9_Oncorhynchus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.564293)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.091793)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.047871)[&Posterior=0.96,!color=#ff9933,!name="C-opsins"]:0.043691)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.083383)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.192444)[&Posterior=0.51,!color=#ff9933,!name="C-opsins"]:0.086075)[&Posterior=0.97,!color=#ff9933,!name="C-opsins"]:0.08444)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.235337)[&Posterior=0.94,!color=#ff9933,!name="C-opsins"]:0.097404)[&Posterior=0.84,!color=#ff9933,!name="C-opsins"]:0.074563,(((((ops1_Paracentrotuslividus_Paracentrotuslividus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.253713,ops1_Lytechinusvariegatus_Lytechinusvariegatus_275_bp[&!color=#ff9933,!name="C-opsins"]:0.114881)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.24925,(ops1_Parastichopusparvimensis_Parastichopusparvimensis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.089167,(ops1_Holothuriaglaberrima_Holothuriaglaberrima_275_bp[&!color=#ff9933,!name="C-opsins"]:0.158174,ops1_Holothuriaforskali_Holothuriaforskali_275_bp[&!color=#ff9933,!name="C-opsins"]:0.159388)[&Posterior=0.55,!color=#ff9933,!name="C-opsins"]:0.060192)[&Posterior=0.98,!color=#ff9933,!name="C-opsins"]:0.202479)[&Posterior=0.96,!color=#ff9933,!name="C-opsins"]:0.198333,ops1_Eucidaristribuloides_Eucidaristribuloides_275_bp[&!color=#ff9933,!name="C-opsins"]:0.648906,'ops1.3_Patiriaminiata_Patiriaminiata_275_bp'[&!color=#ff9933,!name="C-opsins"]:0.604313)[&Posterior=0.5,!color=#ff9933,!name="C-opsins"]:0.121402,'ops1.1_Patiriaminiata_Patiriaminiata_275_bp'[&!color=#ff9933,!name="C-opsins"]:0.710473)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.32075,(T2I572_Euperipatoides_275_bp[&!color=#ff9933,!name="C-opsins"]:0.579813,((T2I5B2_Cupiennius_275_bp[&!color=#ff9933,!name="C-opsins"]:0.880717,(A0A097GXX5_Hypsibius_275_bp[&!color=#ff9933,!name="C-opsins"]:0.507838,(A0A097GXW2_Hypsibius_275_bp[&!color=#ff9933,!name="C-opsins"]:0.449074,A0A097GXW1_Hypsibius_275_bp[&!color=#ff9933,!name="C-opsins"]:0.440423)[&Posterior=0.51,!color=#ff9933,!name="C-opsins"]:0.116021)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.189249)[&Posterior=0.94,!color=#ff9933,!name="C-opsins"]:0.125466,(((E9G0T7_Daphnia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.197727,E9G0T6_Daphnia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.335798)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.108666,((E9GJ18_Daphnia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.083843,E9GJ16_Daphnia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.05227)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.079934,(E9G0M4_Daphnia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.18324,E9FU92_Daphnia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.157939)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.066007)[&Posterior=0.98,!color=#ff9933,!name="C-opsins"]:0.092848)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.580287,(J9K8Z3_Acyrthosiphon_275_bp[&!color=#ff9933,!name="C-opsins"]:0.500873,(Q2YD70_Apis_275_bp[&!color=#ff9933,!name="C-opsins"]:0.74672,B8K1S1_Tribolium_275_bp[&!color=#ff9933,!name="C-opsins"]:0.323898,A0A0C6G2W9_Anax_275_bp[&!color=#ff9933,!name="C-opsins"]:0.223578,(BGIBMGA008437PA_Bombyx_275_bp[&!color=#ff9933,!name="C-opsins"]:0.348217,(T1GU18_Megaselia_275_bp[&!color=#ff9933,!name="C-opsins"]:0.632742,(J9Y053_Clunio_275_bp[&!color=#ff9933,!name="C-opsins"]:0.248187,(Q7PR87_Anopheles_275_bp[&!color=#ff9933,!name="C-opsins"]:0.167282,A0A084VU64_Anopheles_275_bp[&!color=#ff9933,!name="C-opsins"]:0.106869)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.08744)[&Posterior=0.68,!color=#ff9933,!name="C-opsins"]:0.087787)[&Posterior=0.58,!color=#ff9933,!name="C-opsins"]:0.101485)[&Posterior=0.58,!color=#ff9933,!name="C-opsins"]:0.079226,(A0A0H2UI65_Rhodnius_275_bp[&!color=#ff9933,!name="C-opsins"]:0.115197,A0A023F272_Triatoma_275_bp[&!color=#ff9933,!name="C-opsins"]:0.065957)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.31783)[&Posterior=0.56,!color=#ff9933,!name="C-opsins"]:0.100478)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.143646)[&Posterior=1,!color=#ff9933,!name="C-opsins"]:0.134485)[&Posterior=0.74,!color=#ff9933,!name="C-opsins"]:0.049657)[&Posterior=0.99,!color=#ff9933,!name="C-opsins"]:0.140183)[&Posterior=0.85,!color=#ff9933,!name="C-opsins"]:0.080647)[&Posterior=0.72,!color=#ff9933,!name="C-opsins"]:0.079186)[&Posterior=0.74,!color=#ff9933,!name="C-opsins",!collapse={"collapsed",1.220483999999999}]:0.084586,((XP_013410035_Lingula_275_bp[&!color=#ff6633]:0.557477,(ops2_Eucidaristribuloides_Eucidaristribuloides_275_bp[&!color=#ff6633]:0.362183,(W4XJ75_Strongylocentrotus_275_bp[&!color=#ff6633]:0.222893,Ops2_Heliocidariserythrogramma_Heliocidariserythrogramma_275_bp[&!color=#ff6633]:0.1377)[&Posterior=0.77,!color=#ff6633]:0.192443)[&Posterior=1,!color=#ff6633]:0.705494)[&Posterior=0.95,!color=#ff6633]:0.121874,(((ops5_Patiriaminiata_Patiriaminiata_275_bp[&!color=#6600cc]:0.554793,((ops5_Paracentrotuslividus_Paracentrotuslividus_275_bp[&!color=#6600cc]:0.186962,ops5_Lytechinusvariegatus_Lytechinusvariegatus_275_bp[&!color=#6600cc]:0.115264)[&Posterior=0.87,!color=#6600cc]:0.067242,W4XTI7_Strongylocentrotus_275_bp[&!color=#6600cc]:0.108578)[&Posterior=1,!color=#6600cc]:0.42378)[&Posterior=1,!color=#6600cc]:0.288055,((L0ASC9_Acropora_275_bp[&!color=#6600cc]:0.38544,A7SQJ5_Nematostella_275_bp[&!color=#6600cc]:0.284257)[&Posterior=1,!color=#6600cc]:0.389533,A7RSR1_Nematostella_275_bp[&!color=#6600cc]:0.768318)[&Posterior=1,!color=#6600cc]:0.403973)[&Posterior=1,!color=#6600cc]:0.202592,(((ops4_Antedonmediterranea_Antedonmediterranea_275_bp[&!color=#0066ff,!name="R-opsins"]:0.416352,((ops4_Patiriaminiata_Patiriaminiata_275_bp[&!color=#0066ff,!name="R-opsins"]:0.15646,ops4_Asteriasrubens_Asteriasrubens_275_bp[&!color=#0066ff,!name="R-opsins"]:0.078151)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.246006,((ops4_Holothuriaglaberrima_Holothuriaglaberrima_275_bp[&!color=#0066ff,!name="R-opsins"]:0.353244,ops4_Holothuriaforskali_Holothuriaforskali_275_bp[&!color=#0066ff,!name="R-opsins"]:0.125501)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.595737,(ops4_Eucidaristribuloides_Eucidaristribuloides_275_bp[&!color=#0066ff,!name="R-opsins"]:0.264899,(ops4_Paracentrotuslividus_Paracentrotuslividus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.092547,W4Z400_Strongylocentrotus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.11417)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.187642)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.198818)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.132705)[&Posterior=0.78,!color=#0066ff,!name="R-opsins"]:0.093908)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.361651,(Q868F9_Branchiostoma_275_bp[&!color=#0066ff,!name="R-opsins"]:0.235683,C3ZZA7_Branchiostoma_275_bp[&!color=#0066ff,!name="R-opsins"]:0.552611)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.948597,(((R7VDA5_Capitella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.103675,R7UAM7_Capitella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.289979)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.843605,(R4S0M6_Platynereis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.368929,A0A0K0YBF4_Platynereis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.456294)[&Posterior=0.98,!color=#0066ff,!name="R-opsins"]:0.166184)[&Posterior=0.98,!color=#0066ff,!name="R-opsins"]:0.172554,(((XP_013083242_Biomphalaria_275_bp[&!color=#0066ff,!name="R-opsins"]:0.844374,XP_012943629_Aplysia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.031991)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.489378,((XP_013061934_Biomphalaria_275_bp[&!color=#0066ff,!name="R-opsins"]:0.119828,XP_005094193_Aplysia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.201732)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.379203,(XP_011431889_Crassostrea_275_bp[&!color=#0066ff,!name="R-opsins"]:0.659046,V4B0S4_Lottia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.628572)[&Posterior=0.92,!color=#0066ff,!name="R-opsins"]:0.157641)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.201279)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.263931,(XP_011441685_Crassostrea_275_bp[&!color=#0066ff,!name="R-opsins"]:0.540814,V4A259_Lottia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.725153)[&Posterior=0.93,!color=#0066ff,!name="R-opsins"]:0.104218,(A0A0L8HHY7_Octopus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.307086,(weirdopsin_PRJNA257113_Euprymna_275_bp[&!color=#0066ff,!name="R-opsins"]:0.118944,A0A0H5ANT7_Idiosepius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.059084)[&Posterior=0.97,!color=#0066ff,!name="R-opsins"]:0.154431)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.710645)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.088506)[&Posterior=0.95,!color=#0066ff,!name="R-opsins"]:0.094689,((XP_013407359_Lingula_275_bp[&!color=#0066ff,!name="R-opsins"]:0.326743,((XP_013412872_Lingula_275_bp[&!color=#0066ff,!name="R-opsins"]:0.786443,XP_013411648_Lingula_275_bp[&!color=#0066ff,!name="R-opsins"]:0.443513)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.280589,(XP_013409489_Lingula_275_bp[&!color=#0066ff,!name="R-opsins"]:0.241265,XP_013405920_Lingula_275_bp[&!color=#0066ff,!name="R-opsins"]:0.291586)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.264206)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.119982)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.353414,A0A0A7DNA7_Brachionus_275_bp[&!color=#0066ff,!name="R-opsins"]:1.35145)[&Posterior=0.57,!color=#0066ff,!name="R-opsins"]:0.117331)[&Posterior=0.54,!color=#0066ff,!name="R-opsins"]:0.050322,((T2I6P9_Euperipatoides_275_bp[&!color=#0066ff,!name="R-opsins"]:0.463057,(T2I532_Cupiennius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.521485,(J9L0Z6_Acyrthosiphon_275_bp[&!color=#0066ff,!name="R-opsins"]:0.409764,((E9G9S0_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.134418,((E9G9T1_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.055028,E9G9R9_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.04977)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.040063,E9G9R8_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.049259)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.067032)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.330423,(E9G8T5_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.056717,(E9G8T6_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.041838,E9G8L1_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.127836)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.089291)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.238012)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.327328)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.216238)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.268153)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.140006,((((B6EUX0_Branchinella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.063013,B6EUW9_Branchinella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.116385)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.557278,((T1K300_Tetranychusurticae_275_bp[&!color=#0066ff,!name="R-opsins"]:0.589994,((E9HBX2_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.364228,E9HBW5_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.365295)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.267463,E0W2R9_Pediculus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.433915,((Q9VTU7_Drosophila_275_bp[&!color=#0066ff,!name="R-opsins"]:0.373745,Q7QJJ6_Anopheles_275_bp[&!color=#0066ff,!name="R-opsins"]:0.461412)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.155635,((J9JXD7_Acyrthosiphon_275_bp[&!color=#0066ff,!name="R-opsins"]:0.066398,J9JNG5_Acyrthosiphon_275_bp[&!color=#0066ff,!name="R-opsins"]:0.174624)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.254176,BGIBMGA012539PA_Bombyx_275_bp[&!color=#0066ff,!name="R-opsins"]:0.409748)[&Posterior=0.97,!color=#0066ff,!name="R-opsins"]:0.088727)[&Posterior=0.98,!color=#0066ff,!name="R-opsins"]:0.088157,(T1IG64_Rhodnius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.41475,(T1K299_Tetranychusurticae_275_bp[&!color=#0066ff,!name="R-opsins"]:0.768049,B7PJM1_Ixodes_275_bp[&!color=#0066ff,!name="R-opsins"]:0.780942)[&Posterior=0.88,!color=#0066ff,!name="R-opsins"]:0.201364)[&Posterior=0.51,!color=#0066ff,!name="R-opsins"]:0.067129)[&Posterior=0.95,!color=#0066ff,!name="R-opsins"]:0.156076)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.289027,((E9GG41_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.481882,(((P91657_Drosophila_275_bp[&!color=#0066ff,!name="R-opsins"]:0.463503,(Q7PM16_Anopheles_275_bp[&!color=#0066ff,!name="R-opsins"]:0.211738,(((Q9UAM9_Papilio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.085856,Q7Z1L5_Vanessa_275_bp[&!color=#0066ff,!name="R-opsins"]:0.139506)[&Posterior=0.9,!color=#0066ff,!name="R-opsins"]:0.028779,(Q401Q1_Pieris_275_bp[&!color=#0066ff,!name="R-opsins"]:0.162626,Q401Q0_Pieris_275_bp[&!color=#0066ff,!name="R-opsins"]:0.099254)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.057891)[&Posterior=0.94,!color=#0066ff,!name="R-opsins"]:0.063642,(P90680_Apis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.390962,(Q26495_Schistocerca_275_bp[&!color=#0066ff,!name="R-opsins"]:0.145753,I6LX02_Gryllus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.182355)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.104711)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.087928)[&Posterior=0.79,!color=#0066ff,!name="R-opsins"]:0.078938)[&Posterior=0.98,!color=#0066ff,!name="R-opsins"]:0.089188)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.189734,(E9GYM4_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.284005,(B6EUW8_Branchinella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.179357,B6EUW2_Triops_275_bp[&!color=#0066ff,!name="R-opsins"]:0.095697)[&Posterior=0.6,!color=#0066ff,!name="R-opsins"]:0.052642)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.123372)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.094898,((T1HEZ9_Rhodnius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.169708,(J9JVP6_Acyrthosiphon_275_bp[&!color=#0066ff,!name="R-opsins"]:0.185172,J9JQI5_Acyrthosiphon_275_bp[&!color=#0066ff,!name="R-opsins"]:0.132919)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.191049)[&Posterior=0.9,!color=#0066ff,!name="R-opsins"]:0.068256,(E0V9E9_Pediculus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.405143,B5MGP9_Dianemobius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.155176)[&Posterior=0.96,!color=#0066ff,!name="R-opsins"]:0.067058,((O61474_Camponotus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.092742,O61303_Apis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.080386)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.116654,((Q9UAM8_Papilio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.156053,Q7Z1L6_Vanessa_275_bp[&!color=#0066ff,!name="R-opsins"]:0.091139)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.178054,(P04950_Drosophila_275_bp[&!color=#0066ff,!name="R-opsins"]:0.124706,B5RJL1_Drosophila_275_bp[&!color=#0066ff,!name="R-opsins"]:0.188715)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.129822)[&Posterior=0.93,!color=#0066ff,!name="R-opsins"]:0.046548,(Q5TR54_Anopheles_275_bp[&!color=#0066ff,!name="R-opsins"]:0.139383,((D6WDA5_Tribolium_275_bp[&!color=#0066ff,!name="R-opsins"]:0.09589,C0SPM6_Luciola_275_bp[&!color=#0066ff,!name="R-opsins"]:0.181624)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.054723,(B5LXX9_Thermonectus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.1713,B5LXX8_Thermonectus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.07456)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.07792)[&Posterior=0.81,!color=#0066ff,!name="R-opsins"]:0.035324)[&Posterior=0.97,!color=#0066ff,!name="R-opsins"]:0.052454)[&Posterior=0.62,!color=#0066ff,!name="R-opsins"]:0.043762)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.10439)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.133066)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.106081,(L0RH62_Cupiennius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.081725,(B1B1V0_Plexippus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.08145,B1B1U7_Hasarius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.062024)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.154608)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.406949)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.12357)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.118712)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.155816,(((C1K2X1_Limulus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.306859,(((E9GSR2_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.206069,E9GSQ7_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.179979)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.117195,B6EUW3_Triops_275_bp[&!color=#0066ff,!name="R-opsins"]:0.223807)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.226415,(B6EUW4_Triops_275_bp[&!color=#0066ff,!name="R-opsins"]:0.218289,B6EUW1_Triops_275_bp[&!color=#0066ff,!name="R-opsins"]:0.182417)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.393081)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.249201)[&Posterior=0.71,!color=#0066ff,!name="R-opsins"]:0.074757,(((Q25158_Hemigrapsus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.041388,C7DZC3_Uca_275_bp[&!color=#0066ff,!name="R-opsins"]:0.125542)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.07862,(Q25157_Hemigrapsus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.084917,C7DZC2_Uca_275_bp[&!color=#0066ff,!name="R-opsins"]:0.063571)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.097711)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.3192,((E9HXG5_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.142112,E9HXG2_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.107208)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.133376,E9HNH5_Daphnia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.236104,B6EUW0_Triops_275_bp[&!color=#0066ff,!name="R-opsins"]:0.128436)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.132481)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.13719)[&Posterior=0.73,!color=#0066ff,!name="R-opsins"]:0.075549,(((P35360_Limulus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.121922,(L0RJ16_Cupiennius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.049872,B1B1U6_Hasarius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.098997)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.102295)[&Posterior=0.52,!color=#0066ff,!name="R-opsins"]:0.052452,(T1K298_Tetranychusurticae_275_bp[&!color=#0066ff,!name="R-opsins"]:0.289559,(L0RH83_Cupiennius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.117286,(B1B1U8_Plexippus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.124042,B1B1U5_Hasarius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.097468)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.165863)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.13012)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.078335)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.146893,((('ops4.3_Labidiasterannulatus_Labidiasterannulatus_275_bp'[&!color=#0066ff,!name="R-opsins"]:0.415842,('ops4.2_Labidiasterannulatus_Labidiasterannulatus_275_bp'[&!color=#0066ff,!name="R-opsins"]:0.147687,Q0PJ45_Litopenaeus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.101791)[&Posterior=0.78,!color=#0066ff,!name="R-opsins"]:0.070491)[&Posterior=0.66,!color=#0066ff,!name="R-opsins"]:0.054905,P35356_Procambarus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.271773,(A1XRC6_Neogonodactylus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.182897,A1XRC5_Neogonodactylus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.504131)[&Posterior=0.88,!color=#0066ff,!name="R-opsins"]:0.081385)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.195705,((Q9GU64_Megoura_275_bp[&!color=#0066ff,!name="R-opsins"]:0.257352,Q5XXT1_Oncometopia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.13576)[&Posterior=0.86,!color=#0066ff,!name="R-opsins"]:0.049637,(((Q94741_Schistocerca_275_bp[&!color=#0066ff,!name="R-opsins"]:0.077148,C7SHL3_Dianemobius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.103609)[&Posterior=0.83,!color=#0066ff,!name="R-opsins"]:0.026344,(LWS_Rhodnius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.084599,((Q7QC57_Anopheles_275_bp[&!color=#0066ff,!name="R-opsins"]:0.240434,O01668_Drosophila_275_bp[&!color=#0066ff,!name="R-opsins"]:0.360605)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.079484,(D6WJJ6_Tribolium_275_bp[&!color=#0066ff,!name="R-opsins"]:0.101557,C0SPM5_Luciola_275_bp[&!color=#0066ff,!name="R-opsins"]:0.128802)[&Posterior=0.93,!color=#0066ff,!name="R-opsins"]:0.023703)[&Posterior=0.91,!color=#0066ff,!name="R-opsins"]:0.032023)[&Posterior=0.53,!color=#0066ff,!name="R-opsins"]:0.025044)[&Posterior=0.76,!color=#0066ff,!name="R-opsins"]:0.028906,((Q17292_Camponotus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.046032,Q17053_Apis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.168824)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.063793,((((Q9UAN0_Papilio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.083552,Q95YI3_Bombyx_275_bp[&!color=#0066ff,!name="R-opsins"]:0.070796)[&Posterior=0.92,!color=#0066ff,!name="R-opsins"]:0.030443,(Q9UAM7_Papilio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.052062,(Q8WS27_Vanessa_275_bp[&!color=#0066ff,!name="R-opsins"]:0.085832,((Q9UAM6_Papilio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.076117,Q9TVV5_Papilio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.092767)[&Posterior=0.91,!color=#0066ff,!name="R-opsins"]:0.038788,Q76L21_Pieris_275_bp[&!color=#0066ff,!name="R-opsins"]:0.081838)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.046053)[&Posterior=0.72,!color=#0066ff,!name="R-opsins"]:0.022531)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.051753)[&Posterior=0.97,!color=#0066ff,!name="R-opsins"]:0.03156,B5LXX7_Thermonectus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.146403)[&Posterior=0.64,!color=#0066ff,!name="R-opsins"]:0.018123,(F5HMX8_Anopheles_275_bp[&!color=#0066ff,!name="R-opsins"]:0.146661,A0NH90_Anopheles_275_bp[&!color=#0066ff,!name="R-opsins"]:0.238031)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.068128)[&Posterior=0.94,!color=#0066ff,!name="R-opsins"]:0.035127)[&Posterior=0.59,!color=#0066ff,!name="R-opsins"]:0.030583,(E0VMJ3_Pediculus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.142799,(I6LX00_Gryllus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.089653,((Q2YD66_Apis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.164653,(P08099_Drosophila_275_bp[&!color=#0066ff,!name="R-opsins"]:0.158911,P06002_Drosophila_275_bp[&!color=#0066ff,!name="R-opsins"]:0.235661)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.228327)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.099814,A0A0C6FPS8_Asiagomphus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.158227)[&Posterior=0.69,!color=#0066ff,!name="R-opsins"]:0.030185)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.060056)[&Posterior=0.94,!color=#0066ff,!name="R-opsins"]:0.034441)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.044921)[&Posterior=0.87,!color=#0066ff,!name="R-opsins"]:0.065172)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.114441)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.377929)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.134787)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.123151,((T2I530_Euperipatoides_275_bp[&!color=#0066ff,!name="R-opsins"]:0.097033,(I6SGT1_Epiperipatus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.051831,I6RAP7_Eoperipatus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.075095)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.058093)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.290358,A0A097GXW4_Hypsibius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.535156)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.149117)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.18712)[&Posterior=0.78,!color=#0066ff,!name="R-opsins"]:0.087562,(C3Z632_Branchiostoma_275_bp[&!color=#0066ff,!name="R-opsins"]:0.485109,(((XP_007429462_Python_275_bp[&!color=#0066ff,!name="R-opsins"]:0.138041,H0YY70_Taeniopygia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.077395)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.118984,(W5N5K4_Lepisosteus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.070999,(((Q804Q2_Gadus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.084984,(XP_012724596_Fundulus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.275703,(M3ZHB9_Xiphophorus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.04397,(I3K916_Oreochromis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.072905,H2UC86_Takifugu_275_bp[&!color=#0066ff,!name="R-opsins"]:0.075058)[&Posterior=0.71,!color=#0066ff,!name="R-opsins"]:0.013391)[&Posterior=0.58,!color=#0066ff,!name="R-opsins"]:0.026326)[&Posterior=0.93,!color=#0066ff,!name="R-opsins"]:0.029321)[&Posterior=0.94,!color=#0066ff,!name="R-opsins"]:0.025781,F1QZ18_Danio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.065264)[&Posterior=0.96,!color=#0066ff,!name="R-opsins"]:0.041385,(Q804X9_Gadus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.146767,A0A0R4ISV7_Danio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.140509)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.057737)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.079261)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.127823)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.258173,(((XP_003976773_Takifugu_275_bp[&!color=#0066ff,!name="R-opsins"]:0.216862,G8Z410_Danio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.109614)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.192015,(((I3M253_Ictidomys_275_bp[&!color=#0066ff,!name="R-opsins"]:0.088974,G5APG0_Heterocephalus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.064013)[&Posterior=0.9,!color=#0066ff,!name="R-opsins"]:0.020498,(Q9QXZ9_Mus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.056366,G1TDZ2_Oryctolagus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.068488)[&Posterior=0.87,!color=#0066ff,!name="R-opsins"]:0.025985)[&Posterior=0.95,!color=#0066ff,!name="R-opsins"]:0.02304,(XP_008058289_Carlito_275_bp[&!color=#0066ff,!name="R-opsins"]:0.059107,(XP_006875988_Chrysochloris_275_bp[&!color=#0066ff,!name="R-opsins"]:0.057822,XP_004680742_Condylura_275_bp[&!color=#0066ff,!name="R-opsins"]:0.069728,E2R3W5_Canis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.068264)[&Posterior=0.69,!color=#0066ff,!name="R-opsins"]:0.01893)[&Posterior=0.72,!color=#0066ff,!name="R-opsins"]:0.016605)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.126532)[&Posterior=0.81,!color=#0066ff,!name="R-opsins"]:0.042325,(H3AHR5_Latimeria_275_bp[&!color=#0066ff,!name="R-opsins"]:0.067578,((Q28EK0_Xenopus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.053708,(I1W5U7_Salmo_275_bp[&!color=#0066ff,!name="R-opsins"]:0.047501,(XP_012712171_Fundulus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.033728,(XP_008319628_Cynoglossus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.07252,H2TVH4_Takifugu_275_bp[&!color=#0066ff,!name="R-opsins"]:0.056076)[&Posterior=0.97,!color=#0066ff,!name="R-opsins"]:0.028395)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.054684,(E7FEB1_Danio_275_bp[&!color=#0066ff,!name="R-opsins"]:0.053063,(XP_008298630_Stegastes_275_bp[&!color=#0066ff,!name="R-opsins"]:0.124375,C3V151_Ictalurus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.117374)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.039046)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.033219)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.091669)[&Posterior=0.66,!color=#0066ff,!name="R-opsins"]:0.021858,(M7BE85_Chelonia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.063301,(H9GL39_Anolis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.105483,(U3JVY8_Ficedula_275_bp[&!color=#0066ff,!name="R-opsins"]:0.060011,A0A094NLK3_Podiceps_275_bp[&!color=#0066ff,!name="R-opsins"]:0.027463)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.073336)[&Posterior=0.81,!color=#0066ff,!name="R-opsins"]:0.016563)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.061352)[&Posterior=0.5,!color=#0066ff,!name="R-opsins"]:0.014471)[&Posterior=0.94,!color=#0066ff,!name="R-opsins"]:0.046477)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.133761)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.292913)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.225486,((XP_013084162_Biomphalaria_275_bp[&!color=#0066ff,!name="R-opsins"]:0.44911,((JR496165_Villosa_275_bp[&!color=#0066ff,!name="R-opsins"]:0.410243,('ALO02517.1_Argopecten_275_bp'[&!color=#0066ff,!name="R-opsins"]:0.210696,('ALO02516.1_Argopecten_275_bp'[&!color=#0066ff,!name="R-opsins"]:0.07969,(R9W772_Mizuhopecten_275_bp[&!color=#0066ff,!name="R-opsins"]:0.058847,'ALO02515.1_Argopecten_275_bp'[&!color=#0066ff,!name="R-opsins"]:0.052599)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.070339)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.052117)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.140637)[&Posterior=0.5,!color=#0066ff,!name="R-opsins"]:0.054075,(K1PPZ4_Crassostrea_275_bp[&!color=#0066ff,!name="R-opsins"]:0.259314,((R9W6D6_Semipallium_275_bp[&!color=#0066ff,!name="R-opsins"]:0.09218,'O15973.1_Mizuhopecten_275_bp'[&!color=#0066ff,!name="R-opsins"]:0.03283)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.07071,'ALO02514.1_Argopecten_275_bp'[&!color=#0066ff,!name="R-opsins"]:0.090977)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.238225)[&Posterior=0.74,!color=#0066ff,!name="R-opsins"]:0.048822)[&Posterior=0.98,!color=#0066ff,!name="R-opsins"]:0.113447,(V3ZSU7_Lottia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.184185,(KX714606_Acanthopleura_275_bp[&!color=#0066ff,!name="R-opsins"]:0.165744,(((Q6QE87_Idiosepius_275_bp[&!color=#0066ff,!name="R-opsins"]:0.033494,((Q3BDN8_Rossia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.047593,Q3BDN7_Heteroteuthis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.075111,(Q3BDP7_Bathyteuthis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.133375,(Q6QE85_Spirula_275_bp[&!color=#0066ff,!name="R-opsins"]:0.154846,Q3BDN4_Metasepia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.035593)[&Posterior=0.92,!color=#0066ff,!name="R-opsins"]:0.02921)[&Posterior=0.73,!color=#0066ff,!name="R-opsins"]:0.037183,((Q0D317_Galiteuthis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.06613,Q0D314_Cranchia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.038864)[&Posterior=0.92,!color=#0066ff,!name="R-opsins"]:0.042554,(Q3BDP5_Joubiniteuthis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.104883,'P31356.2_Todarodes_275_bp'[&!color=#0066ff,!name="R-opsins"]:0.019457)[&Posterior=0.51,!color=#0066ff,!name="R-opsins"]:0.024541)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.032918)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.028676,(Q6SSJ0_Doryteuthis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.072665,B4YS99_Afrololigo_275_bp[&!color=#0066ff,!name="R-opsins"]:0.03349)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.032527)[&Posterior=0.97,!color=#0066ff,!name="R-opsins"]:0.036844)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.125637,((F1B3L1_Benthoctopus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.057241,C9D7P4_Benthoctopus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.064207)[&Posterior=0.88,!color=#0066ff,!name="R-opsins"]:0.031475,(H2B4U9_Opisthoteuthis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.102875,(B3FHS5_Velodona_275_bp[&!color=#0066ff,!name="R-opsins"]:0.10419,B3FHS3_Thaumeledone_275_bp[&!color=#0066ff,!name="R-opsins"]:0.031305)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.063534)[&Posterior=0.76,!color=#0066ff,!name="R-opsins"]:0.049619,(((Q6QEA5_Vampyroteuthis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.254353,Q6QE93_Adelieledone_275_bp[&!color=#0066ff,!name="R-opsins"]:0.078667)[&Posterior=0.79,!color=#0066ff,!name="R-opsins"]:0.05072,Q6QE90_Vitreledonella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.04778)[&Posterior=0.77,!color=#0066ff,!name="R-opsins"]:0.034208,A0A0L8G9D3_Octopus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.031294)[&Posterior=0.71,!color=#0066ff,!name="R-opsins"]:0.016486)[&Posterior=0.82,!color=#0066ff,!name="R-opsins"]:0.045972)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.235471,A0A0H5B8K8_Nautilus_275_bp[&!color=#0066ff,!name="R-opsins"]:0.116283)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.111491)[&Posterior=0.97,!color=#0066ff,!name="R-opsins"]:0.065853)[&Posterior=0.8,!color=#0066ff,!name="R-opsins"]:0.060207)[&Posterior=0.99,!color=#0066ff,!name="R-opsins"]:0.067161,(M9UTN2_Terebratalia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.857617,(Q8T359_Platynereis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.494615,(Q710F1_Dugesia_275_bp[&!color=#0066ff,!name="R-opsins"]:0.264415,(Q9NJC9_Schistosoma_275_bp[&!color=#0066ff,!name="R-opsins"]:0.278388,(C1LEE2_Schistosoma_275_bp[&!color=#0066ff,!name="R-opsins"]:0.096911,A0A095A2W7_Schistosoma_275_bp[&!color=#0066ff,!name="R-opsins"]:0.044169)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.586378)[&Posterior=0.76,!color=#0066ff,!name="R-opsins"]:0.123892)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.31161,((R7UDC5_Capitella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.401301,(R4RY94_Platynereis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.313467,A0A0K0YBF1_Platynereis_275_bp[&!color=#0066ff,!name="R-opsins"]:0.452999)[&Posterior=0.96,!color=#0066ff,!name="R-opsins"]:0.100205)[&Posterior=0.74,!color=#0066ff,!name="R-opsins"]:0.091066,((T1G602_Helobdella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.343088,(T1EHS3_Helobdella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.329319,(T1G5E9_Helobdella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.022719,A0A068FRB9_Helobdella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.005188)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.387468)[&Posterior=0.93,!color=#0066ff,!name="R-opsins"]:0.099818)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.150289,A0A068FK77_Helobdella_275_bp[&!color=#0066ff,!name="R-opsins"]:0.326037)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.297129)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.132323)[&Posterior=0.72,!color=#0066ff,!name="R-opsins"]:0.058172)[&Posterior=0.81,!color=#0066ff,!name="R-opsins"]:0.055702)[&Posterior=1,!color=#0066ff,!name="R-opsins"]:0.173722)[&Posterior=1,!color=#0066ff,!name="R-opsins",!collapse={"collapsed",0.9917400000000001}]:0.348189)[&Posterior=0.99]:0.097026,(((XP_013397676_Lingula_275_bp[&!color=#ff0099]:0.79194,KX714605_Acanthopleura_275_bp[&!color=#ff0099]:0.741658,((K1QG76_Crassostrea_275_bp[&!color=#ff0099]:0.530552,K1PW76_Crassostrea_275_bp[&!color=#ff0099]:0.364076)[&Posterior=1,!color=#ff0099]:0.77817,((KX550907_Argopecten_275_bp[&!color=#ff0099]:0.651444,(XP_011421213_Crassostrea_275_bp[&!color=#ff0099]:0.7712,(KX550905_Argopecten_275_bp[&!color=#ff0099]:0.280226,(KX550906_Argopecten_275_bp[&!color=#ff0099]:0.080875,JU171516_Unedogemmulabisaya_275_bp[&!color=#ff0099]:0.634988)[&Posterior=1,!color=#ff0099]:0.835799)[&Posterior=1,!color=#ff0099]:0.307164)[&Posterior=0.99,!color=#ff0099]:0.291329)[&Posterior=0.66,!color=#ff0099]:0.115295,(A0A0L8HAF0_Octopus_275_bp[&!color=#ff0099]:0.184532,A0A0H5ATB0_Idiosepius_275_bp[&!color=#ff0099]:0.157801)[&Posterior=1,!color=#ff0099]:0.616411)[&Posterior=0.77,!color=#ff0099]:0.117825)[&Posterior=0.92,!color=#ff0099]:0.123224,((XP_013400870_Lingula_275_bp[&!color=#ff0099]:0.676535,(XP_013382905_Lingula_275_bp[&!color=#ff0099]:0.676124,F1D8E5_Terebratalia_275_bp[&!color=#ff0099]:0.52651)[&Posterior=0.55,!color=#ff0099]:0.109729)[&Posterior=0.74,!color=#ff0099]:0.110782,((K1QCZ3_Crassostrea_275_bp[&!color=#ff0099]:0.247464,(XP_011412507_Crassostrea_275_bp[&!color=#ff0099]:0.056862,K1P6Y0_Crassostrea_275_bp[&!color=#ff0099]:0.181118)[&Posterior=1,!color=#ff0099]:0.357306)[&Posterior=1,!color=#ff0099]:0.53186,((KX550904_Argopecten_275_bp[&!color=#ff0099]:0.695536,(V3ZWI5_Lottia_275_bp[&!color=#ff0099]:0.374885,FX190223_Lymnaea_275_bp[&!color=#ff0099]:0.635164)[&Posterior=0.81,!color=#ff0099]:0.089691)[&Posterior=0.98,!color=#ff0099]:0.113473,(XP_013088307_Biomphalaria_275_bp[&!color=#ff0099]:0.152516,FX185950_Lymnaea_275_bp[&!color=#ff0099]:0.172457)[&Posterior=1,!color=#ff0099]:0.673697)[&Posterior=0.96,!color=#ff0099]:0.114527,(A0A0A7DNH9_Brachionus_275_bp[&!color=#ff0099]:0.640102,(A0A0A7DNH5_Brachionus_275_bp[&!color=#ff0099]:0.478732,A0A0A7DN75_Brachionus_275_bp[&!color=#ff0099]:0.661405)[&Posterior=0.9,!color=#ff0099]:0.157948)[&Posterior=1,!color=#ff0099]:0.565669)[&Posterior=0.84,!color=#ff0099]:0.090087)[&Posterior=0.5,!color=#ff0099]:0.079226)[&Posterior=0.99,!color=#ff0099]:0.14796,(((L0AUA8_Acropora_275_bp[&!color=#ff0099]:1.28214,A9UMX2_Nematostella_275_bp[&!color=#ff0099]:0.823286)[&Posterior=0.65,!color=#ff0099]:0.108385,(((A9UMX6_Nematostella_275_bp[&!color=#ff0099]:0.939453,A9UMX5_Nematostella_275_bp[&!color=#ff0099]:0.550134)[&Posterior=0.6,!color=#ff0099]:0.163952,A9UMX3_Nematostella_275_bp[&!color=#ff0099]:0.418773)[&Posterior=0.84,!color=#ff0099]:0.113478,(A9UMX7_Nematostella_275_bp[&!color=#ff0099]:0.527077,A9UMX1_Nematostella_275_bp[&!color=#ff0099]:0.717766)[&Posterior=1,!color=#ff0099]:0.417853)[&Posterior=0.79,!color=#ff0099]:0.152055)[&Posterior=1,!color=#ff0099]:0.34726,(((((F1LIP5_Hydra_275_bp[&!color=#ff0099]:0.26462,(F1LIP4_Hydra_275_bp[&!color=#ff0099]:0.260315,F1LIP3_Hydra_275_bp[&!color=#ff0099]:0.272303)[&Posterior=0.56,!color=#ff0099]:0.085769)[&Posterior=1,!color=#ff0099]:0.473119,(F1LIP2_Hydra_275_bp[&!color=#ff0099]:0.382015,F1LIP1_Hydra_275_bp[&!color=#ff0099]:0.541222)[&Posterior=1,!color=#ff0099]:0.603592)[&Posterior=1,!color=#ff0099]:0.582541,A9CR57_Podocoryna_275_bp[&!color=#ff0099]:1.14464)[&Posterior=0.97,!color=#ff0099]:0.329573,(A9CR60_Podocoryna_275_bp[&!color=#ff0099]:0.953366,(((F1LIN9_Hydra_275_bp[&!color=#ff0099]:0.19708,(F1LIP0_Hydra_275_bp[&!color=#ff0099]:0.684614,F1LIN8_Hydra_275_bp[&!color=#ff0099]:0.274962)[&Posterior=0.54,!color=#ff0099]:0.060255)[&Posterior=1,!color=#ff0099]:0.623276,(A9CR48_Cladonema_275_bp[&!color=#ff0099]:0.747469,(A9CR54_Cladonema_275_bp[&!color=#ff0099]:0.529291,((A9CR43_Cladonema_275_bp[&!color=#ff0099]:0.213485,A9CR40_Cladonema_275_bp[&!color=#ff0099]:0.187849)[&Posterior=0.99,!color=#ff0099]:0.194468,(A9CR39_Cladonema_275_bp[&!color=#ff0099]:0.320477,A9CR38_Cladonema_275_bp[&!color=#ff0099]:0.42899)[&Posterior=1,!color=#ff0099]:0.489679)[&Posterior=1,!color=#ff0099]:0.248457)[&Posterior=0.65,!color=#ff0099]:0.123251)[&Posterior=1,!color=#ff0099]:0.336371)[&Posterior=0.99,!color=#ff0099]:0.239732,((A9CR28_Cladonema_275_bp[&!color=#ff0099]:0.293351,A9CR26_Cladonema_275_bp[&!color=#ff0099]:0.280291)[&Posterior=1,!color=#ff0099]:0.820226,A9CR18_Cladonema_275_bp[&!color=#ff0099]:1.10652)[&Posterior=1,!color=#ff0099]:0.490526)[&Posterior=0.84,!color=#ff0099]:0.123205)[&Posterior=0.6,!color=#ff0099]:0.122084)[&Posterior=0.99,!color=#ff0099]:0.131469,(A0A059NTG2_Tripedalia_275_bp[&!color=#ff0099]:0.915412,(A0A059NTG7_Tripedalia_275_bp[&!color=#ff0099]:0.65806,A0A059NTD7_Tripedalia_275_bp[&!color=#ff0099]:0.743832)[&Posterior=0.67,!color=#ff0099]:0.144487)[&Posterior=0.93,!color=#ff0099]:0.13309)[&Posterior=1,!color=#ff0099]:0.284453,(L0ATA4_Acropora_275_bp[&!color=#ff0099]:1.01174,((EU310498_Tripedalia_275_bp[&!color=#ff0099]:0.724898,A0A059NTG1_Tripedalia_275_bp[&!color=#ff0099]:1.23271)[&Posterior=0.74,!color=#ff0099]:0.121046,((A0A059NTD3_Tripedalia_275_bp[&!color=#ff0099]:0.793141,A0A059NTC7_Tripedalia_275_bp[&!color=#ff0099]:0.550738)[&Posterior=0.95,!color=#ff0099]:0.204791,(A0A059NTC8_Tripedalia_275_bp[&!color=#ff0099]:0.351931,A0A059NTC6_Tripedalia_275_bp[&!color=#ff0099]:0.431496)[&Posterior=1,!color=#ff0099]:0.511503)[&Posterior=0.91,!color=#ff0099]:0.102543)[&Posterior=0.99,!color=#ff0099]:0.272136,((A0A059NTG3_Tripedalia_275_bp[&!color=#ff0099]:0.739403,(A0A059NTG9_Tripedalia_275_bp[&!color=#ff0099]:0.779366,(A0A059NTD6_Tripedalia_275_bp[&!color=#ff0099]:0.707532,A0A059NTD4_Tripedalia_275_bp[&!color=#ff0099]:0.632026)[&Posterior=0.95,!color=#ff0099]:0.186008)[&Posterior=1,!color=#ff0099]:0.422045)[&Posterior=0.87,!color=#ff0099]:0.14948,(A0A059NTG8_Tripedalia_275_bp[&!color=#ff0099]:0.523463,(A0A059NTD5_Tripedalia_275_bp[&!color=#ff0099]:0.66077,A0A059NTD2_Tripedalia_275_bp[&!color=#ff0099]:0.607743)[&Posterior=0.97,!color=#ff0099]:0.185442)[&Posterior=1,!color=#ff0099]:0.367473,((MTR1C_XENL7188_275_bp:0.154051,(MLT_O88495_1202_275_bp:0.547985,MLT_B2Y4M8_1198_275_bp:0.227607)[&Posterior=0.99]:0.151731)[&Posterior=1]:1.31023,(A0A059NTD1_Tripedalia_275_bp[&!color=#ff0099]:0.91439,A0A059NTC5_Tripedalia_275_bp[&!color=#ff0099]:0.948107)[&Posterior=0.62,!color=#ff0099]:0.139979)[&Posterior=0.58]:0.14364)[&Posterior=1]:0.192995)[&Posterior=0.71]:0.103677)[&Posterior=0.68]:0.178443)[&Posterior=0.68]:0.075729,((('Tra_429092jgi|T119_275_bp'[&!color=#333333]:0.137402,(Tadh_P26040_275_bp[&!color=#333333]:0.028481,B3RY66_Trichoplax_275_bp[&!color=#333333]:0.100029)[&Posterior=1,!color=#333333]:0.16038)[&Posterior=1,!color=#333333]:0.891962,(((Tadh_P4188_275_bp[&!color=#333333]:0.097242,HHO_82719__275_bp[&!color=#333333]:0.145638)[&Posterior=1,!color=#333333]:0.945953,(((HHO_93594__275_bp[&!color=#333333]:0.0092,HHO_87476__275_bp[&!color=#333333]:0.005297)[&Posterior=1,!color=#333333]:0.832695,HHO_83823__275_bp[&!color=#333333]:1.0382)[&Posterior=0.99,!color=#333333]:0.31553,(BS_Placozoa_misc_HHO_83722__275_bp[&!color=#333333]:0.087795,('Tra_430364jgi|T122_275_bp'[&!color=#333333]:0.114271,B3RZG1_Trichoplax_275_bp[&!color=#333333]:0.141002)[&Posterior=0.95,!color=#333333]:0.082272)[&Posterior=1,!color=#333333]:0.675155)[&Posterior=0.75,!color=#333333]:0.181226)[&Posterior=0.94,!color=#333333]:0.169703,(HHO_87364__275_bp[&!color=#333333]:0.171542,('Tra_429091jgi|T123_275_bp'[&!color=#333333]:0.195486,Tadh_P26009_275_bp[&!color=#333333]:0.005573,B3RY65_Trichoplax_275_bp[&!color=#333333]:0.046828)[&Posterior=0.92,!color=#333333]:0.167373)[&Posterior=1,!color=#333333]:0.80243)[&Posterior=0.99,!color=#333333]:0.267319)[&Posterior=1,!collapse={"collapsed",1.2097949999999997},!name="Placopsins",!color=#333333]:0.438005,((((XP_011435061_Crassostrea_275_bp[&!color=#66cc00]:0.789269,V3Z0E3_Lottia_275_bp[&!color=#66cc00]:0.915283)[&Posterior=0.8,!color=#66cc00]:0.194914,A0A0L8GM34_Octopus_275_bp[&!color=#66cc00]:0.834733)[&Posterior=0.88,!color=#66cc00]:0.191157,(((XP_012621651_Microcebus_275_bp[&!color=#66cc00]:0.054614,XP_012374115_Dasypus_275_bp[&!color=#66cc00]:0.123498)[&Posterior=0.58,!color=#66cc00]:0.019901,XP_007534554_Erinaceus_275_bp[&!color=#66cc00]:0.104027,(XP_006162307_Tupaia_275_bp[&!color=#66cc00]:0.116239,XP_004686532_Condylura_275_bp[&!color=#66cc00]:0.189224)[&Posterior=0.95,!color=#66cc00]:0.05567,XP_004612815_Sorex_275_bp[&!color=#66cc00]:0.157588,M3YAY1_Mustela_275_bp[&!color=#66cc00]:0.044971,F7AFM0_Equus_275_bp[&!color=#66cc00]:0.03927,(F7HTU3_Macaca_275_bp[&!color=#66cc00]:0.096271,(F6RXG7_Callithrix_275_bp[&!color=#66cc00]:0.045936,A0A096N043_Papio_275_bp[&!color=#66cc00]:0.056105)[&Posterior=0.57,!color=#66cc00]:0.007656)[&Posterior=1,!color=#66cc00]:0.041632,(('XP_004380313.2_Trichechus_275_bp'[&!color=#66cc00]:0.043082,(XP_006869378_Chrysochloris_275_bp[&!color=#66cc00]:0.089474,G3T3L1_Loxodonta_275_bp[&!color=#66cc00]:0.066317)[&Posterior=0.8,!color=#66cc00]:0.017574)[&Posterior=0.99,!color=#66cc00]:0.025368,(G1PJY3_Myotis_275_bp[&!color=#66cc00]:0.058496,F1S135_Sus_275_bp[&!color=#66cc00]:0.061934)[&Posterior=0.54,!color=#66cc00]:0.017074,(XP_004594583_Ochotona_275_bp[&!color=#66cc00]:0.062101,(XP_008841944_Nannospalax_275_bp[&!color=#66cc00]:0.198376,(XP_005357329_Microtus_275_bp[&!color=#66cc00]:0.045354,(Q80XL3_Mus_275_bp[&!color=#66cc00]:0.047075,D3ZY73_Rattus_275_bp[&!color=#66cc00]:0.161821)[&Posterior=0.7,!color=#66cc00]:0.020494)[&Posterior=0.97,!color=#66cc00]:0.027794)[&Posterior=1,!color=#66cc00]:0.060796)[&Posterior=0.81,!color=#66cc00]:0.028889,((H0V2M9_Cavia_275_bp[&!color=#66cc00]:0.074037,G5AQM3_Heterocephalus_275_bp[&!color=#66cc00]:0.068736)[&Posterior=0.53,!color=#66cc00]:0.01768,A0A091D6F6_Fukomys_275_bp[&!color=#66cc00]:0.072844)[&Posterior=0.95,!color=#66cc00]:0.047329)[&Posterior=0.9,!color=#66cc00]:0.019905,((F6SMD5_Monodelphis_275_bp[&!color=#66cc00]:0.01854,F6R2C0_Monodelphis_275_bp[&!color=#66cc00]:0.007646)[&Posterior=1,!color=#66cc00]:0.138372,((XP_001506416_Ornithorhynchus_275_bp[&!color=#66cc00]:0.021541,F7E735_Ornithorhynchus_275_bp[&!color=#66cc00]:0.010863)[&Posterior=1,!color=#66cc00]:0.134256,((XP_002934288_Xenopus_275_bp[&!color=#66cc00]:0.011554,F7BYN3_Xenopus_275_bp[&!color=#66cc00]:0.008081)[&Posterior=1,!color=#66cc00]:0.083458,((H9GQ69_Anolis_275_bp[&!color=#66cc00]:0.097739,(XP_009663703_Struthio_275_bp[&!color=#66cc00]:0.131635,(U3IU26_Anas_275_bp[&!color=#66cc00]:0.023015,H0Z174_Taeniopygia_275_bp[&!color=#66cc00]:0.02447)[&Posterior=0.99,!color=#66cc00]:0.020203)[&Posterior=0.86,!color=#66cc00]:0.016617)[&Posterior=0.91,!color=#66cc00]:0.017855,((XP_006012043_Latimeria_275_bp[&!color=#66cc00]:0.021046,H2ZYF5_Latimeria_275_bp[&!color=#66cc00]:0.01176)[&Posterior=1,!color=#66cc00]:0.085446,(XP_007895211_Callorhinchus_275_bp[&!color=#66cc00]:0.151882,(W5N199_Lepisosteus_275_bp[&!color=#66cc00]:0.096604,((((XP_012688455_Clupea_275_bp[&!color=#66cc00]:0.102799,W5LE41_Astyanax_275_bp[&!color=#66cc00]:0.065801)[&Posterior=0.86,!color=#66cc00]:0.016437,Q66I55_Danio_275_bp[&!color=#66cc00]:0.053268)[&Posterior=1,!color=#66cc00]:0.044625,(XP_008320864_Cynoglossus_275_bp[&!color=#66cc00]:0.170326,(I3JZL2_Oreochromis_275_bp[&!color=#66cc00]:0.070058,((XP_003978640_Takifugu_275_bp[&!color=#66cc00]:0.02872,(H2RWN1_Takifugu_275_bp[&!color=#66cc00]:0.003846,H2RWN0_Takifugu_275_bp[&!color=#66cc00]:0.003938)[&Posterior=0.62,!color=#66cc00]:0.009344)[&Posterior=1,!color=#66cc00]:0.110992,A0A087XC66_Poecilia_275_bp[&!color=#66cc00]:0.064548)[&Posterior=0.57,!color=#66cc00]:0.013942)[&Posterior=0.85,!color=#66cc00]:0.01654)[&Posterior=0.99,!color=#66cc00]:0.029976)[&Posterior=0.85,!color=#66cc00]:0.016489,A0A060VYB3_Oncorhynchus_275_bp[&!color=#66cc00]:0.050875)[&Posterior=1,!color=#66cc00]:0.057167)[&Posterior=0.9,!color=#66cc00]:0.03455)[&Posterior=1,!color=#66cc00]:0.039363)[&Posterior=0.99,!color=#66cc00]:0.027883)[&Posterior=0.99,!color=#66cc00]:0.019274)[&Posterior=0.99,!color=#66cc00]:0.033499)[&Posterior=1,!color=#66cc00]:0.049992)[&Posterior=0.69,!color=#66cc00]:0.047216)[&Posterior=1,!color=#66cc00]:0.68456,((((ops6_Patiriaminiata_Patiriaminiata_275_bp[&!color=#66cc00]:0.289862,ops6_Asteriasrubens_Asteriasrubens_275_bp[&!color=#66cc00]:0.201017)[&Posterior=1,!color=#66cc00]:0.426461,(ops6_Parastichopusparvimensis_Parastichopusparvimensis_275_bp[&!color=#66cc00]:0.251225,'ops6.2_Holothuriaglaberrima_Holothuriaglaberrima_275_bp'[&!color=#66cc00]:0.107068)[&Posterior=1,!color=#66cc00]:0.34836)[&Posterior=1,!color=#66cc00]:0.271594,XP_006820589_Saccoglossus_275_bp[&!color=#66cc00]:0.681899,A0A0A7DNF4_Brachionus_275_bp[&!color=#66cc00]:1.55018)[&Posterior=0.68,!color=#66cc00]:0.084522,(((W5XRX9_Platynereis_275_bp[&!color=#66cc00]:1.00474,M9UW95_Terebratalia_275_bp[&!color=#66cc00]:1.73774)[&Posterior=0.84,!color=#66cc00]:0.218862,((KX714608_Stenoplax_275_bp[&!color=#66cc00]:0.135092,KX714607_Chiton_275_bp[&!color=#66cc00]:0.099049)[&Posterior=1,!color=#66cc00]:0.699784,(XP_011438181_Crassostrea_275_bp[&!color=#66cc00]:0.055359,K1S037_Crassostrea_275_bp[&!color=#66cc00]:0.165432)[&Posterior=1,!color=#66cc00]:1.15234,((V3ZDT4_Lottia_275_bp[&!color=#66cc00]:0.462728,((XP_013096913_Biomphalaria_275_bp[&!color=#66cc00]:0.269269,'XP_005094221.2_Aplysia_275_bp'[&!color=#66cc00]:0.211386)[&Posterior=0.99,!color=#66cc00]:0.17947,GAGS01056001_Bithynia_275_bp[&!color=#66cc00]:0.556295)[&Posterior=1,!color=#66cc00]:0.285247)[&Posterior=1,!color=#66cc00]:0.264361,(A0A0H5ANK7_Nautilus_275_bp[&!color=#66cc00]:0.407515,(A0A0L8HQC0_Octopus_275_bp[&!color=#66cc00]:0.214508,((retinochrome_PRJNA257113_Uroteuthis_275_bp[&!color=#66cc00]:0.061681,(retinochrome2_PRJNA257113_Euprymna_275_bp[&!color=#66cc00]:0.117655,A0A0H5B8L2_Idiosepius_275_bp[&!color=#66cc00]:0.051311)[&Posterior=0.88,!color=#66cc00]:0.065125)[&Posterior=1,!color=#66cc00]:0.378234,('P23820.1_Todarodes_275_bp'[&!color=#66cc00]:0.152047,((retinochrome1_PRJNA257113_Euprymna_275_bp[&!color=#66cc00]:0.10967,A0A0H5ANL2_Idiosepius_275_bp[&!color=#66cc00]:0.101737)[&Posterior=0.92,!color=#66cc00]:0.069348,A0A0G2UXM4_Sepia_275_bp[&!color=#66cc00]:0.047868,A0A0G2UV97_Doryteuthis_275_bp[&!color=#66cc00]:0.114143)[&Posterior=0.84,!color=#66cc00]:0.047456)[&Posterior=1,!color=#66cc00]:0.377924)[&Posterior=0.97,!color=#66cc00]:0.125463)[&Posterior=1,!color=#66cc00]:0.745314)[&Posterior=1,!color=#66cc00]:0.302203)[&Posterior=0.92,!color=#66cc00]:0.124823)[&Posterior=0.94,!color=#66cc00]:0.181632)[&Posterior=0.99,!color=#66cc00]:0.271495,(((ops7_Schizocardiumspp_Schizocardiumspp_275_bp[&!color=#66cc00]:0.520459,(ops7_Ptychoderabahamensis_Ptychoderabahamensis_275_bp[&!color=#66cc00]:0.187221,ops7_Balanoglossusaurantiacus_Balanoglossusaurantiacus_275_bp[&!color=#66cc00]:0.199646)[&Posterior=0.98,!color=#66cc00]:0.102117)[&Posterior=0.99,!color=#66cc00]:0.136938,(ops7_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp[&!color=#66cc00]:0.359303,(ops7_Saccoglossusmereschkowskii_Saccoglossusmereschkowskii_275_bp[&!color=#66cc00]:0.13132,XP_002732329_Saccoglossus_275_bp[&!color=#66cc00]:0.115113)[&Posterior=1,!color=#66cc00]:0.132039)[&Posterior=1,!color=#66cc00]:0.177556)[&Posterior=1,!color=#66cc00]:0.693254,((((ops7_Paracentrotuslividus_Paracentrotuslividus_275_bp[&!color=#66cc00]:0.754476,ops7_Holothuriaglaberrima_Holothuriaglaberrima_275_bp[&!color=#66cc00]:1.51841)[&Posterior=0.98,!color=#66cc00]:0.310391,(ops7RadialNerve_Asteriasrubens_Asteriasrubens_275_bp[&!color=#66cc00]:0.364986,'ops7.2_Patiriaminiata_Patiriaminiata_275_bp'[&!color=#66cc00]:0.321332)[&Posterior=1,!color=#66cc00]:0.477833)[&Posterior=0.97,!color=#66cc00]:0.242631,(Q8TA66_Ciona_275_bp[&!color=#66cc00]:1.16076,Q8T891_Ciona_275_bp[&!color=#66cc00]:0.731259)[&Posterior=1,!color=#66cc00]:1.12027)[&Posterior=0.75,!color=#66cc00]:0.204731,(((XP_008319977_Cynoglossus_275_bp[&!color=#66cc00]:0.171944,((H2THH8_Takifugu_275_bp[&!color=#66cc00]:0.057008,H2THH6_Takifugu_275_bp[&!color=#66cc00]:0.078124)[&Posterior=1,!color=#66cc00]:0.115248,(XP_010902251_Esox_275_bp[&!color=#66cc00]:0.078473,(((W5UHC8_Ictalurus_275_bp[&!color=#66cc00]:0.098838,W5KY57_Astyanax_275_bp[&!color=#66cc00]:0.125395)[&Posterior=1,!color=#66cc00]:0.049134,Q567Y2_Danio_275_bp[&!color=#66cc00]:0.062664)[&Posterior=1,!color=#66cc00]:0.042226,(XP_008427760_Poecilia_275_bp[&!color=#66cc00]:0.158324,H2LRK0_Oryzias_275_bp[&!color=#66cc00]:0.078996)[&Posterior=1,!color=#66cc00]:0.04601)[&Posterior=0.61,!color=#66cc00]:0.020214)[&Posterior=0.7,!color=#66cc00]:0.037685)[&Posterior=0.97,!color=#66cc00]:0.061202)[&Posterior=1,!color=#66cc00]:0.120794,(W5MEJ9_Lepisosteus_275_bp[&!color=#66cc00]:0.091614,((XP_007896571_Callorhinchus_275_bp[&!color=#66cc00]:0.24283,H3AZS5_Latimeria_275_bp[&!color=#66cc00]:0.136245)[&Posterior=0.99,!color=#66cc00]:0.067937,((((XP_007442166_Python_275_bp[&!color=#66cc00]:0.086483,V8P4Z0_Ophiophagus_275_bp[&!color=#66cc00]:0.115252)[&Posterior=1,!color=#66cc00]:0.135472,H9GM86_Anolis_275_bp[&!color=#66cc00]:0.155389)[&Posterior=1,!color=#66cc00]:0.170704,F6UZB2_Xenopus_275_bp[&!color=#66cc00]:0.275718,(XP_006029559_Alligator_275_bp[&!color=#66cc00]:0.153263,(Q69FK2_Gallus_275_bp[&!color=#66cc00]:0.049509,A0A093QH01_Manacus_275_bp[&!color=#66cc00]:0.312223)[&Posterior=1,!color=#66cc00]:0.076571)[&Posterior=1,!color=#66cc00]:0.05676)[&Posterior=0.88,!color=#66cc00]:0.055783,(((M7B015_Chelonia_275_bp[&!color=#66cc00]:0.277347,K7F7F1_Pelodiscus_275_bp[&!color=#66cc00]:0.069094)[&Posterior=0.92,!color=#66cc00]:0.030962,(XP_007655861_Ornithorhynchus_275_bp[&!color=#66cc00]:0.164961,F7FTA8_Ornithorhynchus_275_bp[&!color=#66cc00]:0.177582)[&Posterior=1,!color=#66cc00]:0.354264)[&Posterior=0.93,!color=#66cc00]:0.069151,(XP_004484554_Dasypus_275_bp[&!color=#66cc00]:0.291606,((XP_007952426_Orycteropus_275_bp[&!color=#66cc00]:0.074349,((XP_006901086_Elephantulus_275_bp[&!color=#66cc00]:0.145652,(XP_006872524_Chrysochloris_275_bp[&!color=#66cc00]:0.511519,XP_004713097_Echinops_275_bp[&!color=#66cc00]:0.091409)[&Posterior=0.51,!color=#66cc00]:0.023624)[&Posterior=0.94,!color=#66cc00]:0.03801,(XP_004389951_Trichechus_275_bp[&!color=#66cc00]:0.046664,XP_004389949_Trichechus_275_bp[&!color=#66cc00]:0.004935)[&Posterior=1,!color=#66cc00]:0.0664)[&Posterior=0.8,!color=#66cc00]:0.016807)[&Posterior=1,!color=#66cc00]:0.06243,((XP_007533982_Erinaceus_275_bp[&!color=#66cc00]:0.12137,XP_004658063_Jaculus_275_bp[&!color=#66cc00]:0.125001,G1SQD6_Oryctolagus_275_bp[&!color=#66cc00]:0.105037,E2R8U6_Canis_275_bp[&!color=#66cc00]:0.152124)[&Posterior=0.5,!color=#66cc00]:0.030419,(XP_008584314_Galeopterus_275_bp[&!color=#66cc00]:0.252659,XP_007960929_Chlorocebus_275_bp[&!color=#66cc00]:0.93929,'XP_006148771.2_Tupaia_275_bp'[&!color=#66cc00]:0.096304,(XP_005340143_Ictidomys_275_bp[&!color=#66cc00]:0.075695,I3MFC3_Ictidomys_275_bp[&!color=#66cc00]:0.083964)[&Posterior=0.5,!color=#66cc00]:0.064596,H0X693_Otolemur_275_bp[&!color=#66cc00]:0.044643,(XP_004607614_Sorex_275_bp[&!color=#66cc00]:0.225228,M3YB07_Mustela_275_bp[&!color=#66cc00]:0.098855,('XP_004681111.2_Condylura_275_bp'[&!color=#66cc00]:0.099004,(XP_006915522_Pteropus_275_bp[&!color=#66cc00]:0.050071,L5KFC5_Pteropus_275_bp[&!color=#66cc00]:0.008124)[&Posterior=1,!color=#66cc00]:0.062101)[&Posterior=0.51,!color=#66cc00]:0.014341,G1PVT8_Myotis_275_bp[&!color=#66cc00]:0.172804,(((XP_010818828_Bos_275_bp[&!color=#66cc00]:0.237976,XP_006072423_Bubalus_275_bp[&!color=#66cc00]:0.105113)[&Posterior=1,!color=#66cc00]:0.087995,W5NPY9_Ovis_275_bp[&!color=#66cc00]:0.023251)[&Posterior=1,!color=#66cc00]:0.046172,F7AC99_Equus_275_bp[&!color=#66cc00]:0.078239)[&Posterior=0.99,!color=#66cc00]:0.028277)[&Posterior=0.52,!color=#66cc00]:0.011557,F6VQB0_Callithrix_275_bp[&!color=#66cc00]:0.089053,D3ZG87_Rattus_275_bp[&!color=#66cc00]:0.139335,((XP_004641306_Octodon_275_bp[&!color=#66cc00]:0.12094,H0W479_Cavia_275_bp[&!color=#66cc00]:0.154437)[&Posterior=1,!color=#66cc00]:0.090266,A0A091DUP0_Fukomys_275_bp[&!color=#66cc00]:0.105467)[&Posterior=1,!color=#66cc00]:0.078353)[&Posterior=0.5,!color=#66cc00]:0.055873)[&Posterior=0.87,!color=#66cc00]:0.055882)[&Posterior=0.66,!color=#66cc00]:0.029869)[&Posterior=1,!color=#66cc00]:0.351395)[&Posterior=0.65,!color=#66cc00]:0.020786)[&Posterior=0.99,!color=#66cc00]:0.101755)[&Posterior=1,!color=#66cc00]:0.064119)[&Posterior=0.99,!color=#66cc00]:0.104297)[&Posterior=0.93,!color=#66cc00]:0.117205,(((W5UEE6_Ictalurus_275_bp[&!color=#66cc00]:0.121289,(XP_007261031_Astyanax_275_bp[&!color=#66cc00]:0.159304,W5KA16_Astyanax_275_bp[&!color=#66cc00]:0.160061)[&Posterior=1,!color=#66cc00]:0.483628)[&Posterior=0.99,!color=#66cc00]:0.099875,Q6DH22_Danio_275_bp[&!color=#66cc00]:0.201103)[&Posterior=1,!color=#66cc00]:0.10933,(H2TZA5_Takifugu_275_bp[&!color=#66cc00]:0.085291,((XP_010775950_Notothenia_275_bp[&!color=#66cc00]:0.176245,G3ND31_Gasterosteus_275_bp[&!color=#66cc00]:0.073641,((I3KGH7_Oreochromis_275_bp[&!color=#66cc00]:0.094611,H2M0A1_Oryzias_275_bp[&!color=#66cc00]:0.091315)[&Posterior=1,!color=#66cc00]:0.051486,A0A087Y593_Poecilia_275_bp[&!color=#66cc00]:0.077049)[&Posterior=0.99,!color=#66cc00]:0.041046)[&Posterior=0.91,!color=#66cc00]:0.02517,(E6ZHK6_Dicentrarchus_275_bp[&!color=#66cc00]:0.090647,(XP_008312752_Cynoglossus_275_bp[&!color=#66cc00]:0.116029,A0A0F8ACJ6_Larimichthys_275_bp[&!color=#66cc00]:0.098901)[&Posterior=0.99,!color=#66cc00]:0.042088,(XP_010867634_Esox_275_bp[&!color=#66cc00]:0.109712,A0A060YPF6_Oncorhynchus_275_bp[&!color=#66cc00]:0.080319)[&Posterior=1,!color=#66cc00]:0.282777)[&Posterior=1,!color=#66cc00]:0.059947)[&Posterior=0.83,!color=#66cc00]:0.020029)[&Posterior=1,!color=#66cc00]:0.137611)[&Posterior=1,!color=#66cc00]:0.339498)[&Posterior=1,!color=#66cc00]:0.879265)[&Posterior=0.81,!color=#66cc00]:0.175044)[&Posterior=0.74,!color=#66cc00]:0.202119)[&Posterior=0.59,!color=#66cc00]:0.098036,(C3YCQ8_Branchiostoma_275_bp[&!color=#66cc00]:0.663679,(((XP_003744590_Metaseiulus_275_bp[&!color=#66cc00]:0.505917,XP_003744578_Metaseiulus_275_bp[&!color=#66cc00]:0.33559)[&Posterior=1,!color=#66cc00]:0.62948,T1K297_Tetranychusurticae_275_bp[&!color=#66cc00]:0.495156)[&Posterior=0.78,!color=#66cc00]:0.136818,GBFB01041842_Calanus_275_bp[&!color=#66cc00]:1.41543,((A0A097J9F3_Limulus_275_bp[&!color=#66cc00]:0.257202,((T2I4T4_Cupiennius_275_bp[&!color=#66cc00]:0.063878,E1CFG1_Hasarius_275_bp[&!color=#66cc00]:0.137205)[&Posterior=0.99,!color=#66cc00]:0.093622,A0A087TK86_Stegodyphus_275_bp[&!color=#66cc00]:0.151166)[&Posterior=0.96,!color=#66cc00]:0.091449)[&Posterior=0.99,!color=#66cc00]:0.122091,401527168_Argulus_275_bp[&!color=#66cc00]:0.618516)[&Posterior=0.99,!color=#66cc00]:0.191)[&Posterior=0.67,!color=#66cc00]:0.224752)[&Posterior=0.64,!color=#66cc00]:0.132868)[&Posterior=0.52,!color=#66cc00]:0.059579)[&Posterior=0.93,!color=#66cc00]:0.103933)[&Posterior=0.98,!color=#66cc00]:0.157076,(((X1WF41_Danio_275_bp[&!color=#66cc00]:0.302022,A0PJR8_Danio_275_bp[&!color=#66cc00]:0.319436)[&Posterior=1,!color=#66cc00]:0.718808,(((XP_013419317_Lingula_275_bp[&!color=#66cc00]:0.685622,XP_013399750_Lingula_275_bp[&!color=#66cc00]:0.732373)[&Posterior=0.98,!color=#66cc00]:0.250696,(('XP_009051341.1_Lottia_275_bp'[&!color=#66cc00]:0.973591,V4AAH1_Lottia_275_bp[&!color=#66cc00]:0.625615)[&Posterior=0.99,!color=#66cc00]:0.221281,(KX550901_Argopecten_275_bp[&!color=#66cc00]:0.447718,K1QW48_Crassostrea_275_bp[&!color=#66cc00]:0.400639)[&Posterior=1,!color=#66cc00]:0.381598)[&Posterior=0.99,!color=#66cc00]:0.223221)[&Posterior=0.87,!color=#66cc00]:0.099567,(A0A097GXY4_Hypsibius_275_bp[&!color=#66cc00]:1.3783,((R7UYK7_Capitella_275_bp[&!color=#66cc00]:0.837697,R7U8D7_Capitella_275_bp[&!color=#66cc00]:1.00097)[&Posterior=0.99,!color=#66cc00]:0.315238,((R7T3D3_Capitella_275_bp[&!color=#66cc00]:1.04036,(R7U3N6_Capitella_275_bp[&!color=#66cc00]:0.257194,R7T3A9_Capitella_275_bp[&!color=#66cc00]:0.287301)[&Posterior=1,!color=#66cc00]:0.485967)[&Posterior=1,!color=#66cc00]:0.326932,A0A097ETF5_Platynereis_275_bp[&!color=#66cc00]:0.792508)[&Posterior=0.96,!color=#66cc00]:0.1716)[&Posterior=0.67,!color=#66cc00]:0.108653)[&Posterior=0.61,!color=#66cc00]:0.108936)[&Posterior=0.65,!color=#66cc00]:0.099051,((ops8_Ptychoderaflava_Ptychoderaflava_275_bp[&!color=#66cc00]:0.653952,(ops8_Schizocardiumspp_Schizocardiumspp_275_bp[&!color=#66cc00]:0.706045,ops8_Balanoglossusaurantiacus_Balanoglossusaurantiacus_275_bp[&!color=#66cc00]:0.818775,('opsin8.3_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp'[&!color=#66cc00]:0.369757,('ops8.5_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp'[&!color=#66cc00]:0.208069,('ops8.2_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp'[&!color=#66cc00]:0.203967,'ops8.1_Saccoglossuskowalevskii_Saccoglossuskowalevskii_275_bp'[&!color=#66cc00]:0.160036)[&Posterior=1,!color=#66cc00]:0.086215)[&Posterior=1,!color=#66cc00]:0.169246)[&Posterior=1,!color=#66cc00]:0.449773)[&Posterior=0.68,!color=#66cc00]:0.12429,(ops8_Parastichopusparvimensis_Parastichopusparvimensis_275_bp[&!color=#66cc00]:0.702481,XP_001199309_Strongylocentrotus_275_bp[&!color=#66cc00]:0.800775)[&Posterior=0.85,!color=#66cc00]:0.217545)[&Posterior=0.67,!color=#66cc00]:0.14552,(((C3ZBH0_Branchiostoma_275_bp[&!color=#66cc00]:0.147912,C3XR28_Branchiostoma_275_bp[&!color=#66cc00]:0.154662)[&Posterior=1,!color=#66cc00]:0.706786,((H2TZX8_Takifugu_275_bp[&!color=#66cc00]:0.254023,A0A0N9NY15_Danio_275_bp[&!color=#66cc00]:0.152477)[&Posterior=0.96,!color=#66cc00]:0.118907,((Q1LVD8_Danio_275_bp[&!color=#66cc00]:0.115368,A0A0N9P1D5_Danio_275_bp[&!color=#66cc00]:0.113554)[&Posterior=1,!color=#66cc00]:0.086055,((XP_010736946_Larimichthys_275_bp[&!color=#66cc00]:0.094599,Q4RK24_Tetraodon_275_bp[&!color=#66cc00]:0.102405)[&Posterior=1,!color=#66cc00]:0.074781,A0A0N9NVV5_Danio_275_bp[&!color=#66cc00]:0.149968)[&Posterior=0.99,!color=#66cc00]:0.063048)[&Posterior=1,!color=#66cc00]:0.19326)[&Posterior=1,!color=#66cc00]:0.630228)[&Posterior=0.77,!color=#66cc00]:0.150599,(C3ZUB1_Branchiostoma_275_bp[&!color=#66cc00]:0.933232,(E9G7A9_Daphnia_275_bp[&!color=#66cc00]:1.06221,(F1R302_Danio_275_bp[&!color=#66cc00]:0.859166,(XP_007901512_Callorhinchus_275_bp[&!color=#66cc00]:0.377718,((F6T3T2_Xenopus_275_bp[&!color=#66cc00]:0.219902,(G1KWC5_Anolis_275_bp[&!color=#66cc00]:0.169576,(K7G2U1_Pelodiscus_275_bp[&!color=#66cc00]:0.131192,B3XZF6_Gallus_275_bp[&!color=#66cc00]:0.086681)[&Posterior=0.99,!color=#66cc00]:0.062899)[&Posterior=1,!color=#66cc00]:0.160493)[&Posterior=0.84,!color=#66cc00]:0.057574,(W5NFQ1_Lepisosteus_275_bp[&!color=#66cc00]:0.326015,(((XP_008311466_Cynoglossus_275_bp[&!color=#66cc00]:0.160539,H3CWD0_Tetraodon_275_bp[&!color=#66cc00]:0.231897)[&Posterior=0.99,!color=#66cc00]:0.079795,G3PFC6_Gasterosteus_275_bp[&!color=#66cc00]:0.19637)[&Posterior=1,!color=#66cc00]:0.183003,A0A0N9NKH9_Danio_275_bp[&!color=#66cc00]:0.170864)[&Posterior=1,!color=#66cc00]:0.185236)[&Posterior=1,!color=#66cc00]:0.164084,(W5MJC7_Lepisosteus_275_bp[&!color=#66cc00]:0.151169,(F1QCL1_Danio_275_bp[&!color=#66cc00]:0.204279,(XP_010880466_Esox_275_bp[&!color=#66cc00]:0.235116,((H2SBY2_Takifugu_275_bp[&!color=#66cc00]:0.104979,H2SBY1_Takifugu_275_bp[&!color=#66cc00]:0.008358)[&Posterior=1,!color=#66cc00]:0.17181,G3PFD1_Gasterosteus_275_bp[&!color=#66cc00]:0.147363,(I3IXF4_Oreochromis_275_bp[&!color=#66cc00]:0.078801,H2LUS3_Oryzias_275_bp[&!color=#66cc00]:0.120353,A0A087XBP4_Poecilia_275_bp[&!color=#66cc00]:0.081501)[&Posterior=0.53,!color=#66cc00]:0.068903)[&Posterior=0.53,!color=#66cc00]:0.101052)[&Posterior=1,!color=#66cc00]:0.31438)[&Posterior=1,!color=#66cc00]:0.156565)[&Posterior=0.99,!color=#66cc00]:0.155022)[&Posterior=0.52,!color=#66cc00]:0.102004)[&Posterior=1,!color=#66cc00]:0.328141)[&Posterior=1,!color=#66cc00]:0.270228)[&Posterior=0.58,!color=#66cc00]:0.090283,((W5MJ35_Lepisosteus_275_bp[&!color=#66cc00]:0.236229,(H2SBV8_Takifugu_275_bp[&!color=#66cc00]:0.305963,(W5LI72_Astyanax_275_bp[&!color=#66cc00]:0.207526,A0A0R4IEG0_Danio_275_bp[&!color=#66cc00]:0.10176)[&Posterior=1,!color=#66cc00]:0.113637)[&Posterior=0.86,!color=#66cc00]:0.088595)[&Posterior=1,!color=#66cc00]:0.530629,(((XP_007901513_Callorhinchus_275_bp[&!color=#66cc00]:0.227595,H3B1A3_Latimeria_275_bp[&!color=#66cc00]:0.204058)[&Posterior=0.7,!color=#66cc00]:0.036698,((XP_006027461_Alligator_275_bp[&!color=#66cc00]:0.124054,F7DJ88_Callithrix_275_bp[&!color=#66cc00]:0.201424)[&Posterior=0.68,!color=#66cc00]:0.022357,((Q0QFY9_Xenopus_275_bp[&!color=#66cc00]:0.197201,(XP_010706486_Meleagris_275_bp[&!color=#66cc00]:0.090708,K7FFW2_Pelodiscus_275_bp[&!color=#66cc00]:0.070153,G1KNV3_Anolis_275_bp[&!color=#66cc00]:0.107571)[&Posterior=1,!color=#66cc00]:0.046648)[&Posterior=1,!color=#66cc00]:0.092441,F6XNY7_Ornithorhynchus_275_bp[&!color=#66cc00]:0.071849)[&Posterior=1,!color=#66cc00]:0.042314)[&Posterior=1,!color=#66cc00]:0.092898)[&Posterior=0.61,!color=#66cc00]:0.038842,(W5NID2_Lepisosteus_275_bp[&!color=#66cc00]:0.086377,((W5KS89_Astyanax_275_bp[&!color=#66cc00]:0.109974,Q5RIV6_Danio_275_bp[&!color=#66cc00]:0.074701)[&Posterior=0.76,!color=#66cc00]:0.025204,((XP_010795648_Notothenia_275_bp[&!color=#66cc00]:0.156076,G3NJT0_Gasterosteus_275_bp[&!color=#66cc00]:0.021503)[&Posterior=0.98,!color=#66cc00]:0.043308,(XP_010880971_Esox_275_bp[&!color=#66cc00]:0.092595,((H2V570_Takifugu_275_bp[&!color=#66cc00]:0.107761,A0A060WAH6_Oncorhynchus_275_bp[&!color=#66cc00]:0.187257)[&Posterior=0.97,!color=#66cc00]:0.062357,(XP_008335469_Cynoglossus_275_bp[&!color=#66cc00]:0.128526,A0A060VV44_Oncorhynchus_275_bp[&!color=#66cc00]:0.098095)[&Posterior=1,!color=#66cc00]:0.092134)[&Posterior=0.97,!color=#66cc00]:0.04265)[&Posterior=0.53,!color=#66cc00]:0.0135)[&Posterior=1,!color=#66cc00]:0.03497)[&Posterior=0.99,!color=#66cc00]:0.037622)[&Posterior=1,!color=#66cc00]:0.075409)[&Posterior=1,!color=#66cc00]:0.452494)[&Posterior=0.99,!color=#66cc00]:0.27879)[&Posterior=0.66,!color=#66cc00]:0.082832)[&Posterior=0.64,!color=#66cc00]:0.054693)[&Posterior=0.56,!color=#66cc00]:0.069968)[&Posterior=0.98,!color=#66cc00]:0.10411,(V4AUU9_Lottia_275_bp[&!color=#66cc00]:1.22564,((V4AS98_Lottia_275_bp[&!color=#66cc00]:0.991782,(('O15974.1_Mizuhopecten_275_bp'[&!color=#66cc00]:0.163976,KX550902_Argopecten_275_bp[&!color=#66cc00]:0.252794)[&Posterior=1,!color=#66cc00]:0.518837,(XP_011422477_Crassostrea_275_bp[&!color=#66cc00]:0.044945,K1R620_Crassostrea_275_bp[&!color=#66cc00]:0.138896)[&Posterior=1,!color=#66cc00]:0.741884)[&Posterior=0.99,!color=#66cc00]:0.297235)[&Posterior=0.91,!color=#66cc00]:0.18136,(((XP_013386359_Lingula_275_bp[&!color=#66cc00]:0.945427,M9UW28_Terebratalia_275_bp[&!color=#66cc00]:1.41997)[&Posterior=0.62,!color=#66cc00]:0.257901,KX550903_Argopecten_275_bp[&!color=#66cc00]:0.847148,(C3YI20_Branchiostoma_275_bp[&!color=#66cc00]:0.950091,((C3Y4A1_Branchiostoma_275_bp[&!color=#66cc00]:0.263903,C3Y4A0_Branchiostoma_275_bp[&!color=#66cc00]:0.143597)[&Posterior=1,!color=#66cc00]:0.336782,C3Y412_Branchiostoma_275_bp[&!color=#66cc00]:0.826183)[&Posterior=0.54,!color=#66cc00]:0.114812,((V4C2D5_Lottia_275_bp[&!color=#66cc00]:0.632112,V4A6Q4_Lottia_275_bp[&!color=#66cc00]:0.671208)[&Posterior=0.79,!color=#66cc00]:0.121509,A0A0K0YBE9_Platynereis_275_bp[&!color=#66cc00]:0.634637)[&Posterior=0.83,!color=#66cc00]:0.118005)[&Posterior=0.75,!color=#66cc00]:0.135925,(V4CNF1_Lottia_275_bp[&!color=#66cc00]:0.583771,A0A0K0YBE3_Platynereis_275_bp[&!color=#66cc00]:0.566226)[&Posterior=0.96,!color=#66cc00]:0.155464)[&Posterior=0.78,!color=#66cc00]:0.090562,(('ops3.1_Parastichopusparvimensis_Parastichopusparvimensis_275_bp'[&!color=#66cc00]:0.633341,(ops3_Eucidaristribuloides_Eucidaristribuloides_275_bp[&!color=#66cc00]:0.243631,('ops3.1_Lytechinusvariegatus_Lytechinusvariegatus_275_bp'[&!color=#66cc00]:0.248199,('ops3.1_Paracentrotuslividus_Paracentrotuslividus_275_bp'[&!color=#66cc00]:0.167565,'ops3.1_Heliocidariserythrogramma_Heliocidariserythrogramma_275_bp'[&!color=#66cc00]:0.0646)[&Posterior=0.7,!color=#66cc00]:0.114561)[&Posterior=0.97,!color=#66cc00]:0.290381)[&Posterior=0.92,!color=#66cc00]:0.353086)[&Posterior=0.96,!color=#66cc00]:0.302128,(('ops3.1_Patiriaminiata_Patiriaminiata_275_bp'[&!color=#66cc00]:0.336078,'Ops3.1_Asteriasrubens_Asteriasrubens_275_bp'[&!color=#66cc00]:0.663611)[&Posterior=1,!color=#66cc00]:0.354629,(('ops3.2_Lytechinusvariegatus_Lytechinusvariegatus_275_bp'[&!color=#66cc00]:0.166695,W4ZHH1_Strongylocentrotus_275_bp[&!color=#66cc00]:0.165012)[&Posterior=0.95,!color=#66cc00]:0.070534,3_2_Paracentrotuslividus_Paracentrotus_275_bp[&!color=#66cc00]:0.146797)[&Posterior=1,!color=#66cc00]:0.259421)[&Posterior=0.82,!color=#66cc00]:0.167926)[&Posterior=0.99,!color=#66cc00]:0.234857)[&Posterior=0.92,!color=#66cc00]:0.13996)[&Posterior=0.79,!color=#66cc00]:0.131882)[&Posterior=0.72,!color=#66cc00]:0.108621)[&Posterior=0.86,!color=#66cc00]:0.076149)[&Posterior=0.99,!color=#66cc00,!name="Group 4",!collapse={"collapsed",0.0}]:0.104255)[&Posterior=0.66]:0.03916)[&Posterior=0.58]:0.055084)[&Posterior=0.67]:0.099448)[&Posterior=1,!color=#00ccff]:0.393687);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=2.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Agency FB";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="Posterior";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Posterior";
+	set nodeLabels.fontName="Consolas";
+	set nodeLabels.fontSize=9;
+	set nodeLabels.fontStyle=3;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=true;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Courier New";
+	set tipLabels.fontSize=14;
+	set tipLabels.fontStyle=1;
+	set tipLabels.isShown=false;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

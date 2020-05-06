@@ -1,0 +1,471 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=369;
+	taxlabels
+	001PapglRE_330_bp
+	002PieraRE_330_bp
+	003DanplRE_330_bp
+	004HelerRE6241_330_bp
+	004HelerRE_330_bp
+	005PapglRE_330_bp
+	006PapglRE_330_bp
+	007ManseRE_330_bp
+	008BommoRE_330_bp
+	009BommoRE_330_bp
+	010PapglRE18252_330_bp
+	010PapglRE_330_bp
+	010RGRDare1234_330_bp
+	011ApomoRE_330_bp
+	011hypXetr1234_330_bp
+	012LycruRE_330_bp
+	012RGRGaga1234_330_bp
+	013ApomoRE_330_bp
+	013OpsBrbe5258_330_bp
+	014PerBota10259_330_bp
+	014SchgrRE_330_bp
+	015PerCafa10259_330_bp
+	015SphspRE_330_bp
+	016OncniHE_330_bp
+	017HomcoHE_330_bp
+	018PerMumu11260_330_bp
+	018TricaRE_330_bp
+	019PerDare10259_330_bp
+	019ThemaRE_330_bp
+	020CamabRE_330_bp
+	021CatboRE_330_bp
+	021NeuDare1252_330_bp
+	022AthroRE_330_bp
+	022NeuTagu4255_330_bp
+	023ApimeRE_330_bp
+	023NeuGaga4255_330_bp
+	024NasviRE_330_bp
+	025AnogaRE_330_bp
+	025NeuRano7244_330_bp
+	026AnogaRE_330_bp
+	026NeuBota1250_330_bp
+	027AnogaRE_330_bp
+	027NeuPatr1252_330_bp
+	028AedaeRE_330_bp
+	029AedaeRE_330_bp
+	029NeuCafa1252_330_bp
+	030CulpiRE_330_bp
+	030NeuEqca1252_330_bp
+	031CulpiRE_330_bp
+	031NeuOran1252_330_bp
+	032AedaeRE_330_bp
+	032NeuModo1252_330_bp
+	033DianiRE4239_330_bp
+	033DianiRE_330_bp
+	034AedaeRE_330_bp
+	035CulpiRE_330_bp
+	036CulpiRE_330_bp
+	037CulpiRE_330_bp
+	038CulpiRE_330_bp
+	039AcypiRE_330_bp
+	040MegviRE_330_bp
+	041AnogaRE_330_bp
+	041ParXetr1250_330_bp
+	042CulpiRE_330_bp
+	043AedaeRE_330_bp
+	043uppTeni1245_330_bp
+	044ApimeOC_330_bp
+	045AnogaRE2237_330_bp
+	045AnogaRE_330_bp
+	048PromiL1_330_bp
+	049ProclL1_330_bp
+	050OrcauL1_330_bp
+	051CamluL1_330_bp
+	052CamshL1_330_bp
+	053NeooeL1_330_bp
+	054NeooeL153287_330_bp
+	054NeooeL1_330_bp
+	054VAoDare1250_330_bp
+	057LitvaL1_330_bp
+	058PetciL1_330_bp
+	059LWSGeau18264_330_bp
+	062NeooeL1_330_bp
+	063GampuL1_330_bp
+	069LimpoLW_330_bp
+	070LimpoLW_330_bp
+	071PlepaLW_330_bp
+	072HasadLW_330_bp
+	073IxoscLW_330_bp
+	074PlepaLW_330_bp
+	075HasadLW_330_bp
+	076CalviOC_330_bp
+	077DromeOC1236_330_bp
+	077DromeOC_330_bp
+	078DromeOC_330_bp
+	079BacdoOC_330_bp
+	080DappuM1_330_bp
+	081DappuM1_330_bp
+	082DappuM1_330_bp
+	083DappuM1_330_bp
+	084DappuM1_330_bp
+	085DappuM1_330_bp
+	086DappuM1_330_bp
+	087DappuM1_330_bp
+	088DappuM1_330_bp
+	089DappuM1_330_bp
+	090DappuM21239_330_bp
+	090DappuM2_330_bp
+	091DappuM2_330_bp
+	092DappuM2_330_bp
+	093DappuM2_330_bp
+	094DappuM2_330_bp
+	095DappuM2_330_bp
+	096DappuM2_330_bp
+	098HemsaM2_330_bp
+	099HemsaM2_330_bp
+	100PetciM2_330_bp
+	101PetciM2_330_bp
+	102PetciL1_330_bp
+	103AedaeUV_330_bp
+	104CulpiUV_330_bp
+	105AnogaUV_330_bp
+	106TricaUV_330_bp
+	107DianiUV_330_bp
+	108ApimeUV_330_bp
+	109BomimUV48285_330_bp
+	109BomimUV_330_bp
+	110CatboUV_330_bp
+	111CamabUV_330_bp
+	112NasviUV_330_bp
+	113CalviUV_330_bp
+	114DromeUV_330_bp
+	115DromeUV_330_bp
+	116ApomoUV_330_bp
+	117LycruUV_330_bp
+	118DanplUV_330_bp
+	119HelerUV_330_bp
+	120PieraUV1239_330_bp
+	120PieraUV_330_bp
+	121ManseUV_330_bp
+	122PapglUV_330_bp
+	123BommoUV_330_bp
+	124ManseBL_330_bp
+	125PapglBL_330_bp
+	126DanplBL_330_bp
+	126SWSOrla31275_330_bp
+	127HelerBL_330_bp
+	128ApomoBL1238_330_bp
+	128ApomoBL_330_bp
+	128SWSPore31276_330_bp
+	129LycruBL_330_bp
+	130LycruBL_330_bp
+	131PieraBL_330_bp
+	132PieraBL_330_bp
+	133BommoBL_330_bp
+	134CulpiBL_330_bp
+	135CulpiBL_330_bp
+	135SWSOrla1247_330_bp
+	136AnogaBL_330_bp
+	137AedaeBL_330_bp
+	138SchgrBL_330_bp
+	139DianiBL_330_bp
+	140ApimeBL_330_bp
+	141NasviBL_330_bp
+	144BrakuU1_330_bp
+	145AcypiUV_330_bp
+	146MegviUV_330_bp
+	147AcypiUV_330_bp
+	148RHOGaga1247_330_bp
+	148TriloU1_330_bp
+	149TrigrU11239_330_bp
+	149TrigrU1_330_bp
+	150DappuU11239_330_bp
+	150DappuU1_330_bp
+	151DappuU1_330_bp
+	152PlepaUW_330_bp
+	153HasadUW_330_bp
+	154AedaeR7_330_bp
+	155CulpiR7_330_bp
+	156AnogaR7_330_bp
+	156RHOLeja1247_330_bp
+	157DromeR7_330_bp
+	158BommoR7_330_bp
+	158RHOSasa1247_330_bp
+	159AcypiR7_330_bp
+	160AcypiR7_330_bp
+	161DappuR7_330_bp
+	162DappuR71240_330_bp
+	162DappuR7_330_bp
+	170RHOOrcu1247_330_bp
+	173RHOMumu1247_330_bp
+	204NeooeL13237_330_bp
+	204SWSNefo1247_330_bp
+	205NeooeL13223_330_bp
+	208SWSTagu46291_330_bp
+	211SWSDare45290_330_bp
+	217BluTaru44289_330_bp
+	228EncDare1247_330_bp
+	233TMTDare1227_330_bp
+	A0A097GXW1_Hypsibius_dujardini_330_bp
+	A9CR38_Cladonema_radiatum__330_bp
+	A9CR39_Cladonema_radiatum__330_bp
+	A9CR43_Cladonema_radiatum__330_bp
+	A9CR48_Cladonema_radiatum__330_bp
+	'AAF24978.1_330_bp'
+	'AAL82577.1_330_bp'
+	'AAO20043.1_330_bp'
+	'Aurelia__14963_Seg3272.1_330_bp'
+	'Aurelia__15379_Seg3401.1_330_bp'
+	'Aurelia__16973_Seg3894.2_330_bp'
+	'Aurelia__21455_Seg5797.1_330_bp'
+	'BS_Acropora_millepora_amil.1.2.10420.m1g23.t1_330_bp'
+	'BS_Acropora_millepora_amil.1.2.1522.m1g5.t1_330_bp'
+	'BS_Acropora_millepora_amil.1.2.6015.m1g7.t1_330_bp'
+	'BS_Alveopora_japonica_ENA|GGJR01323306|GGJR01323306.1g43.t2_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN133503_c0_g1TRINITY_DN133503_c0_g1_i1g.60250m.60250typecompletelen318gcuniversalTRINITY_DN133503_c0_g1_i11421095+_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN135733_c0_g1TRINITY_DN135733_c0_g1_i1g.62744m.62744typecompletelen325gcuniversalTRINITY_DN135733_c0_g1_i11564590_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN159410_c0_g1TRINITY_DN159410_c0_g1_i1g.60745m.60745type5prime_partiallen346gcuniversalTRINITY_DN159410_c0_g1_i11753716_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN18_c0_g1TRINITY_DN18_c0_g1_i1g.1340m.1340typecompletelen331gcuniversalTRINITY_DN18_c0_g1_i151834191_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN22906_c0_g1TRINITY_DN22906_c0_g1_i1g.8087m.8087typecompletelen318gcuniversalTRINITY_DN22906_c0_g1_i121611208_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN26107_c0_g1TRINITY_DN26107_c0_g1_i1g.3726m.3726typecompletelen316gcuniversalTRINITY_DN26107_c0_g1_i11113166_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN30790_c0_g1TRINITY_DN30790_c0_g1_i1g.15380m.15380typecompletelen326gcuniversalTRINITY_DN30790_c0_g1_i11344367_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN42719_c0_g1TRINITY_DN42719_c0_g1_i1g.40777m.40777typecompletelen329gcuniversalTRINITY_DN42719_c0_g1_i112352221+_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN8019_c0_g1TRINITY_DN8019_c0_g1_i2g.18281m.18281typecompletelen367gcuniversalTRINITY_DN8019_c0_g1_i233032203_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN8217_c0_g1TRINITY_DN8217_c0_g1_i2g.8939m.8939typecompletelen362gcuniversalTRINITY_DN8217_c0_g1_i211212206+_330_bp'
+	'BS_Chironex_yamaguchii_TRINITY_DN87265_c0_g1TRINITY_DN87265_c0_g1_i1g.9532m.9532type3prime_partiallen296gcuniversalTRINITY_DN87265_c0_g1_i18873_330_bp'
+	'BS_Haliclystus_auricula_TRINITY_DN223105_c0_g1TRINITY_DN223105_c0_g1_i1g.51818m.51818typeinternallen207gcuniversalTRINITY_DN223105_c0_g1_i12619+_330_bp'
+	BS_Hydra_magnapapillata_Hma2_214692_330_bp
+	BS_Hydra_magnapapillata_Hma2_215193_330_bp
+	BS_Hydra_magnapapillata_Hma2_217176_330_bp
+	BS_Hydra_magnapapillata_Hma2_217177_330_bp
+	BS_Hydra_magnapapillata_Hma2_220968_330_bp
+	BS_Hydra_magnapapillata_Hma2_228917_330_bp
+	BS_Hydra_magnapapillata_Hma2_231528_330_bp
+	BS_Hydra_magnapapillata_Hma2_231714_330_bp
+	BS_Hydra_magnapapillata_Hma2_231715_330_bp
+	'BS_Metridium_senile_TRINITY_DN17834_c0_g1TRINITY_DN17834_c0_g1_i1g.35402m.35402type5prime_partiallen328gcuniversalTRINITY_DN17834_c0_g1_i13986+_330_bp'
+	'BS_Morbakka_virulenta_scaffold36.g49.t1_330_bp'
+	'BS_Nemopilema_nomurai_TRINITY_DN15651_c0_g1TRINITY_DN15651_c0_g1_i1g.28525m.28525typeinternallen317gcuniversalTRINITY_DN15651_c0_g1_i13950+_330_bp'
+	'BS_Physalia_physalis_c55866_g1_i3len=1168path=467_015366_1639334_40129595_130134600_135853@1317@!_85411162906_111711172907_11181167expression3.22blasthitswissprotO35214OPSX_MOUSEVisualpigmentlikereceptorperopsinOS=MusmusculusMouse4e19g74.t1_330_bp'
+	BS_Placozoa_misc_HHO_82597__330_bp
+	BS_Placozoa_misc_HHO_83722__330_bp
+	BS_Placozoa_misc_HHO_84981__330_bp
+	'BS_Pleurobrachia_bachei_sb|2645343|_330_bp'
+	'BS_Porites_astreoides_ENA|GEHP01121133|GEHP01121133.1g135.t1_330_bp'
+	'BS_Porites_astreoides_ENA|GEHP01179187|GEHP01179187.1g108.t1_330_bp'
+	'BS_Porites_astreoides_ENA|GEHP01302191|GEHP01302191.1g89.t1_330_bp'
+	'BS_Porites_astreoides_ENA|GEHP01326576|GEHP01326576.1g83.t1_330_bp'
+	'BS_Porites_astreoides_ENA|GEHP01352488|GEHP01352488.1g118.t1_330_bp'
+	'BS_Porites_astreoides_ENA|GEHP01471344|GEHP01471344.1g173.t1_330_bp'
+	'BS_Rhodactis_indosinensis_TRINITY_DN42657_c0_g1TRINITY_DN42657_c0_g1_i5g.12560m.12560typecompletelen340gcuniversalTRINITY_DN42657_c0_g1_i51288269_330_bp'
+	'BS_Rhodactis_indosinensis_TRINITY_DN61180_c0_g1TRINITY_DN61180_c0_g1_i7g.125098m.125098typecompletelen317gcuniversalTRINITY_DN61180_c0_g1_i7910810058+_330_bp'
+	'BS_Sanderia_malayensis_TRINITY_DN5967_c0_g1TRINITY_DN5967_c0_g1_i2g.13632m.13632type5prime_partiallen361gcuniversalTRINITY_DN5967_c0_g1_i211083+_330_bp'
+	'BS_Tripedalia_cystophora_TRINITY_DN110824_c0_g1TRINITY_DN110824_c0_g1_i1g.44183m.44183type5prime_partiallen346gcuniversalTRINITY_DN110824_c0_g1_i111038+_330_bp'
+	BS_opsin1_Pleurobrachia_bachei_330_bp
+	BS_opsin2_Mnemiopsis_leidyi_330_bp
+	BeroeAntarc1_330_bp
+	BolinopsisInfundibulum1_330_bp
+	CL_CN168_A9cr40123_330_bp
+	CR_CN100_Koyana124_330_bp
+	ClR_CN116Suga08123_330_bp
+	ClR_CN120Suga08123_330_bp
+	Clytia__49820_TCONS_0006_330_bp
+	Coeloplana1_330_bp
+	Cydippida1_330_bp
+	Cydippida2_330_bp
+	Cydippida6_330_bp
+	ElliptCyddipida1_330_bp
+	ElliptCyddipida2_330_bp
+	F1LIN9_Hydra_vulgaris_Opsin_330_bp
+	F1LIP2_Hydra_vulgaris_Opsin_330_bp
+	HHO_82719__330_bp
+	HHO_83823__330_bp
+	HHO_87364__330_bp
+	HHO_87476__330_bp
+	HHO_93594__330_bp
+	HM_CN131_221128120_330_bp
+	HM_CN170_UPI000123_330_bp
+	LobatoTetra1_330_bp
+	MLT_B2Y4M8_1198_330_bp
+	MLT_O88495_1202_330_bp
+	MTR1C_XENL7188_330_bp
+	MnemMcCrady4_330_bp
+	Mnemiopsis_opsin1_13055_330_bp
+	Mnemiopsis_opsin2_12047_330_bp
+	'NP_001038118.1_330_bp'
+	NV_CN146Suga08_124_330_bp
+	NV_CN151Suga08_124_330_bp
+	NV_CN158Suga08_124_330_bp
+	Nematostella__68790_v1g95791_330_bp
+	Nematostella__68791_v1g25025_330_bp
+	Nematostella__68792_v1g24997_330_bp
+	Nematostella__69101_v1g208768_330_bp
+	Nematostella__71179_v1g85309_330_bp
+	Nematostella__73205_v1g219988_330_bp
+	Nematostella__73822_v1g94740_330_bp
+	Nematostella__73823_v1g202741_330_bp
+	Nematostella__75651_v1g214772_330_bp
+	Nematostella__75652_v1g214773_330_bp
+	Nematostella__75653_v1g214774_330_bp
+	Nematostella__76777_v1g13116_330_bp
+	Nematostella__77771_v1g96290_330_bp
+	Nematostella__78853_v1g130042_330_bp
+	Nematostella__79215_v1g131013_330_bp
+	Nematostella__79491_v1g136537_330_bp
+	Nematostella__79968_v1g123690_330_bp
+	Nematostella__81512_v1g33918_330_bp
+	Nematostella__87544_v1g199627_330_bp
+	Nematostella__89613_v1g208454_330_bp
+	Nematostella__90356_v1g197433_330_bp
+	Nematostella__92156_v1g123451_330_bp
+	OG28OrylaM2244_330_bp
+	OG45ApimeT17269_330_bp
+	OG50DappuT1253_330_bp
+	OG7PlatynP3249_330_bp
+	OPSD_BOVIN_Rhodopsin_OS_330_bp
+	OcyroCyst1_330_bp
+	OcyroCyst4_330_bp
+	PleuroAntarc1_330_bp
+	Pleurobrachia_opsin1_330_bp
+	Plos1_119255_330_bp
+	Plos1_21247_330_bp
+	Plos1_31234_330_bp
+	Pukia1_330_bp
+	Pukia4_330_bp
+	T2I572_Euperipatoides_kanangre_330_bp
+	'TRA_530235_jgi|122_330_bp'
+	Tadh_P26009_330_bp
+	Tadh_P26040_330_bp
+	Tadh_P4188_330_bp
+	Tadh_P58576_330_bp
+	'Tra_429091jgi|T123_330_bp'
+	'Tra_429092jgi|T119_330_bp'
+	'Tra_430364jgi|T122_330_bp'
+	'Tra_434217jgi|T122_330_bp'
+	'Tra_435633jgi|T120_330_bp'
+	'Tra_435650jgi|T122_330_bp'
+	'Tra_435652jgi|T121_330_bp'
+	'Tra_435653jgi|T121_330_bp'
+	'Tra_435654jgi|T121_330_bp'
+	'Tra_435655jgi|T122_330_bp'
+	'Tra_435656jgi|T121_330_bp'
+	'Tra_435667jgi|T122_330_bp'
+	'Tra_435668jgi|T121_330_bp'
+	'Tripedalia_cystophora_AGB67488.1_330_bp'
+	'Tripedalia_cystophora_AGB67489.1_330_bp'
+	'Tripedalia_cystophora_AGB67490.1_330_bp'
+	'Tripedalia_cystophora_AGB67492.1_330_bp'
+	'Tripedalia_cystophora_AGB67493.1_330_bp'
+	'Tripedalia_cystophora_AGB67494.1_330_bp'
+	'Tripedalia_cystophora_AGB67496.1_330_bp'
+	'Tripedalia_cystophora_AGB67497.1_330_bp'
+	'Tripedalia_cystophora_AGB67498.1_330_bp'
+	'Tripedalia_cystophora_AGB67499.1_330_bp'
+	'Tripedalia_cystophora_AGB67500.1_330_bp'
+	'Tripedalia_cystophora_AGB67501.1_330_bp'
+	'Tripedalia_cystophora_AGB67502.1_330_bp'
+	'Tripedalia_cystophora_AGB67503.1_330_bp'
+	'Tripedalia_cystophora_AGB67504.1_330_bp'
+	'XP_005294027.1_330_bp'
+	'XP_010868545.2_330_bp'
+	'XP_014936308.2_330_bp'
+	'XP_019343638.1_330_bp'
+	'XP_021131296.1_330_bp'
+	'XP_028915702.1_330_bp'
+	'XP_030917042.1_330_bp'
+	acropsin11240_no_c_330_bp
+	acropsin31252_no_c_330_bp
+	ops1_1_Patiriaminiata_Patiriam_330_bp
+	ops1_Lytechinusvariegatus_Lyte_330_bp
+;
+end;
+
+begin trees;
+	tree tree_1 = [&R] (001PapglRE_330_bp[&!color=#0033cc]:0.044119,((((044ApimeOC_330_bp[&!color=#0033cc]:0.136864,((043AedaeRE_330_bp[&!color=#0033cc]:0.137143,042CulpiRE_330_bp[&!color=#0033cc]:0.046977)[&Posterior=0.99,!color=#0033cc]:0.064005,041AnogaRE_330_bp[&!color=#0033cc]:0.057135)[&Posterior=1,!color=#0033cc]:0.193534)[&Posterior=0.99,!color=#0033cc]:0.078293,((((077DromeOC_330_bp[&!color=#0033cc]:0.00665,077DromeOC1236_330_bp[&!color=#0033cc]:0.040123)[&Posterior=1,!color=#0033cc]:0.137443,((079BacdoOC_330_bp[&!color=#0033cc]:0.035912,078DromeOC_330_bp[&!color=#0033cc]:0.057673)[&Posterior=0.83,!color=#0033cc]:0.023093,076CalviOC_330_bp[&!color=#0033cc]:0.041626)[&Posterior=1,!color=#0033cc]:0.197113)[&Posterior=1,!color=#0033cc]:0.224036,024NasviRE_330_bp[&!color=#0033cc]:0.044303)[&Posterior=1,!color=#0033cc]:0.083583,022AthroRE_330_bp[&!color=#0033cc]:0.036191)[&Posterior=0.94,!color=#0033cc]:0.034982)[&Posterior=0.98,!color=#0033cc]:0.054463,(023ApimeRE_330_bp[&!color=#0033cc]:0.118758,(021CatboRE_330_bp[&!color=#0033cc]:0.063653,020CamabRE_330_bp[&!color=#0033cc]:0.039484)[&Posterior=0.99,!color=#0033cc]:0.04143)[&Posterior=0.89,!color=#0033cc]:0.030148)[&Posterior=0.63,!color=#0033cc]:0.030959,013ApomoRE_330_bp[&!color=#0033cc]:0.108601)[&Posterior=0.51,!color=#0033cc]:0.020144,(((035CulpiRE_330_bp[&!color=#0033cc]:0.061765,034AedaeRE_330_bp[&!color=#0033cc]:0.036603,(037CulpiRE_330_bp[&!color=#0033cc]:0.054566,(036CulpiRE_330_bp[&!color=#0033cc]:0.100809,032AedaeRE_330_bp[&!color=#0033cc]:0.053407)[&Posterior=0.83,!color=#0033cc]:0.016642)[&Posterior=0.93,!color=#0033cc]:0.023824)[&Posterior=1,!color=#0033cc]:0.06486,(027AnogaRE_330_bp[&!color=#0033cc]:0.039419,(((((045AnogaRE_330_bp[&!color=#0033cc]:0.005612,045AnogaRE2237_330_bp[&!color=#0033cc]:0.028721)[&Posterior=1,!color=#0033cc]:0.205364,038CulpiRE_330_bp[&!color=#0033cc]:0.103868)[&Posterior=1,!color=#0033cc]:0.089816,((031CulpiRE_330_bp[&!color=#0033cc]:0.012113,030CulpiRE_330_bp[&!color=#0033cc]:0.033532)[&Posterior=1,!color=#0033cc]:0.041503,029AedaeRE_330_bp[&!color=#0033cc]:0.038466)[&Posterior=0.95,!color=#0033cc]:0.016047)[&Posterior=0.99,!color=#0033cc]:0.0246,028AedaeRE_330_bp[&!color=#0033cc]:0.024447)[&Posterior=0.95,!color=#0033cc]:0.021829,(026AnogaRE_330_bp[&!color=#0033cc]:0.005555,025AnogaRE_330_bp[&!color=#0033cc]:0.005528)[&Posterior=0.99,!color=#0033cc]:0.037958)[&Posterior=1,!color=#0033cc]:0.062694)[&Posterior=0.92,!color=#0033cc]:0.035213)[&Posterior=0.99,!color=#0033cc]:0.046655,(((019ThemaRE_330_bp[&!color=#0033cc]:0.100889,018TricaRE_330_bp[&!color=#0033cc]:0.124258)[&Posterior=0.77,!color=#0033cc]:0.041981,(((033DianiRE_330_bp[&!color=#0033cc]:0.005478,033DianiRE4239_330_bp[&!color=#0033cc]:0.028045)[&Posterior=1,!color=#0033cc]:0.096001,015SphspRE_330_bp[&!color=#0033cc]:0.061159)[&Posterior=0.54,!color=#0033cc]:0.027183,014SchgrRE_330_bp[&!color=#0033cc]:0.093652)[&Posterior=0.92,!color=#0033cc]:0.050548)[&Posterior=0.94,!color=#0033cc]:0.034489,(((040MegviRE_330_bp[&!color=#0033cc]:0.009866,039AcypiRE_330_bp[&!color=#0033cc]:0.00703)[&Posterior=1,!color=#0033cc]:0.230722,(017HomcoHE_330_bp[&!color=#0033cc]:0.013899,016OncniHE_330_bp[&!color=#0033cc]:0.014323)[&Posterior=1,!color=#0033cc]:0.126643)[&Posterior=0.97,!color=#0033cc]:0.042562,(((102PetciL1_330_bp[&!color=#0033cc]:0.32804,062NeooeL1_330_bp[&!color=#0033cc]:0.284514)[&Posterior=1,!color=#0033cc]:0.255723,((063GampuL1_330_bp[&!color=#0033cc]:0.258963,(058PetciL1_330_bp[&!color=#0033cc]:0.13595,057LitvaL1_330_bp[&!color=#0033cc]:0.119316)[&Posterior=0.99,!color=#0033cc]:0.069653)[&Posterior=0.6,!color=#0033cc]:0.046565,((205NeooeL13223_330_bp[&!color=#0033cc]:0.267221,((204NeooeL13237_330_bp[&!color=#0033cc]:0.020599,(054NeooeL1_330_bp[&!color=#0033cc]:0.017752,054NeooeL153287_330_bp[&!color=#0033cc]:0.013993)[&Posterior=0.64,!color=#0033cc]:0.021921)[&Posterior=0.7,!color=#0033cc]:0.018312,053NeooeL1_330_bp[&!color=#0033cc]:0.04363)[&Posterior=1,!color=#0033cc]:0.163737)[&Posterior=0.99,!color=#0033cc]:0.082725,(052CamshL1_330_bp[&!color=#0033cc]:0.059375,(051CamluL1_330_bp[&!color=#0033cc]:0.01161,050OrcauL1_330_bp[&!color=#0033cc]:0.033318)[&Posterior=0.95,!color=#0033cc]:0.017534,049ProclL1_330_bp[&!color=#0033cc]:0.05171,048PromiL1_330_bp[&!color=#0033cc]:0.032994)[&Posterior=1,!color=#0033cc]:0.22398)[&Posterior=0.95,!color=#0033cc]:0.047796)[&Posterior=0.55,!color=#0033cc]:0.04023)[&Posterior=0.99,!color=#0033cc]:0.111312,(((075HasadLW_330_bp[&!color=#0033cc]:0.104988,074PlepaLW_330_bp[&!color=#0033cc]:0.105423)[&Posterior=1,!color=#0033cc]:0.186595,((073IxoscLW_330_bp[&!color=#0033cc]:0.119653,(072HasadLW_330_bp[&!color=#0033cc]:0.030798,071PlepaLW_330_bp[&!color=#0033cc]:0.050535)[&Posterior=1,!color=#0033cc]:0.150967)[&Posterior=0.98,!color=#0033cc]:0.07466,(070LimpoLW_330_bp[&!color=#0033cc]:0.008226,069LimpoLW_330_bp[&!color=#0033cc]:0.025359)[&Posterior=1,!color=#0033cc]:0.087043)[&Posterior=1,!color=#0033cc]:0.140753)[&Posterior=1,!color=#0033cc]:0.124576,((((101PetciM2_330_bp[&!color=#0033cc]:0.145786,(Pukia4_330_bp[&!color=#0033cc]:0.334219,((100PetciM2_330_bp[&!color=#0033cc]:0.157681,099HemsaM2_330_bp[&!color=#0033cc]:0.122142)[&Posterior=0.75,!color=#0033cc]:0.070299,098HemsaM2_330_bp[&!color=#0033cc]:0.0929)[&Posterior=1,!color=#0033cc]:0.216371)[&Posterior=1,!color=#0033cc]:0.141103)[&Posterior=0.99,!color=#0033cc]:0.159703,((096DappuM2_330_bp[&!color=#0033cc]:0.011243,095DappuM2_330_bp[&!color=#0033cc]:0.019507,094DappuM2_330_bp[&!color=#0033cc]:0.037433)[&Posterior=1,!color=#0033cc]:0.278452,((093DappuM2_330_bp[&!color=#0033cc]:0.078704,092DappuM2_330_bp[&!color=#0033cc]:0.10631)[&Posterior=0.99,!color=#0033cc]:0.056457,091DappuM2_330_bp[&!color=#0033cc]:0.047161,(090DappuM2_330_bp[&!color=#0033cc]:0.007231,090DappuM21239_330_bp[&!color=#0033cc]:0.032916)[&Posterior=1,!color=#0033cc]:0.066132)[&Posterior=1,!color=#0033cc]:0.104011)[&Posterior=0.99,!color=#0033cc]:0.142195)[&Posterior=0.98,!color=#0033cc]:0.146588,((086DappuM1_330_bp[&!color=#0033cc]:0.169094,085DappuM1_330_bp[&!color=#0033cc]:0.089013)[&Posterior=1,!color=#0033cc]:0.191077,(084DappuM1_330_bp[&!color=#0033cc]:0.180071,((089DappuM1_330_bp[&!color=#0033cc]:0.008245,(088DappuM1_330_bp[&!color=#0033cc]:0.005363,087DappuM1_330_bp[&!color=#0033cc]:0.005389)[&Posterior=0.96,!color=#0033cc]:0.01966)[&Posterior=1,!color=#0033cc]:0.23234,(083DappuM1_330_bp[&!color=#0033cc]:0.164853,(082DappuM1_330_bp[&!color=#0033cc]:0.092295,(081DappuM1_330_bp[&!color=#0033cc]:0.051847,080DappuM1_330_bp[&!color=#0033cc]:0.029515)[&Posterior=0.7,!color=#0033cc]:0.026707)[&Posterior=0.81,!color=#0033cc]:0.049619)[&Posterior=1,!color=#0033cc]:0.107151)[&Posterior=0.92,!color=#0033cc]:0.052104)[&Posterior=0.5,!color=#0033cc]:0.050519)[&Posterior=1,!color=#0033cc]:0.540696)[&Posterior=0.84,!color=#0033cc]:0.142797,(((((162DappuR7_330_bp[&!color=#0033cc]:0.015233,162DappuR71240_330_bp[&!color=#0033cc]:0.024605)[&Posterior=1,!color=#0033cc]:0.328178,161DappuR7_330_bp[&!color=#0033cc]:0.42783)[&Posterior=0.99,!color=#0033cc]:0.225847,((160AcypiR7_330_bp[&!color=#0033cc]:0.168345,159AcypiR7_330_bp[&!color=#0033cc]:0.045024)[&Posterior=1,!color=#0033cc]:0.217212,(158BommoR7_330_bp[&!color=#0033cc]:0.338868,(157DromeR7_330_bp[&!color=#0033cc]:0.354373,(156AnogaR7_330_bp[&!color=#0033cc]:0.216135,(155CulpiR7_330_bp[&!color=#0033cc]:0.182401,154AedaeR7_330_bp[&!color=#0033cc]:0.126597)[&Posterior=0.96,!color=#0033cc]:0.124083)[&Posterior=1,!color=#0033cc]:0.322518)[&Posterior=0.99,!color=#0033cc]:0.146789)[&Posterior=0.88,!color=#0033cc]:0.106204)[&Posterior=1,!color=#0033cc]:0.201888)[&Posterior=1,!color=#0033cc]:0.299107,((153HasadUW_330_bp[&!color=#0033cc]:0.040636,152PlepaUW_330_bp[&!color=#0033cc]:0.072156)[&Posterior=1,!color=#0033cc]:0.513302,((150DappuU1_330_bp[&!color=#0033cc]:0.007479,150DappuU11239_330_bp[&!color=#0033cc]:0.021035)[&Posterior=1,!color=#0033cc]:0.514103,((151DappuU1_330_bp[&!color=#0033cc]:0.292265,(((149TrigrU1_330_bp[&!color=#0033cc]:0.00564,149TrigrU11239_330_bp[&!color=#0033cc]:0.022766)[&Posterior=0.99,!color=#0033cc]:0.020692,148TriloU1_330_bp[&!color=#0033cc]:0.007561)[&Posterior=0.99,!color=#0033cc]:0.10087,144BrakuU1_330_bp[&!color=#0033cc]:0.191679)[&Posterior=0.57,!color=#0033cc]:0.083554)[&Posterior=0.55,!color=#0033cc]:0.095524,(((137AedaeBL_330_bp[&!color=#0033cc]:0.114626,(136AnogaBL_330_bp[&!color=#0033cc]:0.08273,(135CulpiBL_330_bp[&!color=#0033cc]:0.057159,134CulpiBL_330_bp[&!color=#0033cc]:0.023764)[&Posterior=1,!color=#0033cc]:0.082452)[&Posterior=0.92,!color=#0033cc]:0.050138)[&Posterior=1,!color=#0033cc]:0.152331,((132PieraBL_330_bp[&!color=#0033cc]:0.160506,(((141NasviBL_330_bp[&!color=#0033cc]:0.124692,140ApimeBL_330_bp[&!color=#0033cc]:0.321932)[&Posterior=0.99,!color=#0033cc]:0.081835,(139DianiBL_330_bp[&!color=#0033cc]:0.237701,138SchgrBL_330_bp[&!color=#0033cc]:0.16235)[&Posterior=1,!color=#0033cc]:0.129327)[&Posterior=0.99,!color=#0033cc]:0.10028,131PieraBL_330_bp[&!color=#0033cc]:0.093458)[&Posterior=0.85,!color=#0033cc]:0.063284)[&Posterior=0.82,!color=#0033cc]:0.047233,(133BommoBL_330_bp[&!color=#0033cc]:0.014578,(((130LycruBL_330_bp[&!color=#0033cc]:0.197547,(129LycruBL_330_bp[&!color=#0033cc]:0.149672,(128ApomoBL_330_bp[&!color=#0033cc]:0.005531,128ApomoBL1238_330_bp[&!color=#0033cc]:0.029006)[&Posterior=1,!color=#0033cc]:0.076024)[&Posterior=0.99,!color=#0033cc]:0.080488,127HelerBL_330_bp[&!color=#0033cc]:0.03964,126DanplBL_330_bp[&!color=#0033cc]:0.111015)[&Posterior=0.99,!color=#0033cc]:0.051483,125PapglBL_330_bp[&!color=#0033cc]:0.093156)[&Posterior=0.57,!color=#0033cc]:0.017005,124ManseBL_330_bp[&!color=#0033cc]:0.0373)[&Posterior=0.83,!color=#0033cc]:0.024009)[&Posterior=0.99,!color=#0033cc]:0.071512)[&Posterior=0.91,!color=#0033cc]:0.076108)[&Posterior=1,!color=#0033cc]:0.337768,(107DianiUV_330_bp[&!color=#0033cc]:0.166376,((112NasviUV_330_bp[&!color=#0033cc]:0.095109,((111CamabUV_330_bp[&!color=#0033cc]:0.075309,110CatboUV_330_bp[&!color=#0033cc]:0.028237)[&Posterior=1,!color=#0033cc]:0.054046,((109BomimUV_330_bp[&!color=#0033cc]:0.005373,109BomimUV48285_330_bp[&!color=#0033cc]:0.022772)[&Posterior=0.99,!color=#0033cc]:0.019763,108ApimeUV_330_bp[&!color=#0033cc]:0.035905)[&Posterior=1,!color=#0033cc]:0.057135)[&Posterior=0.99,!color=#0033cc]:0.041414)[&Posterior=0.99,!color=#0033cc]:0.048156,((147AcypiUV_330_bp[&!color=#0033cc]:0.214615,(146MegviUV_330_bp[&!color=#0033cc]:0.005553,145AcypiUV_330_bp[&!color=#0033cc]:0.005601)[&Posterior=1,!color=#0033cc]:0.177632)[&Posterior=1,!color=#0033cc]:0.233537,((((119HelerUV_330_bp[&!color=#0033cc]:0.049424,118DanplUV_330_bp[&!color=#0033cc]:0.051863)[&Posterior=0.96,!color=#0033cc]:0.031935,((120PieraUV_330_bp[&!color=#0033cc]:0.005665,120PieraUV1239_330_bp[&!color=#0033cc]:0.01647)[&Posterior=1,!color=#0033cc]:0.068651,(121ManseUV_330_bp[&!color=#0033cc]:0.077989,(123BommoUV_330_bp[&!color=#0033cc]:0.03021,122PapglUV_330_bp[&!color=#0033cc]:0.187527,(117LycruUV_330_bp[&!color=#0033cc]:0.028973,116ApomoUV_330_bp[&!color=#0033cc]:0.040468)[&Posterior=0.75,!color=#0033cc]:0.021412)[&Posterior=0.52,!color=#0033cc]:0.024027)[&Posterior=0.96,!color=#0033cc]:0.035245)[&Posterior=0.57,!color=#0033cc]:0.018453)[&Posterior=1,!color=#0033cc]:0.214615,(115DromeUV_330_bp[&!color=#0033cc]:0.185527,(114DromeUV_330_bp[&!color=#0033cc]:0.097704,113CalviUV_330_bp[&!color=#0033cc]:0.060285)[&Posterior=1,!color=#0033cc]:0.082315)[&Posterior=1,!color=#0033cc]:0.124563)[&Posterior=0.99,!color=#0033cc]:0.090721,(106TricaUV_330_bp[&!color=#0033cc]:0.13572,(105AnogaUV_330_bp[&!color=#0033cc]:0.098805,(104CulpiUV_330_bp[&!color=#0033cc]:0.016966,103AedaeUV_330_bp[&!color=#0033cc]:0.04479)[&Posterior=0.99,!color=#0033cc]:0.05308)[&Posterior=1,!color=#0033cc]:0.12287)[&Posterior=0.67,!color=#0033cc]:0.047255)[&Posterior=0.65,!color=#0033cc]:0.041707)[&Posterior=0.92,!color=#0033cc]:0.045671)[&Posterior=0.99,!color=#0033cc]:0.078292)[&Posterior=1,!color=#0033cc]:0.161496)[&Posterior=0.86,!color=#0033cc]:0.119709)[&Posterior=0.99,!color=#0033cc]:0.160099)[&Posterior=0.99,!color=#0033cc]:0.158373)[&Posterior=1,!color=#0033cc]:0.198672)[&Posterior=1,!color=#0033cc]:0.236911,(OG7PlatynP3249_330_bp:0.825509,('AAL82577.1_330_bp'[&!color=#990099]:0.196939,(('XP_028915702.1_330_bp'[&!color=#990099]:0.097216,('XP_010868545.2_330_bp'[&!color=#990099]:0.100683,OG28OrylaM2244_330_bp[&!color=#990099]:0.073647)[&Posterior=1,!color=#990099]:0.106663,('XP_005294027.1_330_bp'[&!color=#990099]:0.040066,('XP_030917042.1_330_bp'[&!color=#990099]:0.074029,'NP_001038118.1_330_bp'[&!color=#990099]:0.031496)[&Posterior=0.99,!color=#990099]:0.038914)[&Posterior=1,!color=#990099]:0.071744)[&Posterior=0.61,!color=#990099]:0.059795,((('XP_021131296.1_330_bp'[&!color=#990099]:0.087207,'XP_019343638.1_330_bp'[&!color=#990099]:0.109958)[&Posterior=0.99,!color=#990099]:0.109562,'AAO20043.1_330_bp'[&!color=#990099]:0.227192)[&Posterior=1,!color=#990099]:0.317068,('XP_014936308.2_330_bp'[&!color=#990099]:0.061111,'AAF24978.1_330_bp'[&!color=#990099]:0.074297)[&Posterior=0.99,!color=#990099]:0.10705)[&Posterior=0.62,!color=#990099]:0.059431)[&Posterior=0.99,!color=#990099]:0.114068)[&Posterior=1,!color=#990099]:0.401663,((((acropsin31252_no_c_330_bp:0.310172,(Nematostella__76777_v1g13116_330_bp:0.019359,NV_CN151Suga08_124_330_bp:0.00755)[&Posterior=1]:0.264356)[&Posterior=1]:0.295394,(Nematostella__81512_v1g33918_330_bp:0.029745,NV_CN146Suga08_124_330_bp:0.010956)[&Posterior=1]:0.612576)[&Posterior=1]:0.502184,((('Tra_429092jgi|T119_330_bp':0.018618,Tadh_P26040_330_bp:0.05631)[&Posterior=1]:0.928691,((('Tra_429091jgi|T123_330_bp':0.029559,Tadh_P26009_330_bp:0.020957)[&Posterior=0.99]:0.118054,HHO_87364__330_bp:0.174345)[&Posterior=1]:0.619263,(((HHO_93594__330_bp:0.022558,HHO_87476__330_bp:0.010399)[&Posterior=1]:0.931738,HHO_83823__330_bp:0.896943)[&Posterior=0.99]:0.386096,((Tadh_P4188_330_bp:0.130679,HHO_82719__330_bp:0.103519)[&Posterior=1]:0.771019,('Tra_430364jgi|T122_330_bp':0.131286,BS_Placozoa_misc_HHO_83722__330_bp:0.038511)[&Posterior=1]:0.501124)[&Posterior=0.5]:0.307195)[&Posterior=0.99]:0.281611)[&Posterior=0.55]:0.158075)[&Posterior=0.97]:0.224637,(((MTR1C_XENL7188_330_bp:0.137346,(MLT_O88495_1202_330_bp:0.506596,MLT_B2Y4M8_1198_330_bp:0.177347)[&Posterior=0.98]:0.169376)[&Posterior=1]:0.936897,('TRA_530235_jgi|122_330_bp':0.381487,BS_Placozoa_misc_HHO_84981__330_bp:0.954815)[&Posterior=0.99]:0.355383)[&Posterior=0.93]:0.338924,(('Tra_435668jgi|T121_330_bp':0.438878,'Tra_435667jgi|T122_330_bp':0.470747)[&Posterior=1]:0.341991,('Tra_435633jgi|T120_330_bp':0.869561,('Tra_435650jgi|T122_330_bp':0.705109,(('Tra_435656jgi|T121_330_bp':0.611714,'Tra_435653jgi|T121_330_bp':0.451467)[&Posterior=0.97]:0.197251,('Tra_435655jgi|T122_330_bp':0.849499,'Tra_434217jgi|T122_330_bp':0.890128,(('Tra_435652jgi|T121_330_bp':0.035127,Tadh_P58576_330_bp:0.024764)[&Posterior=1]:0.585747,('Tra_435654jgi|T121_330_bp':0.276312,BS_Placozoa_misc_HHO_82597__330_bp:0.284762)[&Posterior=0.99]:0.161435)[&Posterior=0.83]:0.203105)[&Posterior=0.57]:0.140917)[&Posterior=0.67]:0.127742)[&Posterior=0.88]:0.172804)[&Posterior=0.7]:0.121822)[&Posterior=0.76]:0.196777)[&Posterior=1]:0.525352)[&Posterior=0.99]:0.299743)[&Posterior=0.98]:0.149075,((((Nematostella__89613_v1g208454_330_bp:1.1722,(Nematostella__73823_v1g202741_330_bp:0.00854,Nematostella__73822_v1g94740_330_bp:0.007475)[&Posterior=1]:0.854241)[&Posterior=1]:0.528072,(Nematostella__87544_v1g199627_330_bp:1.17167,(Nematostella__92156_v1g123451_330_bp:0.993553,((Nematostella__75652_v1g214773_330_bp:0.037324,Nematostella__75651_v1g214772_330_bp:0.062054)[&Posterior=1]:0.430077,(Nematostella__75653_v1g214774_330_bp:0.018401,Nematostella__69101_v1g208768_330_bp:0.01559)[&Posterior=0.99]:0.217824)[&Posterior=0.99]:0.287773)[&Posterior=0.94]:0.22853)[&Posterior=0.91]:0.209247)[&Posterior=1]:0.539299,(((Nematostella__79491_v1g136537_330_bp[&!color=#ff6600]:0.41915,(Nematostella__90356_v1g197433_330_bp[&!color=#ff6600]:0.366622,(Nematostella__68791_v1g25025_330_bp[&!color=#ff6600]:0.017594,(Nematostella__68792_v1g24997_330_bp[&!color=#ff6600]:0.010857,Nematostella__68790_v1g95791_330_bp[&!color=#ff6600]:0.010539)[&Posterior=0.99,!color=#ff6600]:0.039141)[&Posterior=1,!color=#ff6600]:0.658527)[&Posterior=0.82,!color=#ff6600]:0.151344)[&Posterior=1,!color=#ff6600]:1.00288,((('Tripedalia_cystophora_AGB67504.1_330_bp'[&!color=#ff6600]:0.35691,'Tripedalia_cystophora_AGB67494.1_330_bp'[&!color=#ff6600]:0.564257)[&Posterior=1,!color=#ff6600]:0.45323,('BS_Tripedalia_cystophora_TRINITY_DN110824_c0_g1TRINITY_DN110824_c0_g1_i1g.44183m.44183type5prime_partiallen346gcuniversalTRINITY_DN110824_c0_g1_i111038+_330_bp'[&!color=#ff6600]:0.316081,'BS_Chironex_yamaguchii_TRINITY_DN26107_c0_g1TRINITY_DN26107_c0_g1_i1g.3726m.3726typecompletelen316gcuniversalTRINITY_DN26107_c0_g1_i11113166_330_bp'[&!color=#ff6600]:0.274625)[&Posterior=1,!color=#ff6600]:0.586775)[&Posterior=0.57,!color=#ff6600]:0.14749,(('Tripedalia_cystophora_AGB67499.1_330_bp'[&!color=#ff6600]:0.246964,'BS_Chironex_yamaguchii_TRINITY_DN87265_c0_g1TRINITY_DN87265_c0_g1_i1g.9532m.9532type3prime_partiallen296gcuniversalTRINITY_DN87265_c0_g1_i18873_330_bp'[&!color=#ff6600]:0.484629)[&Posterior=1,!color=#ff6600]:0.202276,('Tripedalia_cystophora_AGB67498.1_330_bp'[&!color=#ff6600]:0.539416,'BS_Chironex_yamaguchii_TRINITY_DN159410_c0_g1TRINITY_DN159410_c0_g1_i1g.60745m.60745type5prime_partiallen346gcuniversalTRINITY_DN159410_c0_g1_i11753716_330_bp'[&!color=#ff6600]:0.414101)[&Posterior=1,!color=#ff6600]:0.28023)[&Posterior=0.65,!color=#ff6600]:0.122007)[&Posterior=1,!color=#ff6600]:0.404972,(Nematostella__79215_v1g131013_330_bp[&!color=#ff6600]:0.989478,(((Nematostella__79968_v1g123690_330_bp[&!color=#ff6600]:0.015396,NV_CN158Suga08_124_330_bp[&!color=#ff6600]:0.024209)[&Posterior=1,!color=#ff6600]:0.743578,((((Plos1_119255_330_bp[&!color=#ff6600]:0.021963,(Plos1_31234_330_bp[&!color=#ff6600]:0.057337,Nematostella__78853_v1g130042_330_bp[&!color=#ff6600]:0.038043)[&Posterior=0.91,!color=#ff6600]:0.052099)[&Posterior=0.56,!color=#ff6600]:0.038106,Nematostella__73205_v1g219988_330_bp[&!color=#ff6600]:0.039038)[&Posterior=1,!color=#ff6600]:0.440009,(Plos1_21247_330_bp[&!color=#ff6600]:0.014366,Nematostella__71179_v1g85309_330_bp[&!color=#ff6600]:0.037136)[&Posterior=1,!color=#ff6600]:0.362335)[&Posterior=0.85,!color=#ff6600]:0.12732,(Nematostella__77771_v1g96290_330_bp[&!color=#ff6600]:0.877914,'BS_Metridium_senile_TRINITY_DN17834_c0_g1TRINITY_DN17834_c0_g1_i1g.35402m.35402type5prime_partiallen328gcuniversalTRINITY_DN17834_c0_g1_i13986+_330_bp'[&!color=#ff6600]:0.686877)[&Posterior=0.81,!color=#ff6600]:0.165926)[&Posterior=0.61,!color=#ff6600]:0.100563)[&Posterior=0.53,!color=#ff6600]:0.096859,(('BS_Porites_astreoides_ENA|GEHP01179187|GEHP01179187.1g108.t1_330_bp'[&!color=#ff6600]:0.347041,'BS_Alveopora_japonica_ENA|GGJR01323306|GGJR01323306.1g43.t2_330_bp'[&!color=#ff6600]:0.316005)[&Posterior=1,!color=#ff6600]:0.304342,('BS_Porites_astreoides_ENA|GEHP01326576|GEHP01326576.1g83.t1_330_bp'[&!color=#ff6600]:0.253524,'BS_Acropora_millepora_amil.1.2.1522.m1g5.t1_330_bp'[&!color=#ff6600]:0.361743)[&Posterior=1,!color=#ff6600]:0.435707)[&Posterior=0.92,!color=#ff6600]:0.129908)[&Posterior=0.88,!color=#ff6600]:0.161948)[&Posterior=0.99,!color=#ff6600]:0.244737,((('BS_Porites_astreoides_ENA|GEHP01471344|GEHP01471344.1g173.t1_330_bp'[&!color=#ff6600]:0.518404,('BS_Porites_astreoides_ENA|GEHP01352488|GEHP01352488.1g118.t1_330_bp'[&!color=#ff6600]:0.127374,'BS_Porites_astreoides_ENA|GEHP01121133|GEHP01121133.1g135.t1_330_bp'[&!color=#ff6600]:0.219111)[&Posterior=0.99,!color=#ff6600]:0.107646)[&Posterior=0.77,!color=#ff6600]:0.073056,('BS_Rhodactis_indosinensis_TRINITY_DN42657_c0_g1TRINITY_DN42657_c0_g1_i5g.12560m.12560typecompletelen340gcuniversalTRINITY_DN42657_c0_g1_i51288269_330_bp'[&!color=#ff6600]:0.281898,'BS_Acropora_millepora_amil.1.2.6015.m1g7.t1_330_bp'[&!color=#ff6600]:0.333454)[&Posterior=0.67,!color=#ff6600]:0.09087)[&Posterior=1,!color=#ff6600]:0.279267,(('BS_Rhodactis_indosinensis_TRINITY_DN61180_c0_g1TRINITY_DN61180_c0_g1_i7g.125098m.125098typecompletelen317gcuniversalTRINITY_DN61180_c0_g1_i7910810058+_330_bp'[&!color=#ff6600]:0.335626,'BS_Porites_astreoides_ENA|GEHP01302191|GEHP01302191.1g89.t1_330_bp'[&!color=#ff6600]:0.285516)[&Posterior=0.91,!color=#ff6600]:0.087297,(acropsin11240_no_c_330_bp[&!color=#ff6600]:0.046699,'BS_Acropora_millepora_amil.1.2.10420.m1g23.t1_330_bp'[&!color=#ff6600]:0.042814)[&Posterior=1,!color=#ff6600]:0.244775)[&Posterior=1,!color=#ff6600]:0.230626)[&Posterior=1,!color=#ff6600]:0.355096,('Tripedalia_cystophora_AGB67501.1_330_bp'[&!color=#ff6600]:0.778564,((('Tripedalia_cystophora_AGB67503.1_330_bp'[&!color=#ff6600]:0.530796,'Tripedalia_cystophora_AGB67502.1_330_bp'[&!color=#ff6600]:0.755327)[&Posterior=1,!color=#ff6600]:0.619772,('Tripedalia_cystophora_AGB67488.1_330_bp'[&!color=#ff6600]:0.854427,('Tripedalia_cystophora_AGB67489.1_330_bp'[&!color=#ff6600]:0.263355,'BS_Chironex_yamaguchii_TRINITY_DN8019_c0_g1TRINITY_DN8019_c0_g1_i2g.18281m.18281typecompletelen367gcuniversalTRINITY_DN8019_c0_g1_i233032203_330_bp'[&!color=#ff6600]:0.261514)[&Posterior=1,!color=#ff6600]:0.773462)[&Posterior=0.5,!color=#ff6600]:0.134671)[&Posterior=0.51,!color=#ff6600]:0.122191,(('BS_Chironex_yamaguchii_TRINITY_DN30790_c0_g1TRINITY_DN30790_c0_g1_i1g.15380m.15380typecompletelen326gcuniversalTRINITY_DN30790_c0_g1_i11344367_330_bp'[&!color=#ff6600]:0.65129,('Tripedalia_cystophora_AGB67493.1_330_bp'[&!color=#ff6600]:0.513379,(('Tripedalia_cystophora_AGB67497.1_330_bp'[&!color=#ff6600]:0.392968,'BS_Chironex_yamaguchii_TRINITY_DN22906_c0_g1TRINITY_DN22906_c0_g1_i1g.8087m.8087typecompletelen318gcuniversalTRINITY_DN22906_c0_g1_i121611208_330_bp'[&!color=#ff6600]:0.320785)[&Posterior=0.79,!color=#ff6600]:0.081511,('Tripedalia_cystophora_AGB67490.1_330_bp'[&!color=#ff6600]:0.606895,'BS_Chironex_yamaguchii_TRINITY_DN133503_c0_g1TRINITY_DN133503_c0_g1_i1g.60250m.60250typecompletelen318gcuniversalTRINITY_DN133503_c0_g1_i11421095+_330_bp'[&!color=#ff6600]:0.152886)[&Posterior=0.98,!color=#ff6600]:0.098359)[&Posterior=0.8,!color=#ff6600]:0.109751)[&Posterior=0.64,!color=#ff6600]:0.149802)[&Posterior=1,!color=#ff6600]:0.286012,'Aurelia__16973_Seg3894.2_330_bp'[&!color=#ff6600]:1.0814)[&Posterior=0.98,!color=#ff6600]:0.204545)[&Posterior=0.76,!color=#ff6600]:0.130716)[&Posterior=0.88,!color=#ff6600]:0.113558,(('Tripedalia_cystophora_AGB67496.1_330_bp'[&!color=#ff6600]:0.219443,'BS_Chironex_yamaguchii_TRINITY_DN135733_c0_g1TRINITY_DN135733_c0_g1_i1g.62744m.62744typecompletelen325gcuniversalTRINITY_DN135733_c0_g1_i11564590_330_bp'[&!color=#ff6600]:0.128219)[&Posterior=1,!color=#ff6600]:0.563987,((('Tripedalia_cystophora_AGB67500.1_330_bp'[&!color=#ff6600]:0.342804,'BS_Chironex_yamaguchii_TRINITY_DN42719_c0_g1TRINITY_DN42719_c0_g1_i1g.40777m.40777typecompletelen329gcuniversalTRINITY_DN42719_c0_g1_i112352221+_330_bp'[&!color=#ff6600]:0.390303)[&Posterior=0.99,!color=#ff6600]:0.252163,('BS_Chironex_yamaguchii_TRINITY_DN8217_c0_g1TRINITY_DN8217_c0_g1_i2g.8939m.8939typecompletelen362gcuniversalTRINITY_DN8217_c0_g1_i211212206+_330_bp'[&!color=#ff6600]:0.581074,('BS_Morbakka_virulenta_scaffold36.g49.t1_330_bp'[&!color=#ff6600]:0.052774,('Tripedalia_cystophora_AGB67492.1_330_bp'[&!color=#ff6600]:0.009311,CR_CN100_Koyana124_330_bp[&!color=#ff6600]:0.119084,'BS_Chironex_yamaguchii_TRINITY_DN18_c0_g1TRINITY_DN18_c0_g1_i1g.1340m.1340typecompletelen331gcuniversalTRINITY_DN18_c0_g1_i151834191_330_bp'[&!color=#ff6600]:0.103576)[&Posterior=0.71,!color=#ff6600]:0.066742)[&Posterior=1,!color=#ff6600]:0.465657)[&Posterior=0.79,!color=#ff6600]:0.116019)[&Posterior=0.5,!color=#ff6600]:0.120226,('BS_Sanderia_malayensis_TRINITY_DN5967_c0_g1TRINITY_DN5967_c0_g1_i2g.13632m.13632type5prime_partiallen361gcuniversalTRINITY_DN5967_c0_g1_i211083+_330_bp'[&!color=#ff6600]:0.511255,('BS_Nemopilema_nomurai_TRINITY_DN15651_c0_g1TRINITY_DN15651_c0_g1_i1g.28525m.28525typeinternallen317gcuniversalTRINITY_DN15651_c0_g1_i13950+_330_bp'[&!color=#ff6600]:0.406816,'Aurelia__21455_Seg5797.1_330_bp'[&!color=#ff6600]:0.267474)[&Posterior=1,!color=#ff6600]:0.30729)[&Posterior=0.99,!color=#ff6600]:0.259144)[&Posterior=0.6,!color=#ff6600]:0.109832,('BS_Haliclystus_auricula_TRINITY_DN223105_c0_g1TRINITY_DN223105_c0_g1_i1g.51818m.51818typeinternallen207gcuniversalTRINITY_DN223105_c0_g1_i12619+_330_bp'[&!color=#ff6600]:0.842468,('Aurelia__15379_Seg3401.1_330_bp'[&!color=#ff6600]:1.20374,(Clytia__49820_TCONS_0006_330_bp[&!color=#ff6600]:0.988277,'Aurelia__14963_Seg3272.1_330_bp'[&!color=#ff6600]:0.998655)[&Posterior=0.66,!color=#ff6600]:0.176796)[&Posterior=0.81,!color=#ff6600]:0.199657)[&Posterior=0.51,!color=#ff6600]:0.138747,((BS_Hydra_magnapapillata_Hma2_228917_330_bp[&!color=#ff6600]:1.23777,('BS_Physalia_physalis_c55866_g1_i3len=1168path=467_015366_1639334_40129595_130134600_135853@1317@!_85411162906_111711172907_11181167expression3.22blasthitswissprotO35214OPSX_MOUSEVisualpigmentlikereceptorperopsinOS=MusmusculusMouse4e19g74.t1_330_bp'[&!color=#ff6600]:0.922891,((HM_CN170_UPI000123_330_bp[&!color=#ff6600]:0.474625,(BS_Hydra_magnapapillata_Hma2_231528_330_bp[&!color=#ff6600]:0.507459,(BS_Hydra_magnapapillata_Hma2_217177_330_bp[&!color=#ff6600]:0.259509,BS_Hydra_magnapapillata_Hma2_217176_330_bp[&!color=#ff6600]:0.303221)[&Posterior=0.99,!color=#ff6600]:0.147518)[&Posterior=0.84,!color=#ff6600]:0.142891)[&Posterior=0.92,!color=#ff6600]:0.2414,((F1LIP2_Hydra_vulgaris_Opsin_330_bp[&!color=#ff6600]:0.074636,BS_Hydra_magnapapillata_Hma2_220968_330_bp[&!color=#ff6600]:0.226824)[&Posterior=1,!color=#ff6600]:0.229736,BS_Hydra_magnapapillata_Hma2_214692_330_bp[&!color=#ff6600]:0.227139)[&Posterior=1,!color=#ff6600]:0.696118)[&Posterior=1,!color=#ff6600]:0.533646)[&Posterior=1,!color=#ff6600]:0.445072)[&Posterior=0.98,!color=#ff6600]:0.344152,((HM_CN131_221128120_330_bp[&!color=#ff6600]:0.352564,((BS_Hydra_magnapapillata_Hma2_231715_330_bp[&!color=#ff6600]:0.414784,BS_Hydra_magnapapillata_Hma2_231714_330_bp[&!color=#ff6600]:0.185769)[&Posterior=0.88,!color=#ff6600]:0.088854,(F1LIN9_Hydra_vulgaris_Opsin_330_bp[&!color=#ff6600]:0.005478,BS_Hydra_magnapapillata_Hma2_215193_330_bp[&!color=#ff6600]:0.005518)[&Posterior=1,!color=#ff6600]:0.243028)[&Posterior=0.94,!color=#ff6600]:0.154071)[&Posterior=1,!color=#ff6600]:0.398684,(A9CR48_Cladonema_radiatum__330_bp[&!color=#ff6600]:0.586664,(ClR_CN116Suga08123_330_bp[&!color=#ff6600]:0.497293,((CL_CN168_A9cr40123_330_bp[&!color=#ff6600]:0.2314,A9CR43_Cladonema_radiatum__330_bp[&!color=#ff6600]:0.269741)[&Posterior=0.58,!color=#ff6600]:0.088005,(A9CR39_Cladonema_radiatum__330_bp[&!color=#ff6600]:0.253849,(ClR_CN120Suga08123_330_bp[&!color=#ff6600]:0.434856,A9CR38_Cladonema_radiatum__330_bp[&!color=#ff6600]:0.247329)[&Posterior=1,!color=#ff6600]:0.263437)[&Posterior=1,!color=#ff6600]:0.411521)[&Posterior=0.89,!color=#ff6600]:0.243519)[&Posterior=0.62,!color=#ff6600]:0.12066)[&Posterior=0.98,!color=#ff6600]:0.226986)[&Posterior=1,!color=#ff6600]:0.363235)[&Posterior=0.89,!color=#ff6600]:0.155129)[&Posterior=0.99,!color=#ff6600]:0.287361)[&Posterior=0.62,!color=#ff6600]:0.084283,((((ops1_Lytechinusvariegatus_Lyte_330_bp[&!color=#cc0033]:0.676496,ops1_1_Patiriaminiata_Patiriam_330_bp[&!color=#cc0033]:0.456506)[&Posterior=1,!color=#cc0033]:0.305841,(T2I572_Euperipatoides_kanangre_330_bp[&!color=#cc0033]:0.641786,((OG50DappuT1253_330_bp[&!color=#cc0033]:0.591415,OG45ApimeT17269_330_bp[&!color=#cc0033]:0.655982)[&Posterior=0.97,!color=#cc0033]:0.227227,A0A097GXW1_Hypsibius_dujardini_330_bp[&!color=#cc0033]:0.65571)[&Posterior=0.71,!color=#cc0033]:0.126979)[&Posterior=0.95,!color=#cc0033]:0.155082)[&Posterior=0.96,!color=#cc0033]:0.124943,(233TMTDare1227_330_bp[&!color=#cc0033]:0.6451,228EncDare1247_330_bp[&!color=#cc0033]:0.648137)[&Posterior=0.98,!color=#cc0033]:0.187888)[&Posterior=0.9,!color=#cc0033]:0.125376,(((PleuroAntarc1_330_bp[&!color=#663300]:0.108004,((ElliptCyddipida2_330_bp[&!color=#663300]:0.055401,Cydippida6_330_bp[&!color=#663300]:0.162816)[&Posterior=0.99,!color=#663300]:0.084055,(BeroeAntarc1_330_bp[&!color=#663300]:0.150725,(OcyroCyst4_330_bp[&!color=#663300]:0.051424,((LobatoTetra1_330_bp[&!color=#663300]:0.100563,BolinopsisInfundibulum1_330_bp[&!color=#663300]:0.059796)[&Posterior=0.93,!color=#663300]:0.06285,((Mnemiopsis_opsin1_13055_330_bp[&!color=#663300]:0.010598,MnemMcCrady4_330_bp[&!color=#663300]:0.005329)[&Posterior=1,!color=#663300]:0.06243,(Pukia1_330_bp[&!color=#663300]:0.250529,(Pleurobrachia_opsin1_330_bp[&!color=#663300]:0.023775,BS_opsin1_Pleurobrachia_bachei_330_bp[&!color=#663300]:0.009961)[&Posterior=0.79,!color=#663300]:0.042122)[&Posterior=1,!color=#663300]:0.149415)[&Posterior=0.87,!color=#663300]:0.043128)[&Posterior=0.6,!color=#663300]:0.028865)[&Posterior=0.9,!color=#663300]:0.074747)[&Posterior=0.99,!color=#663300]:0.119245)[&Posterior=0.71,!color=#663300]:0.056527)[&Posterior=1,!color=#663300]:0.717685,(Coeloplana1_330_bp[&!color=#663300]:0.619139,(((ElliptCyddipida1_330_bp[&!color=#663300]:0.140674,(Cydippida2_330_bp[&!color=#663300]:0.332926,Cydippida1_330_bp[&!color=#663300]:0.167555)[&Posterior=0.99,!color=#663300]:0.096412)[&Posterior=0.99,!color=#663300]:0.113893,(OcyroCyst1_330_bp[&!color=#663300]:0.081611,(Mnemiopsis_opsin2_12047_330_bp[&!color=#663300]:0.010542,BS_opsin2_Mnemiopsis_leidyi_330_bp[&!color=#663300]:0.005167)[&Posterior=1,!color=#663300]:0.113491)[&Posterior=1,!color=#663300]:0.102379)[&Posterior=0.99,!color=#663300]:0.107483,'BS_Pleurobrachia_bachei_sb|2645343|_330_bp'[&!color=#663300]:0.113735)[&Posterior=1,!color=#663300]:0.29755)[&Posterior=0.99,!color=#663300]:0.245174)[&Posterior=1,!color=#663300]:0.726253,((((((217BluTaru44289_330_bp[&!color=#00cccc]:0.210701,211SWSDare45290_330_bp[&!color=#00cccc]:0.241937)[&Posterior=1,!color=#00cccc]:0.180015,(208SWSTagu46291_330_bp[&!color=#00cccc]:0.088676,204SWSNefo1247_330_bp[&!color=#00cccc]:0.145196)[&Posterior=1,!color=#00cccc]:0.173758)[&Posterior=1,!color=#00cccc]:0.218226,((((((OPSD_BOVIN_Rhodopsin_OS_330_bp[&!color=#00cccc]:0.107104,173RHOMumu1247_330_bp[&!color=#00cccc]:0.028667)[&Posterior=0.99,!color=#00cccc]:0.028199,170RHOOrcu1247_330_bp[&!color=#00cccc]:0.006926)[&Posterior=1,!color=#00cccc]:0.076305,158RHOSasa1247_330_bp[&!color=#00cccc]:0.180126)[&Posterior=1,!color=#00cccc]:0.091318,156RHOLeja1247_330_bp[&!color=#00cccc]:0.063987)[&Posterior=0.97,!color=#00cccc]:0.081958,(148RHOGaga1247_330_bp[&!color=#00cccc]:0.10702,135SWSOrla1247_330_bp[&!color=#00cccc]:0.335323)[&Posterior=0.99,!color=#00cccc]:0.104326)[&Posterior=1,!color=#00cccc]:0.282543,(128SWSPore31276_330_bp[&!color=#00cccc]:0.071788,126SWSOrla31275_330_bp[&!color=#00cccc]:0.0895)[&Posterior=1,!color=#00cccc]:0.647234)[&Posterior=0.89,!color=#00cccc]:0.111764)[&Posterior=1,!color=#00cccc]:0.308599,054VAoDare1250_330_bp[&!color=#00cccc]:0.612303)[&Posterior=0.65,!color=#00cccc]:0.092487,(059LWSGeau18264_330_bp[&!color=#00cccc]:0.668751,043uppTeni1245_330_bp[&!color=#00cccc]:0.667991)[&Posterior=0.94,!color=#00cccc]:0.146173)[&Posterior=0.99,!color=#00cccc]:0.14876,041ParXetr1250_330_bp[&!color=#00cccc]:0.577228)[&Posterior=1,!color=#00cccc]:0.226757)[&Posterior=0.83]:0.074493)[&Posterior=0.92]:0.120823)[&Posterior=0.58]:0.085892)[&Posterior=0.52]:0.090241,((((032NeuModo1252_330_bp[&!color=#009900]:0.02934,(031NeuOran1252_330_bp[&!color=#009900]:0.01052,(027NeuPatr1252_330_bp[&!color=#009900]:0.017067,(029NeuCafa1252_330_bp[&!color=#009900]:0.005886,(030NeuEqca1252_330_bp[&!color=#009900]:0.011268,026NeuBota1250_330_bp[&!color=#009900]:0.017201)[&Posterior=0.88,!color=#009900]:0.011014)[&Posterior=0.85,!color=#009900]:0.016461,025NeuRano7244_330_bp[&!color=#009900]:0.060123)[&Posterior=0.99,!color=#009900]:0.063596)[&Posterior=0.52,!color=#009900]:0.011183)[&Posterior=0.94,!color=#009900]:0.045151,(023NeuGaga4255_330_bp[&!color=#009900]:0.013961,022NeuTagu4255_330_bp[&!color=#009900]:0.043192)[&Posterior=0.98,!color=#009900]:0.038964)[&Posterior=0.92,!color=#009900]:0.09822,021NeuDare1252_330_bp[&!color=#009900]:0.164615)[&Posterior=1,!color=#009900]:0.727183,(((019PerDare10259_330_bp[&!color=#009900]:0.139503,(018PerMumu11260_330_bp[&!color=#009900]:0.101666,015PerCafa10259_330_bp[&!color=#009900]:0.036345,014PerBota10259_330_bp[&!color=#009900]:0.046626)[&Posterior=0.97,!color=#009900]:0.143151)[&Posterior=1,!color=#009900]:0.577582,013OpsBrbe5258_330_bp[&!color=#009900]:0.590631)[&Posterior=0.95,!color=#009900]:0.24904,((012RGRGaga1234_330_bp[&!color=#009900]:0.203796,011hypXetr1234_330_bp[&!color=#009900]:0.23999)[&Posterior=0.73,!color=#009900]:0.098707,010RGRDare1234_330_bp[&!color=#009900]:0.316226)[&Posterior=1,!color=#009900]:1.08524)[&Posterior=0.64,!color=#009900]:0.17273)[&Posterior=1,!color=#009900]:0.31449)[&Posterior=0.81]:0.104857)[&Posterior=0.99]:0.211257)[&Posterior=0.99,!color=#0033cc]:0.154977)[&Posterior=1,!color=#0033cc]:0.242784)[&Posterior=1,!color=#0033cc]:0.434247)[&Posterior=0.91,!color=#0033cc]:0.075012)[&Posterior=0.98,!color=#0033cc]:0.080074)[&Posterior=0.95,!color=#0033cc]:0.028149)[&Posterior=0.69,!color=#0033cc]:0.031968,((010PapglRE_330_bp[&!color=#0033cc]:0.005698,010PapglRE18252_330_bp[&!color=#0033cc]:0.028878)[&Posterior=1,!color=#0033cc]:0.103552,(008BommoRE_330_bp[&!color=#0033cc]:0.053863,(009BommoRE_330_bp[&!color=#0033cc]:0.010696,007ManseRE_330_bp[&!color=#0033cc]:0.033787)[&Posterior=0.6,!color=#0033cc]:0.0147)[&Posterior=0.75,!color=#0033cc]:0.026215)[&Posterior=0.76,!color=#0033cc]:0.026414)[&Posterior=0.98,!color=#0033cc]:0.056314,(((004HelerRE_330_bp[&!color=#0033cc]:0.005547,004HelerRE6241_330_bp[&!color=#0033cc]:0.028251)[&Posterior=1,!color=#0033cc]:0.069196,003DanplRE_330_bp[&!color=#0033cc]:0.050041)[&Posterior=0.83,!color=#0033cc]:0.035892,((006PapglRE_330_bp[&!color=#0033cc]:0.063719,005PapglRE_330_bp[&!color=#0033cc]:0.089724)[&Posterior=1,!color=#0033cc]:0.066383,((012LycruRE_330_bp[&!color=#0033cc]:0.08591,011ApomoRE_330_bp[&!color=#0033cc]:0.166273)[&Posterior=1,!color=#0033cc]:0.09103,002PieraRE_330_bp[&!color=#0033cc]:0.074902)[&Posterior=0.75,!color=#0033cc]:0.025279)[&Posterior=0.96,!color=#0033cc]:0.047199)[&Posterior=0.9,!color=#0033cc]:0.029314);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.5;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="Agency FB";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=293;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=106;
+	set legend.attribute="Posterior";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Posterior";
+	set nodeLabels.fontName="Consolas";
+	set nodeLabels.fontSize=9;
+	set nodeLabels.fontStyle=2;
+	set nodeLabels.isShown=true;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Courier New";
+	set tipLabels.fontSize=11;
+	set tipLabels.fontStyle=1;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
