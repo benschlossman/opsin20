@@ -35,3 +35,7 @@ REAout_IQTREE_annotate.pdf
 Additional annotation of fully expanded REAout IQ-TREE LG+F+R8
 This is the original database of Ramirez et al. 2016 with improved outgroups,
 with the identical model and tree reconstruction software.
+
+*.pdf
+*************************************
+Full-resolution versions of the three figures featured in the main thesis, to supplement the decreased resolution export of Microsoft Word.
